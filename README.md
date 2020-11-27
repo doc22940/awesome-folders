@@ -1,1375 +1,837 @@
-# Lists
+# Awesome jekyll websites list
+A curated list of awesome Jekyll websites.
 
-List of useful, silly and [awesome](#awesome-) lists curated on GitHub. Contributions welcome!
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)[![Build Status](https://travis-ci.org/snmslavk/awesome-jekyll-websites.svg?branch=master)](https://travis-ci.org/snmslavk/awesome-jekyll-websites)
 
-✨ Now also available [in CSV](https://github.com/jnv/lists/blob/gh-pages/lists.csv)! ✨
+This awesome list is based on jekyll wiki page, but it is built according to awesome list styles and the broken links were removed. Also it contains CI build that is checking the availiability of resources. You can easly add your website here, read the contribtuion guidline.
 
-* [Non-technical](#non-technical)
-* [Technical](#technical)
-  * [awesome-*](#awesome-)
-* [Lists of lists](#lists-of-lists)
-  * [Lists of lists of lists](#lists-of-lists-of-lists)
-    * [Lists of lists of lists of lists](#lists-of-lists-of-lists-of-lists)
-      * [Lists of lists of lists of lists of lists](#lists-of-lists-of-lists-of-lists-of-lists)
-        * [Lists of lists of lists of lists of lists of lists](#lists-of-lists-of-lists-of-lists-of-lists-of-lists)
-          * [Lists of lists of lists of lists of lists of lists of lists](#lists-of-lists-of-lists-of-lists-of-lists-of-lists-of-lists) 😱
+# Contribution
 
-<!-- lists-start -->
+Contributions are welcome!
+1. Fork this repository
+2. Create the branch with your new resource in the title like "jhon-doe-jekyll-site". If you want to add your jekyll website, please also include the link to the source code.
+3. Create pull request
+4. Make sure that the build is not failed
 
-## Non-technical
+# The list of jekyll websites
+* [Tom Preston-Werner](http://tom.preston-werner.com/) ([source](http://github.com/mojombo/mojombo.github.io))
+* [überduper](http://danhixon.github.com/) ([source](http://github.com/danhixon/danhixon.github.com))
+* [The Pug Automatic](http://henrik.nyh.se/) ([source](http://github.com/henrik/henrik.nyh.se/) / [Jekyll fork](http://github.com/henrik/jekyll)) – Custom fork with Haml, Sass etc. Single page for tags with per-tag anchors. Single page archive by year/month.
+* [Ivan A. Hoinacki](http://ivanhoinacki.com) ([source](https://github.com/ivanhoinacki/ivanhoinacki.github.io)) - A frontend developer, expert in AngularJS who lives in Brazil.
+* [Paperplanes](http://www.paperplanes.de/) ([source](http://github.com/roidrage/paperplanes/) / [Jekyll fork](http://github.com/roidrage/jekyll/))
+* [Personal blog](http://vrepin.org) ([source](https://github.com/vitalyrepin/vrepinblog)) - DISQUS integration, Facebook OpenGraph settings, txt2tags plugin in action, extensive tagging, google sitemap; based on [Lanyon theme](http://lanyon.getpoole.com/) from the [pool project](https://github.com/poole/poole)
+* [Development Seed](http://developmentseed.org/) ([source](http://developmentseed.org/blog/2011/09/09/jekyll-github-pages/))
+* [Zhijun Kang](http://robotkang.cc/) ([source](https://github.com/MengZheK/kangblog.github.io)) - China. This is a simple and beautiful blog. Enjoy It.
+* [Tagaholic](http://tagaholic.me/) ([source](http://github.com/cldwalker/cldwalker.github.com)) – Machine tags and js are used to organize posts and calculate related posts.
+* [Cyborg Institute](http://www.cyborginstitute.com/) ([source](http://cyborginstitute.net/git/?p=cyborginstitute.com.git;a=summary)) – Uses Jekyll to power the whole site (save the wiki). Uses the same version of the code as tychoish, above.
+* [MacMillan Films](http://www.macmillanfilms.com/) ([source](https://github.com/macmillanfilms/macmillanfilms.github.io)) – Simple conversion of modified WordPress theme. Displays basic static eCommerce.
+* [Buildr](http://buildr.apache.org/) ([source](https://github.com/assaf/buildr/tree/master/doc)) – Generate the site with Jekyll, and use PrinceXML to [generate PDF out of it](http://blog.labnotes.org/2009/03/14/buildr-how-we-generate-the-documentation-web-site-and-pdf/).
+* [Anil Wadghule](http://www.anilwadghule.com/) ([source](http://github.com/anildigital/anildigital.github.com/))
+* [9leg](http://www.9leg.com) ([source](https://github.com/zJiaJun/zJiaJun.github.io)) - Java Blog (chinese,中文).
+* [Elijah Miller / jqr](http://jqr.github.com/) ([source](http://github.com/jqr/jqr.github.com))
+* [PseudoWeb.Net](http://pseudoweb.net/) ([source](http://github.com/icco/pseudoweb))
+* [Tate Johnson](http://tatey.com/) ([source](http://github.com/tatey/tatey.com/))
+* [zegoggl.es](http://zegoggl.es) ([source](http://github.com/jberkel/zegoggl.es) / [Jekyll fork](http://github.com/jberkel/jekyll/)) – Based on Henrik’s [fork](http://github.com/henrik/jekyll) and [blog](http://henrik.nyh.se/).
+* [Uberobert](http://www.uberobert.com) ([source](htmatps://github.com/rbirnie/uberobert.com)) – My blog, using twitter bootstrap.
+* [ChenJun(Zhu8)’s Web](http://chenjun.com) ([source](https://github.com/zhu8/zhu8.github.io)) – Zhu8’s Website, using bootstrap & Themed with minimal with Mobile vision (中文用户可参考，已优化中文使用).
+* [Ewerton Nascimento](http://ewertonorg.github.io/)([source](https://github.com/ewertonorg/ewertonorg.github.io)) My regularly updated personal blog, talks, open source.
+* [koraktor](http://koraktor.github.com/) ([source](http://github.com/koraktor/koraktor.github.com))
+* [Cory Ondrejka](http://cory.github.com/) ([source](http://github.com/cory/cory.github.com/tree/master)) – My regularly updated personal blog, talks, open source projects, etc...
+* [Alex Payne](http://al3x.net/) ([source](http://github.com/al3x/al3x.github.com/tree/master))
+* [Jason Rudolph](http://jasonrudolph.com/) ([source](http://github.com/jasonrudolph/jasonrudolph.com)) – Tags implemented with JavaScript to build URL for Google Custom Search Engine.
+* [George Ornbo](http://shapeshed.github.com/) ([source](http://github.com/shapeshed/shapeshed.github.com/)) – An experimental site for George Ornbo’s open source code using HTML5, CSS3 and JSON. Integrates with Lighthouse for ticketing.
+* [Ali Polatel](http://alip.github.com/) ([source](http://github.com/alip/alip.github.com/tree/master))
+* [Under the hat, a weblog written by 10to1](http://blog.10to1.be) ([source](http://github.com/10to1/10to1.github.com))
+* [Michael Dwan](http://michaeldwan.com/) ([source](http://github.com/michaeldwan/michaeldwan.github.com)) – Personal site and blog of Michael Dwan.
+* [AppDen](http://appden.com/) ([source](http://github.com/appden/appden.github.com))
+* [Kaspar Schiess](http://blog.absurd.li/) ([source](http://github.com/kschiess/blog.absurd.li)) – Very minimal theme, using a haml/sass enabled fork.
+* [Ben Ubois](http://benubois.com/) ([source](https://github.com/benubois/benubois.github.com))
+* [Claudio Baccigalupo](http://claudiob.github.com/) ([source](http://github.com/claudiob/claudiob.github.com/tree/master)) – My portfolio of Github source code projects.
+* [Mislav Marohnić](http://mislav.uniqpath.com/) ([source](http://github.com/mislav/mislav.github.com)) – Programming blog.
+* [John Duff](http://jduff.github.com/) ([source](http://github.com/jduff/jduff.github.com))
+* [johng Blog](http://www.johng.co.uk) ([source](http://github.com/john-griffin/johng.co.uk/tree/gh-pages)) – Based on Tom’s original Jekyll with added compass+sass.
+* [Mark Olesen](http://olesenm.github.com/) ([source](http://github.com/olesenm/olesenm.github.com)) – Simple blog with links to other github project pages.
+* [Domain51](http://domain51.com/) ([source](http://github.com/tswicegood/domain51.com/)) – Site for tswicegood’s business.
+* [Mottr.am](http://mottr.am/) ([source](http://github.com/mottram/mottram)) – A weblog with comments via Twitter hashtags.
+* [kle•pas](http://klepas.org/) ([source](http://github.com/klepas/klepas.org/)) – Personal site of Simon Pascal Klein.
+* [Aaron Kalin](http://www.martinisoftware.com/) ([source](http://github.com/martinisoft/martinisoft.github.com))
+* [Alex Coles](http://alexbcoles.com/) ([source](http://github.com/myabc/myabc.github.com/))
+* [Ruby on ZiGzAg](http://zigzag.github.com/) ([source](http://github.com/zigzag/zigzag.github.com/))
+* [wulfovitch.net](http://wulfovitch.net/) ([source](http://github.com/wulfovitch/wulfovitch.net)) / [fork](http://github.com/tatey/jekylless) – Personal blog covering programming topics
+* [Drivemeup carpooling](http://drivemeup.github.com/) ([source](http://github.com/drivemeup/drivemeup.github.com)) – Drivemeup Blog (English and French).
+* [mojobojo](http://boj.github.com/) ([source](http://github.com/boj/boj.github.com)) – Simple personal blog.
+* [Balinterdi](http://balinterdi.com/) ([source](http://github.com/balinterdi/balinterdi.github.com)) – Balint Erdi’s personal tech blog.
+* [alpinegizmo.com](http://alpinegizmo.com/) ([source](http://github.com/alpinegizmo/alpinegizmo.com)) – David Anderson’s personal blog.
+* [h313.github.io](http://h313.github.io/) ([source](https://github.com/h313/h313.github.io)) - Haoda Wang's personal site.
+* [Golf Application Server Documentation](http://golf.github.com/) ([source](http://github.com/golf/golf.github.com)) – Documentation for Golf app developers.
+* [Jesse Storimer’s Bloggings](http://jstorimer.com/) ([source](http://github.com/jstorimer/jstorimer.com)) – Tech Blog.
+* [Datakrup.com](http://www.datakrup.com/) – Ferhat Ziba’s personal blog ([source](http://github.com/fero46/datakrup.com)) – Theme inspired by textmate theme ‘midnight’.
+* [Christopher Sexton](http://fuzzymonk.com/) ([source](http://github.com/csexton/bai_si_bu_jie))
+* [Codeography.com](http://codeography.com/) ([source](http://github.com/csexton/csexton.github.com))
+* [Jim Myhrberg](http://jimeh.me/) ([source](https://github.com/jimeh/jimeh.github.io)) – Basic single-page personal website deployed using Github Pages.
+* [skim](http://skim.la/) ([source](http://sl4m.github.com/)) – Ruby, rails on windows environment.
+* [Zach Holman](http://zachholman.com/) ([source](https://github.com/holman/left)) – @holman blogs on Apple, Ruby, and startups. And bank robberies.
+* [Rich Grundy](https://www.richgrundy.com/) ([source](https://github.com/RichGuk/richguk.github.io)) – Personal blog of @RichGuk.
+* [Andrew Heiss](http://www.andrewheiss.com/) ([source](http://github.com/andrewheiss/ah-jekyll) / [Jekyll fork](http://github.com/andrewheiss/jekyll)) – Custom fork that allows for custom Ruby filters in /_lib/, making tag pages simple. Also has support for caching Pygments.Uses a rakefile for deploying and building..
+* [Ronin](http://ronin-ruby.github.com/) ([source](http://github.com/ronin-ruby/ronin-ruby.github.com/)) – Project website for Ronin, a Ruby platform for exploit development and security research.
+* [ESWAT](http://eswat.ca/) ([source](http://github.com/eswat/deunan)) – Simple blog and stuff about me (my site has changed but I forked the original theme in the source link).
+* [Provence Linux User Group](http://plugfr.org/) ([source](http://github.com/plug/plugfr.org/)) – Website of a french LUG with posts, categories, RSS feed, sitemap, Googe CSE...
+* [Squeryl](http://squeryl.org/) ([source](http://github.com/max-l/Squeryl/tree/gh-pages)) – A Scala DSL for interacting with databases (Scala Query Language)
+* [Jeff Kreeftmeijer](http://jeffkreeftmeijer.com/) ([source](http://github.com/jeffkreeftmeijer/jeffkreeftmeijer.com))
+* [The iNK blot](http://novemberkilo.com/) ([source](http://github.com/novemberkilo/novemberkilo.github.com)) – personal blog of @novemberkilo.
+* [Coding in the Rain](http://ascarter.net/) ([source](http://github.com/ascarter/ascarter.github.com/)) – personal blog of @ascarter.
+* [Al3xandr3](http://al3xandr3.github.com/) ([source](http://github.com/al3xandr3/al3xandr3.github.com))
+* [Seattle Xcoders](http://seattlexcoders.org/) ([source](http://github.com/xcoders/xcoders.github.com)) – Seattle Xcoders Mac developer group web site.
+* [Utilise.ca](http://utilise.ca/) ([source](http://github.com/remiprev/utilise.ca)) – A french-canadian version of [_The Setup_](http://usesthis.com/).
+* [Dan Loewenherz](http://dlo.github.com/) ([source](http://github.com/dlo/dlo.github.com)) – Personal blog of @dwlz, influenced by [mojombo.github.com](http://mojombo.github.com/).
+* [Tony Landis](http://tonylandis.com/) ([source](http://github.com/tony-landis/tony-landis.github.com)) – Personal blog of @tony_landis based on [mojombo.github.com](http://mojombo.github.com/) for now.
+* [Michael Monteleone](http://michaelmonteleone.net/) ([source](http://github.com/mmonteleone/michaelmonteleone.net)) – Personal site of Michael Monteleone, standing on all kinds of shoulders of jekyll giants.
+* [Mihail Szabolcs](http://szabster.net/) ([source](http://github.com/icebreaker/icebreaker.github.com))
+* [Ben Hoskings](http://ben.hoskings.net/) ([source](http://github.com/benhoskings/benhoskin.gs))
+* [unwiredcouch.com](http://unwiredcouch.com/) ([source](https://github.com/mrtazz/mrtazz.github.com))
+* [Scott Tesoriere](http://tesoriere.com/) ([source](http://github.com/scottkf/tesoriere.com)) – Tags with spaces.
+* [Danish Khan](http://danishkhan.org/) ([source](http://github.com/danishkhan/danishkhan.github.com)) – I blog about ruby, rails, sinatra and startup culture. I am using the octopress blogging framework.
+* [Brilliant Corners](http://brilliantcorners.org/) ([source](https://github.com/billturner/brilliantlog-merb))
+* [GeekUp](http://geekup.org/) ([source](http://github.com/AndrewDisley/GeekUp)) – Events.
+* [David Sanson](http://www.davidsanson.com/) ([source](http://github.com/dsanson/dsanson.github.com)) – Personal website and course webpages.
+* [Tigraine’s weblog](http://www.tigraine.at/) ([source](http://github.com/tigraine/www.tigraine.at)) – My weblog about programming.
+* [zerothabhishek](http://zerothabhishek.github.com/) ([source](http://github.com/zerothabhishek/zerothabhishek.github.com))
+* [Monkey Snatch Banana](http://www.monkeysnatchbanana.com/) ([source](http://github.com/SeanTAllen/MonkeySnatchBanana.com)) – Personal blog that integrates compass via rake.
+* [Matthias Endler](http://www.matthias-endler.de/) ([source](http://github.com/mre/mre.github.com)) – Blog created by purple unicorns with lots of open source love.
+* [The prometheus Image Archive](http://prometheus-bildarchiv.de) ([source](https://github.com/prometheus-ev/promhp))
+* [Christopher H. Laco](http://chrislaco.com/) ([source](https://github.com/claco/claco.github.com)) – Converted from MT txt file w/converted comments to Disqus + Jekyll/Jekyll.vim/Liquid patches.
+* [A Developer’s Diary](http://foobarnbaz.com/) ([source](https://github.com/semk/semk.github.com)) – A jekyll powered blog by Sreejith Kesavan
+* [Brian Clapper’s blog](http://brizzled.clapper.org/) ([source](https://github.com/bmc/brizzled)) – [personal web site](http://www.clapper.org/) and [company web site](http://www.ardentex.com/).
+* [saberma](http://saberma.me/) ([source](https://github.com/saberma/saberma.github.com)) – (马海波) Personal blog in China.
+* [Clint Shryock’s super awesome ‘site/blog’](http://ctshryock.com/) ([source](https://github.com/ctshryock/ctshryock.com))
+* [Corin Cole](http://www.corincole.com/) ([source](https://github.com/corincole/corincole.com)) – Personal blog/profile.
+* [Seyi Ogunyemi](http://micrypt.com/) ([source](http://github.com/micrypt/micrypt.github.com))
+* [TJ Stein](http://tjstein.com/) ([source](https://github.com/tjstein/tjstein.com))
+* [Dave Lim](http://dlimiter.net/) ([source](https://github.com/dlimiter/dlimiter.net))
+* [Sparanoid](http://sparanoid.com/) ([source](https://github.com/sparanoid/sparanoid.com)) – Tunghsiao Liu (劉通曉) personal blog about web designs, freehand drawings and other interesting gadgets.
+* [redbluemagenta](http://redbluemagenta.com/) ([source](https://github.com/cparedes/redbluemagenta-new)) – Christian Paredes’s system administration blog.
+* [yelyah](http://yelyah.com/) ([source](https://github.com/hayley/yelyah.com)) – singer/songwriter posting new music everyday.
+* [Vern’s Blog](http://du1abadd.org/) ([source](https://github.com/s5unty/du1abadd.org)) – Based on Alip’s [fork](https://github.com/alip/alip.github.com).
+* [c00kiemon5ter’s masterplan](http://c00kiemon5ter.github.com/) ([source](https://github.com/c00kiemon5ter/c00kiemon5ter.github.com)) – The life of a cookie.
+* [Rioki’s Corner](http://www.rioki.org/) ([source](https://github.com/rioki/www.rioki.org)) – Sean [Rioki[ Farrell’s personal website and blog.
+* [A Day Without Chocolate](http://code.hardikr.com/) ([source](https://github.com/hardikr/hardikr.github.com)) – Personal Blog.
+* [Stefano Verna](http://stefanoverna.com/) ([source](https://github.com/stefanoverna/stefanoverna.com)) – Personal blog.
+* [Philippe Mongeau](http://phmongeau.github.com/) ([source](https://github.com/phmongeau/phmongeau.github.com)) – Personal Blog and portfolio.
+* [Patrick Mulder](http://thinkingonthinking.com/) ([source](https://github.com/mulderp/mulderp.github.com))
+* [Kinnetica](http://www.kinnetica.com/) ([source](https://github.com/kinnetica/kinnetica.com)) – Michael Levin’s personal website and blog about web development.
+* [The Setup](http://usesthis.com/) ([source](http://github.com/waferbaby/usesthis/)) – A bunch of nerdy interviews.
+* [mattaust.in](http://mattaust.in/) ([source](http://github.com/maafy6/mattaust.in))
+* [Shallow Thoughts](http://carlosedp.com/) ([source](https://github.com/carlosedp/carlosedp.github.com)) – Carlos Eduardo’s personal blog about tech, development and music.
+* [Leto Labs](http://letolabs.github.com/) ([source](http://github.com/letolabs/letolabs.github.com/)) – New PDX-based startup founded by Jonathan Duke Leto
+* [Ted Kulp](http://tedkulp.com/) ([source](https://github.com/tedkulp/jekyll-template/)) – Personal blog about code, tech and photography using custom Jekyll [fork](https://github.com/tedkulp/jekyll)
+* [Does Ideas](http://doesideas.com/) ([source](https://github.com/mlanza/doesideas/)) – Curated blog by a Rubyist.
+* [Nathan McGinness](http://nthn.net) ([source](https://github.com/njmcgee/njmcgee.github.com)) – Personal site and portfolio.
+* [/dev/alip](http://alip.github.com/) ([source](https://github.com/alip/alip.github.com)) – Personal weblog of Ali Polatel.
+* [Peteris Erins](http://peteriserins.com/) ([source](https://github.com/Pet3ris/peteriserins.com)) – Blog & Personal Landing Page.
+* [Dropshado.ws](http://dropshado.ws/) ([source](https://github.com/desandro/dropshado.ws/))
+* [Jentrata](http://jentrata.org/) ([source](https://github.com/jentrata/jentrata.github.com)) – Open Source B2B Gateway for AS2 and ebXML.
+* [tristanoneil.com](http://tristanoneil.com/) ([source](https://github.com/tristanoneil/tristanoneil.github.com/)) – Personal blog, web presence.
+* [shenfeng.me](http://shenfeng.me/) ([source](https://github.com/shenfeng/shenfeng.me)) – Personal site and blog
+* [Alex Ganov](http://aganov.github.com/) ([source](https://github.com/aganov/aganov.github.com)) – Personal site and blog.
+* [Dan Foreman-Mackey](http://dfm.github.com/) ([source](https://github.com/dfm/dfm.github.com)) – Personal blog with comments via GitHub forks.
+* [TechTinkering](http://techtinkering.com/) ([source](https://github.com/lawrencewoodman/techtinkering.com)) – A Blog About Retro Computers, Programming, Open Source and General Technical Tinkering.
+* [Greg Osuri](http://gregosuri.com/) ([source](https://github.com/gosuri/gosuri.github.com))
+* [River MacLeod](http://mm0hai.net/) ([source](https://github.com/anm/anm.github.com)) – Programming, amateur radio, life. A minimal layout, part blog.
+* [Jenner Hanni](http://jennerhanni.net/) ([source](https://github.com/wicker/wicker.github.com)) – Project portfolio, travel photo gallery, and journal.
+* [jnrbsn.com](http://jnrbsn.com/) ([source](https://github.com/jnrbsn/jnrbsn.com)) – Personal website and blog of Jonathan Robson. (Newly redesigned! Several plugins... and other fun stuff.)
+* [Princeton Roaring 20](http://www.princetonroaring20.com/) ([source](https://github.com/dskang/princetonroaring20.com)) – Website of Roaring 20, a co-ed a cappella group at Princeton University. Built using compass and sass.
+* [YOLK](http://yolk.cc) ([source](https://github.com/yyolk/yolkportfolio)) – Portfolio of Joseph Chiocchi.
+* [Jonathan Cremin](http://crem.in) ([source](https://github.com/kudos/crem.in)) – Personal site of Jonathan Cremin.
+* [Thomas Kerpe](http://toke.de) ([source](https://github.com/toke/toke.github.com)) – Personal site and blog.
+* [Marcin Pietraszek](http://marcin.pietraszek.pl) ([source](https://github.com/kbl/kbl.github.com)) – Personal site of Marcin Pietraszek hosted on github.
+* [Eli Naeher](http://flyoverblues.com/) ([source](https://github.com/enaeher/fb)) – Personal blog.
+* [Ellis Berner](http://ellisberner.com/) ([source](https://github.com/maletor/maletor.github.com)) – Blog and portfolio.
+* [ArunRocks](http://arunrocks.com/) ([source](https://github.com/arocks/arunrocks)) – Arun Ravindran’s personal blog using tags for related pages.
+* [Jigar Patel](http://jigarpatel.in) ([source](http://github.com/jagira/jagira.github.com)) – Personal blog.
+* [David Lynch](http://davidlynch.org/) ([source](http://github.com/kemayo/davidlynch.org)) – Blog and website for David Lynch. Meddles with pagination, tags, and related posts. Includes a complete port of the WordPress toolbox theme, if anyone wants to reuse their styles with it.
+* [Carl Groner](http://carlgroner.me/) ([source](https://github.com/cgroner/cgroner.github.com)) – Personal Site.
+* [Robert Boloc](http://robertboloc.github.com/) ([source](https://github.com/robertboloc/robertboloc.github.com)) – Blog & Playground.
+* [James Moss](http://jamesmoss.co.uk) ([source](https://github.com/jamesmoss/jamesmoss.github.com)) – Personal blog.
+* [OpenideaL](http://www.openidealapp.com/) ([source](https://github.com/linnovate/openidealapp/tree/gh-pages)) – Landing page of OpenideaL – an open source idea management system, powered on Drupal 7.
+* [abhidsm](http://abhidsm.github.com/) ([source](https://github.com/abhidsm/abhidsm.github.com)) – Personal Blog. iPhone, Android devices and laptop.
+* [Minimalist theme](http://stephan83.github.com/) ([source](https://github.com/stephan83/stephan83.github.com) / [instructions](http://stephan83.github.com/12-07-2011/use-this-theme-on-github.html))
+* [Alexcp.com](http://alexcp.com/) ([source](https://github.com/alexcp/alexcp-blog)) – Personal Blog.
+* Flatterline ([source](https://github.com/flatterline/flatterline.com)) – A [Ruby on Rails development company](http://flatterline.com/) website and blog. Includes a few custom [Jekyll plugins](https://github.com/flatterline/jekyll-plugins) written specifically for company websites (e.g., project portfolio, team page, etc.).
+* [似水流年blog](http://codewu.com) ([source](https://github.com/cinowu/cinowu.github.io)) – Personal Blog (Chinese blog, 中文博客)
+* [ImPua’s blog](http://pua.github.io) ([source](https://github.com/pua/pua.github.com)) – Geeks get laid (Chiness blog, 中文博客)
+* [Ganz-Sicher.Net](http://ganz-sicher.net/blog/) ([source](https://github.com/pylight/gsn)) – Personal Blog (German) about Linux and OpenSource.
+* [夜深blog](http://blog.lenage.com/) ([source](https://github.com/lenage/lenage.github.com)) – Personal Blog (Chinese) about archLinux and Ruby.
+* [setImpl](http://lhzhang.com/) ([source](https://github.com/waynezhang/blog/tree/gh-pages)) – Personal Blog.
+* [Giovanni Cappellotto’s Focus the Web](http://www.focustheweb.com/) ([source](http://github.com/focustheweb/www.focustheweb.com)) – Personal Blog
+* [Lost Decade Games](http://www.lostdecadegames.com/) ([source](https://github.com/lostdecade/manor)) – HTML5 game development blog.
+* [Stephen McDonald](http://blog.jupo.org/) ([source](https://github.com/stephenmcd/stephenmcd.github.com)) – Personal blog on Django and Python.
+* [Josh Suereth](http://jsuereth.com/) ([source](http://github.com/jsuereth/jsuereth.github.com)) – Personal programming blog, mostly Scala related.
+* [Dmytro Yashkir](http://dyashkir.com) ([source](https://github.com/dyashkir/dyashkir.github.com)) – Personal blog on programming and other topics.
+* [Court Ewing](http://epixa.com/) ([source](https://github.com/epixa/epixa.com-source)) – Personal blog.
+* [Useful Paradigm](http://usefulparadigm.com/) ([source](https://github.com/usefulparadigm/usefulparadigm.github.com)) – Web 2.0 based SW service & solutions (Korea).
+* [Jekyll Bootstrap](http://nhoss2.github.io/jekyll-bootstrap/) ([source](https://github.com/nhoss2/jekyll-bootstrap)) – A super simple theme to get started with jekyll. Made with twitter bootstrap.
+* [Shaun Bentzen](http://bentzen.ws/) ([source](http://github.com/sbentzen/sbentzen.github.com))
+* [Jiang Le](http://jiangle.name/) ([source](https://github.com/naokij/naokij.github.com)) – Personal blog (Chinese，中文).
+* [elf+js](http://elf.js.org/) ([source](http://github.com/elfjs/elfjs.github.com)) – [elf+js](http://github.com/elfjs/) JavaScript库项目主页，博客 (Chinese, 中文)
+* [TJ VanToll](http://tjvantoll.com/) ([source](http://github.com/tjvantoll/tjvantoll.github.com)) – Personal Site and Blog.
+* [NoFeed ~ No Music for the Masses](http://nofeed.org/) ([source](https://github.com/ngw/ngw.github.com)) – Personal Blog hosted on Github.
+* [Matthew Scharley](http://matt.scharley.me/) ([source](http://github.com/mscharley/mscharley.github.com)) – Personal blog of a web developer hosted as GitHub.
+* [严俊羿](http://yanjunyi.com/) ([source](https://github.com/mytharcher/SimpleGray)) – Personal brand site (Chinese, 中文).
+* [Hong Xu](http://www.topbug.net/) ([source](https://github.com/xuhdev/homepage)) – Personal Site and Blog (Based on Octopress).
+* [Jilles Oldenbeuving](http://www.jilles.net/) ([source](https://github.com/ojilles/jilles.net)) – Personal Blog.
+* [Lauri Lehmijoki](http://lauri.lehmijoki.net/) ([source](https://github.com/laurilehmijoki/lauri.lehmijoki.net)) – Personal web site.
+* [Jonathan Tsai](http://www.jontsai.com/) ([source](https://github.com/jontsai/jontsai.github.com)) – Personal website and blog with heavily customized theme [hacking-in-the-dark](https://github.com/jontsai/jekyll-theme-hacking-in-the-dark).
+* [雁起平沙的文艺博客](http://art.yanping.me/) ([source](https://github.com/yanping/art)) – Personal blog (Chinese, 中文).
+* [Marcin Świerczyński](http://blog.swierczynski.net/) ([source](https://github.com/MarcinOS/marcinos.github.com)) – Personal Blog.
+* [Amir Chaudhry](http://amirchaudhry.com/) ([source](https://github.com/amirmc/amirmc.github.com)) – Personal Blog exported from Posterous and using Jekyll Bootstrap and (customised) Zurb Foundation theme. Included AddThis sharing buttons for posts.
+* [Xiaodong Xu](http://toy.linuxtoy.org/) ([source](https://github.com/xuxiaodong/xuxiaodong.github.com)) – About Linux, Perl, Ruby and more.
+* [Mijndert Stuij](http://mijndertstuij.nl) ([source](https://github.com/mijndert/mijndertstuij.nl)) – Personal blog featuring various articles for sysadmins and people alike.
+* [jekylog](http://fingaholic.github.com/) ([source](https://github.com/FiNGAHOLiC/fingaholic.github.com)) – My personal blog powered by jekyll.
+* [Roland Warmerdam](http://rolandwarmerdam.co.nz) ([source](https://github.com/Rowno/rolandwarmerdam.co.nz)) – Personal website and blog.
+* [Thatch Arce aka 希夷先生](http://blankego.github.com/) ([source](https://github.com/blankego/blankego.github.com)) – An all-inclusive personal site, programming and hobbies, blog and aggregation of useful resources. （汝安知魚之樂，我知之濠上也）
+* [Miha Hribar](http://hribar.info) ([source](https://github.com/mihahribar/hribar.info)) – CTO of Toshl, professional hobbyist
+* [pH 7](http://ph-7.github.io) ([source](https://github.com/pH-7/ph-7.github.io)) – A personal website using jQuery, Twitter Bootstrap and of course *Jekyll*! It also uses Ajax to load pages
+* [neocotic](http://neocotic.com) ([source](http://github.com/neocotic/neocotic.github.com))
+* [Jake Harding](http://thejakeharding.com) ([source](https://github.com/jharding/jharding.github.com))
+* [sbin.dk](http://sbin.dk) ([source](https://github.com/toin0u/sbin.dk)) – A personal website
+* [Romain Sertelon](http://romain.sertelon.fr) ([source](https://github.com/rsertelon/my-blog)) – A tech blog by a French Geek
+* [Maplebeats(枫叶饭团)](http://maplebeats.com) ([source](https://github.com/maplebeats/maplebeats.github.com)) – A personal website using jquery ajax and Jekyll
+* [Fabio Souto](http://fabiosouto.me/) ([source](https://github.com/fsouto/fsouto.github.com)) – Personal website and blog
+* [Juan de Bravo](http://www.juandebravo.com) ([source](https://www.github.com/juandebravo/juandebravo.github.com)) – Personal tech blog
+* [hzmook](http://hzmook.github.com/) ([source](https://github.com/hzmook/hzmook.github.com)) – Personal blog (Chinese，中文)
+* [Sandeep Ravichandran](http://sandeepravi.github.com/) ([source](https://github.com/sandeepravi/sandeepravi.github.com)) – Personal blog on Ruby, Rails, Best practices while coding & other geeky things
+* [Mike Adolphs](http://fooforge.com) ([source](https://github.com/fooforge/fooforge.com)) – Portfolio of an infrastructure guy
+* [Geography AS Notes](http://geographyas.info) ([source](httpshttps://github.com/alexjohnj/geographyas)) – A revision website/backup of my notes for students studying Geography in the UK.
+* [Eddie Hedges](http://edhedges.com) ([source](https://github.com/edhedges/edhedges.github.com/tree/dev)) – Personal website
+* [Erik Eng](http://erikeng.se/) ([source](http://github.com/ptz0n/ptz0n.github.com)) – Personal site and blog
+* [Roland Yonaba](http://yonaba.github.com/) ([source](https://github.com/Yonaba/yonaba.github.com)) – Development and Personal website
+* [Zumba Engineering](http://engineering.zumba.com) ([source](https://github.com/zumba/zumba.github.com)) – Department site/blog about technology
+* [Prose.io](http://prose.io) ([source](https://github.com/prose/prose)) – A content editor service for GitHub. ([Introductory blog post](http://developmentseed.org/blog/2012/june/25/prose-a-content-editor-for-github/))
+* [Felipe Cabargas (juanpintoduran on rails)](http://blog.cabargas.com/) ([source](http://github.com/felipecabargas/felipecabargas.github.com))
+* [eli lien blog](http://elilien.com) ([source](https://github.com/elilien/elilien.github.com)) – A blog belong to Eli Lien. Talks about my coding life, also something about Design and Art.
+* [Ahmad Salman](http://ahmad.io) ([source](https://github.com/ahmads/ahmads.github.com)) – Personal Blog (Arabic).
+* [So Zetta Slow](http://onox.com.br) ([source](https://github.com/agarie/so-zetta-slow)) – agarie’s blog. It uses [LESS](http://lesscss.org/) to build the stylesheet.
+* [branduren.com](http://branduren.com/) ([source](http://github.com/branduren/branduren.github.com)) – Personal site with blog and projects
+* [Fengz](http://sync.sh/) ([source](https://github.com/ycf/ycf.github.com)) – A Simple Personal site and blog(Fengz，中文).
+* [Jason Shum](http://jshum.github.com) ([source](https://github.com/jshum/blog/tree/gh-pages)) – Personal blog
+* [Abhishek Munie](http://abhishekmunie.com/) ([source](https://github.com/abhishekmunie/abhishekmunie.github.com)) – Personal website
+* [Per Sandström](http://www.helloper.com) ([source](https://github.com/persand/helloper)) – Personal site
+* [Eric Farkas](http://ericfarkas.com) ([source](https://github.com/speric/speric.github.com)) – Personal site
+* [RHoK Trento](http://ict4g.github.com/rhok-trento/) ([source](https://github.com/ict4g/rhok-trento/)) – Information about RHoK Trento
+* [Alex Bian](http://dbian.github.com) ([source](https://github.com/dbian/dbian.github.com)) – My personal blog (Chinese)
+* [ixti’s personal scratchpad](http://ixti.net/) ([source](https://github.com/ixti/ixti.github.com)) – Personal blog
+* [Patrik Wibron](http://patrikwibron.se/) ([source](https://github.com/wibron/wibron.github.com)) – Personal frontend blog
+* [James Chevalier](http://blog.jameschevalier.us) ([source](https://github.com/JamesChevalier/blog.jameschevalier.us)) – Personal blog
+* [Leon Radley](http://leon.radley.se) ([source](https://github.com/leon/leon.github.com)) – Personal blog, using github pages, less, tag cloud, custom sitemap and more.
+* [Jorge Ramírez](http://jramirez.me) ([source](https://github.com/jorgeramirez/jorgeramirez.github.com)) – Personal website and blog, built using Jekyll Bootstrap (with some customizations) and Twitter Bootstrap.
+* [Ray Besiga](http://raybesiga.com) ([source](https://github.com/raybesiga/raybesiga.github.com)) – Personal website and blog
+* [64 Notes](http://www.64notes.com) ([source](https://github.com/64Notes/64notes.github.com)) – Muti-blog site.
+* [King Sidharth](http://www.kingsidharth.com) ([source](https://github.com/kingsidharth/kingsidharth.github.com)) – Personal website of King Sidharth
+* [Hackatron](http://hackatron.org) ([source](https://github.com/hackatron/hackatron.github.com)) – Hackatron team’s blog, minimal, yellow, html5
+* [TJ Maynes](http://www.tjmaynes.com) ([source](https://www.github.com/tjmaynes/tjmaynes.github.io)) – Personal Blog – Programmer & Cinephile.
+* [Petru Madar](http://petrumadar.com) ([source](https://github.com/petru/petrumadar.com)) – Personal website. Jekyll + Twitter Bootstrap
+* [Reference Error](http://reference-error.org/) ([source](https://github.com/CMPITG/cmpitg.github.com)) – cmpitg’s personal web log about tech and open culture
+* [Palak Mathur](http://palakmathur.github.com/) ([source](https://github.com/palakmathur/palakmathur.github.com/)) – Personal site and blog and projects details
+* [Piotr Sarnacki](http://piotrsarnacki.com/) ([source](http://github.com/drogus/drogus.github.com)) – Blog of Piotr Sarnacki
+* [Madhur@Web:~# :(){ :|: & };](http://madhur.github.com/) ([source](https://github.com/madhur/madhur.github.com)) – Personal / technology / coding blog by Madhur.
+* [Ronan Berder](http://teddy.fr/) ([source](http://github.com/hunvreus/hunvreus.github.com)) – Personal blog
+* [WeedyGarden](http://weedygarden.net/) ([source](https://github.com/erunyon/erunyon.github.com)) – Blogging about web development by Erik Runyon
+* [Fanfare Fantastique](http://fanfarefantastique.com/) ([source](https://github.com/ricardmo/ricardmo.github.com)) – Marc-Olivier Ricard’s personal blog
+* [Brett Hardin](http://bretthard.in/) ([source](https://github.com/bhardin/bhardin.github.com)) – Personal blog, theme made from scratch.
+* [Adam Ralph](http://www.adamralph.com/) ([source](https://github.com/adamralph/adamralph.github.com)) – Personal blog using Twitter bootstrap and a metro theme from Bootswatch.
+* [Thibault Laurens](http://thibaultlaurens.github.com/) ([source](https://github.com/ThibaultLaurens/thibaultlaurens.github.com)) – Personal blog
+* [Vic Vijayakumar](http://vicvijayakumar.com/) ([source](https://github.com/needcaffeine/vicvijayakumar.com)) – An experiment in documentation, using Initializr and Twitter Bootstrap.
+* [Dylan Vassallo](http://dylanv.org/) ([source](https://github.com/dylanvee/dylanvee.github.com)) – Personal blog
+* [Charmeleon’s Blog](http://charmeleon.github.com/) ([source](https://github.com/charmeleon/charmeleon.github.com)) – Personal blog.
+* [The Escaped](http://descaped.com/) ([source](https://github.com/theescaped/theescaped.github.com)) – A Moroccan English based opinion site focusing on entrepreneurship, politics, and education.
+* [Jacques BH](http://jacques.sh/) ([source](https://github.com/jacquesbh/jacquesbh.github.com)) – The blog of a Magento certified developer (French)
+* [wlair.us.to](http://wlair.us.to/) ([source](https://github.com/woddfellow2/woddfellow2.github.io)) – Personal blog
+* [Jacob Hauberg Hansen](http://www.jacobhauberg.dk) ([source](https://github.com/shrt/shrt.github.com)) – Personal blog, usually programming related posts.
+* [Alex Browne](http://blog.alexbrowne.info) ([source](https://github.com/stephenalexbrowne/blog)) – A personal blog designed to be blazing fast and cheap to maintain.
+* [JDStraughan](http://jdstraughan.com) ([source](https://github.com/jdstraughan/jdstraughan.github.com)) – Personal blog for Jason Straughan – topics include web development, ruby, open source, and legos.
+* [Hamsterboy](http://hamsterboy.dk) ([source](https://github.com/hamsterboy/hamsterboy.dk)) – Home of Daniel Aakjær Sørensen – a freelance webdesigner and creative soul decorating virtual homes near you.
+* [Ryan Kirkman](http://ryankirkman.com/) ([source](http://github.com/ryankirkman/ryankirkman.github.com)) – A full stack web development blog
+* [the Office of Kristian Bjornard](http://www.ookb.co/) ([source](https://github.com/bjornmeansbear/bjornmeansbear.github.com)) – Building a resting place for essays and writing on design as well as a portfolio solution.
+* [Hugo Melo](http://hugomelo.com/) ([source](https://github.com/squanto/squanto.github.com)) – A blog by an apprentice developer.
+* [JSLint Error Explanations](http://jslinterrors.com/) ([source](https://github.com/jamesallardice/jslint-error-explanations)) – A site giving details of the error messages and warning produced by JSLint and JSHint
+* [java-adventures.com](http://www.java-adventures.com/) ([source](https://github.com/scheuchzer/scheuchzer.github.com)) – A blog about Java and other stuff
+* [Philip I. Thomas](http://www.philipithomas.com/) ([source](https://github.com/philipithomas/www.philipithomas.com)) – Personal website
+* [Mark Bahnman](http://markbahnman.github.com/) ([source](https://github.com/markbahnman/markbahnman.github.com)) – Developer Blog built with bootstrap
+* [自己的园地](http://joshualeung.github.io/) ([source](https://github.com/joshualeung/joshualeung.github.com)) – 无关代码的生活博客.
+* [Josh Sherman](http://joshtronic.com/) ([source](http://github.com/joshtronic/joshtronic.github.com)) – Blog, mostly tech rants, minimalist design
+* [Nathan Staines](http://nathanstaines.com/) ([source](https://github.com/nathanstaines/nathanstaines.github.com))
+* [Joel Kirchartz](http://jkirchartz.com/) ([source](https://github.com/jkirchartz/jkirchartz.github.com)) – A web monkey’s blog
+* [天外天](http://blog.evercoding.net) ([source](https://github.com/iEverX/ieverx.github.com)) – Blog about coding and my own life. In Chinese.
+* [windwild](http://windwild.github.com) ([source](https://github.com/windwild/windwild.github.com)) – Blog about Python and Hadoop. In Chinese.
+* [www.ruby-lang.org](http://www.ruby-lang.org) ([source](https://github.com/ruby/www.ruby-lang.org)) – The official Ruby site
+* [Michael Lancaster](http://bymichaellancaster.com/) ([source](https://github.com/weblancaster/michaellancaster))
+* [Ted Serbinski](http://tedserbinski.com/) ([source](https://github.com/tedserbinski/www)) – Personal website of an entrepreneur & open source hacker turned early stage VC living in Detroit.
+* [Denny’s Blog](http://denny2trasy.github.com/) ([source](http://github.com/denny2trasy/denny2trasy.github.com/tree/source)) – My personal blog about Ruby,Study and Life
+* [Rodrigo Lazoti’s Blog](http://rodrigolazoti.com.br) ([source](https://github.com/rlazoti/rlazoti.github.com)) – Blog about programming languages (Java, Scala, Ruby, Obj-C and JS), software development and technology.
+* [GLFW](http://www.glfw.org/) ([source](https://github.com/glfw/website)) – Project site
+* [Anup Jadhav’s Blog](http://anupjadhav.com/) ([source](https://github.com/anupj/anupj.github.com/)) – Personal blog about Force.com, programming, and Cloud Computing
+* [Dereck Curry’s Blog](http://thedereck.github.com/) ([source](https://github.com/thedereck/thedereck.github.com)) – Personal blog
+* [GH-Pages-Blog](http://thedereck.github.com/gh-pages-blog/) ([source](http://github.com/thedereck/gh-pages-blog/)) – A project to make it easy to get up and running with a responsive website design for a GitHub:Pages blog.
+* [Jai Luthra’s Blog](http://www.jailuthra.in/) ([source](http://github.com/jailuthra/jailuthra.github.io))
+* [Joe Armstrong’s Erlang and other stuff](http://joearms.github.com) ([source](https://github.com/joearms/joearms.github.com)) – My Erlang blog (and other stuff)
+* [Ryan Uber’s blog](http://ryanuber.com) ([source](https://github.com/ryanuber/ryanuber.github.com)) – Personal website and blog
+* [CSS Wizardry](http://csswizardry.com/) ([source](https://github.com/csswizardry/csswizardry.github.com))
+* [netzfisch’s ...wikibrain and blogtaker](http://netzfisch.github.io) ([source](https://github.com/netzfisch/netzfisch.github.com)) – Personal website and blog, about things that matter – mostly tech stuff: linux, ruby, open source, ecommerce and gadgets
+* [Daniel Groves Website](http://danielgroves.net) ([source](https://github.com/danielgroves/danielgroves.net)) – Personal website and portfolio. I blog here, mostly about web development but bikes and other technology may occasionally creep in
+* [WSJ design](http://intentionjs.com/) ([source](https://github.com/wsjdesign/intentionjs)) – Intentionjs Site
+* [SubOptimal’s – spare time projects](http://suboptimal.github.io/) ([source](https://github.com/SubOptimal/suboptimal.github.com/tree/jekyll_generate)) – Frank Dietrich – projects entry page on github.com
+* [Daniel Jones](http://djones.co/) ([source](https://github.com/tortxof/djones.co-www)) – Personal website.
+* [Akash Kothawale](http://decached.com/) ([source](https://github.com/decached/decached.github.io)) – Personal website.
+* [David Ketcheson’s lab notebook](http://davidketcheson.info/) ([source](https://github.com/ketch/labnotebook)) – Open science notebook and blog of an applied mathematician.
+* [Pradeep Nayak](http://pradeepnayak.in/) ([source](https://github.com/pradeep1288/pradeep1288.github.com)) – Personal Website
+* [Christian Fei](https://christianfei.com/) ([source](https://github.com/christian-fei/christian-fei.github.io)) – Portfolio, and personal design and tutorials blog
+* [Wonderyl’s blog](http://wonderyl.github.io/) ([source](https://github.com/wonderyl/wonderyl.github.com)) – Personal Blog
+* [Made Mistakes](http://mademistakes.com) ([source](https://github.com/mmistakes/made-mistakes)) – Personal website and portfolio
+* [Jan Zheng Blog & Portfolio](http://janzheng.com) ([source](https://github.com/janzheng/janzheng.github.com)) – Fully customized and responsive portfolio and blog on user experience, design, and game design.
+* [Diego Calderon](http://diegocalderon.info) ([source](https://github.com/dcalderon/dcalderon.github.com)) – Personal website, with blog component highlighting interests and providing small technical tutorials.
+* [Alif Rachmawadi](http://subosito.com) ([source](https://github.com/subosito/subosito.github.io)) – Personal blog about Ruby and web development.
+* [codepiano’s Blog](http://codepiano.github.io) ([source](https://github.com/codepiano/codepiano.github.com)) – Personal blog,Chinese,中文博客
+* [Teo Ljungberg](http://teoljungberg.com) ([source](http://github.com/metamorfos/metamorfos.github.io)) – Personal blog about code related matters in Ruby, Rails, vim, tmux etc
+* [Git Ready](http://gitready.com/) ([source](http://github.com/gitready/gitready))
+* [Leonardo Korndorfer](http://leok.me) ([source](https://github.com/leonardok/leonardok.github.com)) – Personal website and a simple blog
+* [GitWatcher Blog](http://gitwatcher.com/blog) ([source](https://github.com/lgs/gitwatcher-blog)) – The blog engine behind http://gitwatcher.com/blog
+* [Bilal Hussain](http://bilalh.github.com/) ([source](https://github.com/Bilalh/bilalh.github.com/tree/source)) – Personal site and blog and projects details.
+* [MortgageBloom Mortgage Blog](http://mortgagebloom.com/blog) ([source](https://github.com/nikhilbobb/mortgage-blog)) – Ultra clean and simple. See [Style Guide](http://nikhilbobb.github.com/mortgage-blog/design/).
+* [Richard Huang](http://www.huangzhimin.com/) ([source](https://github.com/flyerhzm/flyerhzm.github.com)) – Blog about ruby/rails and other web develop technology.
+* [Michael Ebens](http://nova-fusion.com/) ([source](http://github.com/BlackBulletIV/blackbulletiv.github.com)) – Personal site with a tech blog on various topics, usually related to programming and game development. Check out the source, it’s got a lot in it.
+* [Carl Boettiger’s lab notebook](http://carlboettiger.info) ([source](http://github.com/cboettig/labnotebook)) with pandoc markdown, solarized colors, MathJax equations, & statically built feeds from twitter, github, & mendeley.
+* [metajack.im](http://metajack.im/) ([source](http://github.com/metajack/metajack.im) / [Jekyll fork](http://github.com/metajack/jekyll)) – Custom fork with support for times, archives, custom script output etc. Tags implemented with Google search.
+* [Hop.ie](http://hop.ie/) ([source](https://github.com/donovanh/donovanh.github.com)) – Blog about front-end development, Sinatra and Javascript.
+* [Julian Yap](http://julianyap.com/?pk_campaign=github) ([source](https://github.com/jyap808/jyap808.github.com)) – Personal blog and web site. Theme is based off of and customized from Tom Preston-Werner’s.
+* [HQingYi Blog](http://hqingyi.github.io/) ([source](https://github.com/HQingYi/hqingyi.github.com)) – personal reading and thoughts. Mostly in Chinese.
+* [Daniel Sposito](http://danielsposito.com) ([source](https://github.com/dsposito/dsposito.github.com)) – Personal blog and website. Theme based off of Jekyll Bootstrap.
+* [LYM’s Blog](http://lym406365619.github.io/) ([source](https://github.com/lym406365619/lym406365619.github.com)) – Personal blog. (Chinese)
+* [Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/) ([source](https://github.com/mmistakes/minimal-mistakes)) – A responsive Jekyll theme with large full page images and clean typography.
+* [Mikael Konutgan](http://kmikael.com) ([source](https://github.com/kmikael/kmikael.github.io)) – Just a personal site and blog
+* [Fabien Penso](http://blog.penso.info) ([source](https://github.com/penso/blog.penso.info)) – Personal blog
+* [Kusaeni – fanadir.in](http://fanadir.in) ([source](https://github.com/kuspoes/kuspoes.github.com)) – Fana Directory
+* [hackBytes](http://hackbytes.com) ([source](https://github.com/byronsanchez/hackbytes.com))
+* [thordog](http://www.thordog.com) ([source](https://github.com/cdellinger/cdellinger.github.com)) – Personal blog
+* [Alexander Zaytsev](http://nqst.net/blog/) ([source](https://github.com/nqst/nqst.github.io)) — Personal blog (in Russian)
+* [qiangtou’s blog](http://qiangtou.github.io/) ([source](https://github.com/qiangtou/qiangtou.github.com)) — Personal blog (个人博客中文内容)
+* [Treeptik developer’s blog](http://blog.treeptik.fr/) ([source](https://github.com/Treeptik/blog.treeptik.fr)) – A jekyll powered blog by Treeptik
+* [TangJiujun’s Techblog](http://blog.tangjiujun.com) ([source](https://github.com/tangjiujun/tangjiujun.github.io)) – TangJiujun’s Techblog
+* [Manav Dhiman](http://manavdhiman.com) ([source](https://github.com/manavdhiman/manavdhiman.github.com)) – Sticks & Stones, Manav Dhiman’s Portfolio and Blog.
+* [Pratik Agrawal](http://pratik98.github.com/) ([source](https://github.com/pratik98/pratik98.github.com)) – Personal website and blog (with modified theme)
+* [Marc Anguera Insa](http://marcanguera.net/) ([source](https://github.com/markets/markets.github.io)) – Personal site and blog
+* [So Simple Theme](http://mmistakes.github.io/so-simple-theme/) ([source](https://github.com/mmistakes/so-simple-theme)) – A simple and clean responsive Jekyll theme for words and photos.
+* [Juan Lasheras](http://blog.juanl.org/) ([source](http://github.com/jlas/jlas.github.io))
+* [Martin Bean](http://martinbean.co.uk/) ([source](http://github.com/martinbean/martinbean.github.io))
+* [Seb Spain](http://sebspain.co.uk/) ([source](http://github.com/sebspain/sebspain.github.io)) – personal website with various tweaks and kludges on the standard jekyll layouts
+* [a boy](http://www.a-boy.tk/blog) ([source](http://github.com/a-boy/blog)) – personal blog on programming, poem, original music, math...
+* [Babble By Vernacchia](http://babble.byvernacchia.com/) ([source](https://github.com/vernak2539/babble.byvernacchia)) – A small personal blog that I moved to after getting fed up with Wordpress. Tech ramblings. Uses Twitter Bootstrap
+* [Sahil Diwan](http://sahildiwan.github.io/) ([source](https://github.com/sahildiwan/sahildiwan.github.com)) – Personal blog of Sahil Diwan.
+* [Vincent Barr](http://vincentbarr.github.io/) ([source](https://github.com/vincentbarr/vincentbarr.github.com)) – Vincent Barr’s personal website.
+* [Jekyll Version of Pattern Primer](http://patternprimer.oliverpattison.org/) ([source](https://github.com/opattison/Pattern-Primer-Jekyll)) – a design communication tool based on the Pattern-Primer project by adactio
+* [David Ensinger](http://davidensinger.com/) ([source](https://github.com/davidensinger/davidensinger.github.io)) – Personal blog
+* [Art Chaidarun](http://chaidarun.com/) ([source](https://github.com/artnc/personal-website)) – Personal website
+* [eyeshalfclosed.com](http://eyeshalfclosed.com) ([source](https://github.com/emaadmanzoor/blog)) – Blog: responsive, minimal, black & white, LaTeX-enabled, tags page, design based on [Medium](http://medium.com).
+* [apptamers](http://apptamers.com) ([source](https://github.com/apptamers/apptamers.com)) – Company web site: Ruby on Rails applications, web services, api, mobile apps
+* [Balzac](http://jekyll.gtat.me/) ([source](http://github.com/coletownsend/balzac-for-jekyll)) – An awesome, responsive blog theme for Jekyll.
+* [Bits and Beeps](http://andyroo2000.github.io) ([source](http://github.com/andyroo2000/andyroo2000.github.io)) – Coding Journal by: Andrew Landry
+* [Aniket Pant](http://aniketpant.com) ([source](https://github.com/aniketpant/aniketpant.github.com)) – Blog
+* [Robbert Korving](http://robkorv.com) ([source](https://github.com/robkorv/robkorv.github.io)) – Personal Blog
+* [Martin Seeler](http://martinseeler.github.io/) ([source](https://github.com/MartinSeeler/MartinSeeler.github.io)) – minimal handcrafted blog about coding adventures and curiosities
+* [Jay Rainey](http://jawrainey.me) ([source](https://github.com/jawrainey/jawrainey.github.io)) – Minimalistic personal website.
+* [Tim Smith](http://ttimsmith.com) ([source](https://github.com/ttimsmith/ttimsmith.com)) – Personal blog & portfolio of Tim Smith.
+* [Alex Kalicki](http://alexkalicki.com) ([source](https://github.com/akalicki/akalicki.github.io)) – Personal portfolio and Jekyll-powered blog. Jekyll-generated category pages, tag cloud, RSS feed, sitemap
+* [Dan Klco](http://danklco.com) ([source](https://github.com/klcodanr/danklco.com-site)) – Personal blog and CV
+* [Havee](http://havee.me) ([source](https://github.com/Ihavanna/ihavanna.github.io)) – Havee’s Space. (Chinese, 中文)
+* [/sBin](http://slashsbin.com) ([source](https://github.com/slashsBin/slashsBin.github.io/)) – Personal website of Mohammad Shokri.
+* [Ankit Kumar](http://ankitkumar.in) ([source](https://github.com/ankit7/ankit7.github.io)) – Marketing and Personal Blog
+* [Gets.co](http://gets.co) ([source](https://github.com/feir/feir.github.io)) – Thoughts during the new startup. (Chinese, 中文)
+* [Chris Down](http://chrisdown.name) ([source](https://github.com/cdown/chrisdown.name)) – Personal website
+* [HPSTR](http://mmistakes.github.io/hpstr-jekyll-theme) ([source](https://github.com/mmistakes/hpstr-jekyll-theme)) – A Jekyll theme with modern design sensibilities, responsive layouts, support for large feature images, Disqus commenting, Pygments and Coderay syntax highlighting styles, Grunt build script, sample 404 page, and more.
+* [Bruce Hauman](http://rigsomelight.com) ([source](https://github.com/bhauman/bhauman.github.com)) – a blog about programming and other stuff
+* [Educative-Games.org](http://educative-games.org) ([source](https://github.com/kernc/educative-games.org)) – a single page site using Jekyll’s front matter as a neat, light database (which should soon prove to be in fact a large and shitty scaling issue).
+* [赵金泉的个人网站](http://zjq.in/) ([source](http://github.com/alairs/alairs.github.com/)) – aquan's Personal Site
+* [Zhan Zhuang Chi Kung | A Arte do Cultivo da Quietude](http://devagar.org) ([source](https://github.com/devagar/chikung/tree/gh-pages)) – Creating Chi Kung training habits in a consistent and regular way – in Portuguese.
+* [unitedshapes.com](http://unitedshapes.com) ([source](https://github.com/Aptary/unitedshapes)) – A blog about how to make shapes using SVG and javascript
+* [Something Isn’t Write](http://reppardwalker.com/) ([source](http://github.com/reppard/jekyll-blog)) – Personal blog of useless ramblings
+* [Jesse Herrick’s Blog](http://www.jessegrant.net/) ([source](http://github.com/JesseHerrick/jesseherrick.github.com))
+* [Pablo Molina](http://pablomolina.me) ([source](https://github.com/p2kmgcl/p2kmgcl.github.com/)) – Personal website with projects and thinking.
+* [Ashwin kumar](http://ashwinkumar.me/) ([source](https://github.com/ashwin-kumar/ashwinkumar.me)) – Personal website.
+* [Kai ‘kaidez’ Gittens](http://kaidez.com/) ([source](https://github.com/kaidez/kaidez.com/)) – Tutorials &amp; articles about web development from Kai Gittens, a web developer at Revlon.
+* [Ibrahim Muhammad](http://ibrahimmuhammad.com) ([source](https://github.com/whistler/whistler.github.com)) – Personal blog and portfolio
+* [Mango Information Systems](http://mango-is.com/blog) ([source](https://github.com/Mango-information-systems/mango-is-blog)) – Company blog about analytics and data visualizations
+* [Jonathan Gross](http://www.unm.edu/~jagross/) ([source](https://github.com/jarthurgross/website)) – Physics graduate student website with blog and information about courses taught.
+* [The Remote Manifesto](http://remotemanifesto.com) ([source](https://github.com/paddyohanlon/remote-manifesto-public)) – Personal blog on design, travel and thoughts.
+* [Jonathan McGlone](http://jmcglone.com) ([source](https://github.com/jmcglone/jmcglone.github.io)) – Personal website/blog for Jonathan McGlone, a librarian, front-end web developer, and digital publisher.
+* [P_Chou Tech Space](http://pchou.info) ([source](https://github.com/PChou/NRemedy)) – Personal Technology website/blog (Chinese, 中文)
+* [Kaitu](http://dbkaiser.github.io) ([source](https://github.com/dbkaiser/dbkaiser.github.io)) – Personal blog of tech and scribble. (Chinese, 中文)
+* [Alex Bilbie](http://alexbilbie.com) ([source](https://github.com/alexbilbie/alexbilbie.github.com)) – Personal blog
+* [Zanshin.net](http://zanshin.net) ([source](https://github.com/zanshin/zanshin)) – Personal website focused on technology and life. Based on [Minimal](https://github.com/orderedlist/minimal) theme by Steve Smith
+* [ZDroid](http://zdroid.github.io) ([source](https://github.com/ZDroid/zdroid.github.io)) – Personal site
+* [the workshop](http://workshop.avatarnewyork.com) ([source](https://github.com/avatarnewyork/avatarnewyork.github.com)) – Avatar New York’s attempt to help MoveTheWebForward. Repository of open source projects and knowledge base.
+* [Rhizome Labs](http://labs.rhizome.org) ([source](https://github.com/rhizomedotorg/rhizomedotorg.github.io)) – Dev blog for NYC based arts nonprofit Rhizome.
+* [Bootstrapee](http://bootstrapee.com) ([source](http://github.com/reardestani/bootstrapee)) – Free, Sleek, High Quality, and Developer Friendly Web Resources
+* [Max Chadwick](http://mpchadwick.github.io) ([source](https://github.com/mpchadwick/mpchadwick.github.io)) – Personal portfolio site
+* [Kardesler Organization](http://kardesler.github.io/blog/) ([source](https://github.com/kardesler/blog)) – Software engineering organization blog, about programming, Turkish articles
+* [Matty Collins](http://mattycollins.com.au) ([source](https://github.com/Piderman/mattycollins.com.au)) – Personal blog about front end development
+* [Seita](http://seita.me) ([source](https://github.com/seitazen/seitazen.github.io)) – A blog for sharing things that I have a chemistry in. Also as notes for programming studies.
+* [Shuyang Lin](http://linshuyang.com/) ([source](https://github.com/Shuyang/Shuyang.github.io)) – Personal website and blog.
+* [Quantum Lunch Melbourne](http://silky.github.io/quantum-lunch/) ([source](https://github.com/silky/quantum-lunch/tree/gh-pages)) – Quantum lunch website.
+* [The Development](http://thedevelopment.co) ([source](http://github.com/jeffxmn/thedevelopment)) – A website that showcases other people’s websites in interview form.
+* [Martin Thoma](martinthoma.github.io) ([source](https://github.com/MartinThoma/MartinThoma.github.io)) – Personal Blog (Code, the Web and Cyberculture)
+* [Cloud Commander](http://cloudcmd.io) ([source](http://github.com/coderaiser/cloudcmd-io) )- cloud file manager with console and editor.
+* [Cloud Commander blog](http://blog.cloudcmd.io/) ([source](http://github.com/cloudcmd/cloudcmd.github.io)) – blog about cloud file manager with console and editor.
+* [iOS Cowboy](http://ioscowboy.com/) ([source](https://github.com/iOSCowboy/iOSCowboy.github.io)) – personal blog on iOS programming by Hector Zarate
+* [Will Kearney](http://people.bu.edu/wkearn/) ([source](https://github.com/wkearn/public)) – Personal website
+* [Doug Johnston](http://www.dojosto.com) ([source](https://github.com/dougjohnston/dougjohnston.github.io)) – Personal blog
+* [Sven Andersson](http://svenandersson.se/) ([source](https://github.com/andsve/andsve.github.io)) – Personal site, CV and blog on computer graphics.
+* [Ricardo Ramirez’s Blog](http://ricardoerl.com) ([source](https://github.com/ricardoerl/ricardoerl.github.io)) – Blog about web design and development, performance, scalability, usability and semantics in CSS.
+* [Box Fort](http://www.box-fort.com/) ([source](https://github.com/box-fort/box-fort.github.io)) – Corporate website of Maletas Técnicas Boxfort, S.L.
+* [Perpetual beta](http://johannes.nagl.name) ([source](https://github.com/johannesnagl/johannesnagl.github.io)) – Personal Blog
+* [My Notes](http://ogaclejapan.com/) ([source](https://github.com/ogaclejapan/my-notes)) Personal blog. (Japanese)
+* [Hawksworx](http://hawksworx.com) ([source](https://github.com/philhawksworth/hawksworx.com)) – Phil Hawksworth’s Blog
+* [PawsBuddy](http://pawsbuddy.co.uk) ([source](https://github.com/philhawksworth/pawsbuddy.co.uk)) – Pet sitting services in St Albans, UK
+* [Mohammad Naghavi](http://naghavi.me) ([source](https://github.com/mohamnag/mohamnag.github.io)) – Personal blog and portfolio
+* [Jerome Martinez](http://jromeem.github.io/) ([source](https://github.com/jromeem/jromeem.github.com)) – Personal blog + other works
+* [libfeihu](http://feihu.me) ([source](https://github.com/biluncloud/biluncloud.github.io)) – Personal technique website (Chinese, 中文).
+* [Arek Stryjski](http://stryjski.net/) ([source](https://github.com/arekstryjski/arekstryjski.github.io)) – Personal website about sailing (Polish).
+* [OMEGA Theme by hmfaysal](http://hmfaysal.github.io/hmfaysal-omega-theme/) ([source](https://github.com/hmfaysal/hmfaysal-omega-theme)) – HMFAYSAL OMEGA is a minimalist, beautiful, responsive theme for Jekyll by Engineer Hossain Mohd Faysal designed for writers who want their content to take front and center.
+* [RubensDEV Things I learned](http://rubensdev.com) ([source](https://github.com/rubensdev/rubensdev.github.io)) – A blog about a developer and his stories about programming and conclusions about life.
+* [Julissa Roa](http://julsr.github.io) ([source](https://github.com/JulsR/julsr.github.io)) - Web Developer & Fashion Stylist - Creative Tech Blog
+* [Corey Watts](http://corwatts.com) ([source](https://github.com/CorWatts/website)) – Personal website/blog/resume
+* [Nii Adjetey Sowah](http://nadjetey.github.io/) ([source](https://github.com/nadjetey/nadjetey.github.io)) – Personal Blog (Shotgun theme)
+* [Tony Pitale](http://tpitale.com) ([source](https://github.com/tpitale/tpitale.github.com/))
+* [Maps for Antenna Mate](http://maps.antennamate.com) ([source](https://github.com/tatey/maps.antennamate.com/)) – Jekyll + AngularJS
+* [azalea says]( http://azaleasays.com) ([source](https://github.com/azalea/azalea.github.io)) – Personal blog about bioinformatics (A mixture of Chinese and English)
+* [bret.io](http://bret.io) ([source](https://github.com/bcomnes/bcomnes.github.io)) – A jekyll blog done up in safe mode. Features Pagination, DRY post/page templates, Tags, Post index, sitemap.xml, pubsubhubub (PuSH) atom feeds.
+* [ericfontaine.io](http://ericfontaine.io)([source](https://github.com/ericfont/ericfont.github.io)) – A jekyll blog for his open source projects
+* [jannikweyrich.com](http://jannikweyrich.com/) ([source](https://github.com/j7nn7k/j7nn7k.github.io)) – My personal website
+* [amymac.com](http://amy-mac.com) ([source](https://github.com/amy-mac/my-site)) – My personal website and blog. Uses Foundation, and has a Category index.
+* [Matt Biggin](http://mattbiggin.co.uk) ([source](https://github.com/ultraflynn/mattbiggin)) – My personal website which focuses on my professional work. Uses Bootstrap extensively.
+* [ultraflynn.com](http://ultraflynn.com) ([source](https://github.com/ultraflynn/ultraflynn.github.com)) – My personal blog which focuses on PC modding, gaming and running. Uses Bootstrap extensively and includes a tag cloud and categories.
+* [huntout.me](http://huntout.me) ([source](https://github.com/huntout/huntout.github.io)) (zh_CN, 中文)
+* [Derek Myers](http://derekmyers.com) ([source](http://github.com/dmyers/dmyers.github.io)) – Personal blog
+* [Chris Finazzo](http://www.chrisfinazzo.com) ([source](https://github.com/chrisfinazzo/chrisfinazzo.com))
+* [Fabrício Ronchi](http://fabricioronchi.com) ([source](https://github.com/FabricioRonchi/Blog)) – AngularJS, Jekyll and Arduino.
+* [Srikar Gudipati](http://srikarg.github.io/) ([source](https://github.com/srikarg/srikarg.github.io)) – Personal blog about web and software development.
+* [Rohit K Viswanath](http://kvrohit.github.io/) ([source](https://github.com/kvrohit/kvrohit.github.io.git)) – Handcrafted personal website/blog; powered by Jekyll and ZURB Foundation 5 framework.
+* [Stephen Lange](http://stephenlange.org) ([source](https://github.com/stvlange/stvlange.github.com)) – Personal blog using variation of klepas.org design.
+* [Humble Pied](http://humblepied.com) ([source](https://github.com/migreyes/humblepied)) – A responsive site hosting an archive of short video interviews with inspring people from the creative industry. The site makes heavy use of YAML front-matter.
+* [Mikowl](http://mikowl.com) ([source](https://github.com/mikowl/jekyll-mikowl)) – My personal blogsite on front end design and development.
+* [Mig Reyes](http://mig.io) ([source](https://github.com/migreyes/migreyes)) – The personal site and portfolio of Mig Reyes, Designer at Basecamp.
+* [Cino’s blog](http://codewu.com) ([source](https://github.com/cinowu/cinowu.github.io)) – (Chinese blog, @Beijing, 中文博客).
+* [Webdesigner DGBRT](http://www.dgbrt.fr) ([source](https://github.com/dagobertrenouf/dgbrt.fr)) – The personal site and portfolio of Dagobert Renouf, freelance webdesigner from France.
+* [Public House](http://thepublichouse.net) ([source](https://github.com/thepru/publichouse)) – A Comic Strip by Rodney Pruitt (@thepru)
+* [Robins Patel](http://robinspatel.com) ([source](https://github.com/arnp/personal-site)) – The personal site of Robins Patel
+* [Stefan Glase](http://www.stefanglase.de) ([source](https://github.com/codescape/codescape.github.com)) – The personal blog of Stefan Glase
+* [RedTeamDesign](http://www.red-team-design.com) ([source](https://github.com/catalinred/catalinred.github.com)) – Front-end development stuff and more
+* [Tuan Anh Tran](http://tuananh.org) ([source](https://github.com/poole/lanyon)) – The personal blog of Tuan Anh Tran – using Lanyon theme by Mark Otto.
+* [Thiago Perrotta](http://thiagowfx.github.io/) ([source](https://github.com/thiagowfx/thiagowfx.github.io)) – Personal Website.
+* [Blog de Miguel Casal](http://miguelcasal.es) ([source](https://github.com/miquecg/miquecg.github.io)) – Simple blog focused on content and designed to be pleasant to read on any device.
+* [DEADTYPE](http://deadtype.ca) ([source](https://github.com/deadtype/deadtype.github.io)) – Visual and interactive design studio. Template makes extensive use of categories to create focused news, project, archive and site ‘cover’ pages.
+* [Hugo Davoust](http://hugo.io) ([source](https://github.com/superhugo/superhugo.github.io))
+* [Tejbir Wason](http://tejbirwason.com) ([source](https://github.com/tejbirwason/tejbirwason.github.io)) – Personal website
+* [Bitcoin](https://bitcoin.org) ([source](https://github.com/bitcoin/bitcoin.org)) – The original Bitcoin website
+* [Awesome Inc](http://www.awesomeinc.org) ([source](https://github.com/ainc/awesomeinc2013)) – startup incubator and coding school in Lexington, Kentucky, USA
+* [Derek Graham](http://deejaygraham.github.io/) ([source](https://github.com/deejaygraham/deejaygraham.github.io)) – Personal website
+* [flannelJesus](http://flanneljesus.github.io/) ([source](https://github.com/flannelJesus/flannelJesus.github.io)) – Jekyll experiment / Personal Blog
+* [{Young}ist youth media organization](http://www.youngist.org/) ([source](https://github.com/youngist/clean-blog/tree/gh-pages)) – multi-collaborator blog for news organization
+* [James Oliver](http://jamesjo.co.uk) ([source](http://github.com/james12802/james12802.github.io)) – personal blog
+* [Savjee.be](http://www.savjee.be) ([source](https://github.com/Savjee/savjee.be)) – Personal blog (Howto’s & guides)
+* [taigeair](http://taigeair.com/) ([source](https://github.com/taigeair/taigeair.github.io)) – Personal blog: Thoughts about tech, startups, travel, and live.
+* [ForADesigner](http://foradesigner.com/) ([source](https://github.com/tjacobdesign/tjacobdesign.github.io)) – Blog about making code more designer friendly
+* [minddust.com](http://www.minddust.com/) ([source](https://github.com/minddust/minddust.github.io)) – Stephan Groß’s personal blog and portfolio website.
+* [yegor256.com](http://www.yegor256.com) ([source](https://github.com/yegor256/blog)) – Yegor Bugayenko’s personal blog about software ‘quality and quantity’
+* [xdsd.org](http://www.xdsd.org) ([source](https://github.com/teamed/xdsd)) – eXtremely Distributed Software Development, articles
+* [sylvaindurand.org](https://sylvaindurand.org/) ([source](https://github.com/sylvaindurand/jekyll-multilingual)) – Personal website, fully multilingual, with a minimalist design and code. Some articles about Jekyll.
+* [Jeremias Menichelli](http://jeremenichelli.github.io) ([source](https://github.com/jeremenichelli/jeremenichelli.github.io)) – Personal website and blog about front end development.
+* [Ghink](http://ghink.cc/) ([source](https://github.com/celso/ghink)) – Ghink is a Github Pages, plus Jekyll, plus [InK](http://ink.sapo.pt/) boilerplate. An easy way to start a beautiful, responsive, self-hosted, blog or website.
+* [Avi Aryan](http://aviaryan.github.io) ([source](https://github.com/aviaryan/aviaryan.github.com)) – Personal Website, used for hosting author’s programming works plus his blog.
+* [Signalkuppe](http://www.signalkuppe.com) ([source](https://github.com/signalkuppe/blog)) – Personal Blog, hosted on S3 and Cloudfront.
+* [Masteruby](http://masteruby.github.io) ([source](https://github.com/masteruby/masteruby.github.io)) – Personal Blog with Tutorials and Learning Resources for Ruby
+* [Codice Insicuro](https://codiceinsicuro.it) ([source](https://github.com/thesp0nge/codiceinsicuro.github.io)) – A technical blog talking about application security, written in Italian.
+* [ShellDone](http://shelldone.com) ([source](https://github.com/shelldonegao/blog)) – Personal Blog(Chinese,中文)
+* [码志](http://mazhuang.org) ([source](https://github.com/mzlogin/mzlogin.github.io)) – Personal Website, about coding and life.(in Chinese)
+* [Klaus Ganser](http://kganser.com) ([source](https://github.com/kganser/kganser.github.com)) – Personal website
+* [Jeffrey’s Ruminations](http://www.jeffreyrandow.org) ([source](https://github.com/jeffreycentex/jeffreycentex.github.io)) – Personal Blog based on modified Bootstrap forked from Jordan Thornquist’s theme
+* [Yousef Raffa’s Personal Blog](http://yraffah.com) ([source](https://github.com/yraffah/yraffah.github.io)) – A personal blog on entrepreneurship, photography, web, and running in Saudi Arabia.
+* [Maxwell Bernstein’s personal website](http://bernsteinbear.com) ([source](https://github.com/tekknolagi/tekknolagi.github.com)) – A personal website and blog on programming, photography, and my personal projects.
+* [CodeInventory](http://codeinventory.com/) ([source](https://github.com/codeinventory/codeinventory.github.io)) – A technical blog about programming i did, stuck and resolved problems, by [Amey Jadiye](https://github.com/ameyjadiye)
+* [TB Hartman’s personal website](http://tbhartman.org/) ([source](https://github.com/tbhartman/tbhartman.org)) - A website which will one day serve as my professional landing page.
+* [TMCharly](http://tmcharly.github.io/) ([source](https://github.com/tmcharly/tmcharly.github.io)) – Personal’s blog of TMCharly with foundation.
+* [9in9 Blog](http://fauzieuy.github.io/) ([source](https://github.com/fauzieuy/fauzieuy.github.com)) – Personal Blog
+* [Jon Todd’s Tech Blog](http://dev.jontodd.com) ([source](https://github.com/jontodd/jontodd.github.io)) – A technical blog with code and architecture topics
+* [Harttleland](http://harttle.com)([source](https://github.com/harttle/harttle.github.io)) – Personal technical blog dedicated to front-end development, China.
+* [$ touch 'Maciej A. Czyzewski'](http://maciejczyzewski.github.io/) ([source](https://github.com/MaciejCzyzewski/MaciejCzyzewski.github.io)) – Developer, hacker, and design enthusiast.
+* [Frank Lucht](http://digigoodz.github.io) ([source](https://github.com/Digigoodz/digigoodz.github.io)) – (German) Personal Blog about PHP, Unit Testing and Software Engineering
+* [A.R. Shajii](http://ars.me) ([source](https://github.com/arshajii/arshajii.github.io)) – Personal website
+* [Charlie Griefer’s Tech Blog](http://charliegriefer.github.io) ([source](https://github.com/charliegriefer/charliegriefer.github.io)) – Personal site, tech blog. Using [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes)
+* [xeoLabs](http://xeolabs.com) ([source](https://github.com/xeolabs/xeolabs.github.com)) – Personal site, 3D graphics (SceneJS/WebGL) tech blog. Using [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes)
+* [David Stephens](http://www.davidstephens.uk) ([source](https://github.com/davestephens/davestephens.github.io)) – Personal blog of David Stephens, a technologist from London.
+* [Radhika Morabia](http://rmorabia.com) ([source](https://github.com/rmorabia/rmorabia.github.io)) – Personal blog, makes extensive use of categories
+* [Eren Öğrül](http://eogrul.github.io) ([source](https://github.com/eogrul/eogrul.github.io)) – Personal site, mostly about economy, unix, linux and art.
+* [Curious](http://vipsyvipul.github.io/) ([source](https://github.com/vipsyvipul/vipsyvipul.github.io)) – Personal Blog. Articles ranging from life philosophy to electrical systems to algorithms.
+* [iCCM](http://iccm.cc/) ([source](https://github.com/ccmien/ccmien.github.io)) – Personal learning notes about statistical learning and relevant tools (Chinese, 中文).
+* [Domenico Luciani | DLion ~ Blog](http://dlion.it) ([source](https://github.com/dlion/dlion.github.io)) – Personal blog about programming, security, raspberry and computer science. (ITA – ENG)
+* [WEBSECTOR.DE](http://websector.de/) ([source](https://github.com/sectore/websector.de)) – Portfolio and Blog of Jens Krause.
+* [Listenin.gs](http://listenin.gs) ([source](http://github.com/bswinnerton/listenin.gs)) – Ruby / Rails blog
+* [Ray Writes Code](http://www.raywritescode.com) ([source](https://github.com/raywritescode/raywritescode.github.io)) – Personal blog about Software Development, Software Testing, and Computer-related Technology.
+* [NonCasualDev](http://noncasualdev.com) ([source](https://github.com/Vavix/vavix.github.io)) – Personal technology-focused blog
+* [Samuel Johnson IO](http://samueljohnson.io) ([source](https://github.com/samueljohnson/samueljohnson.github.com)) – A personal web site with blog
+* [Abdel Raoof Olakara](http://abdelraoof.com) ([source](https://github.com/olakara/olakara.github.io)) – My Personal Site and Blog using [Jekyll Metro Theme](https://github.com/olakara/JekyllMetro)
+* [phocks](http://phocks.github.io) ([source](https://github.com/phocks/phocks.github.io)) – Minimalist designed personal musings.
+* [Jekyll Now](http://www.jekyllnow.com) ([source](https://github.com/barryclark/jekyll-now)) – A theme and workflow for building your Jekyll blog in minutes, without touching the command line.
+* [Barry Clark](http://www.barryclark.co) ([source](https://github.com/barryclark/barryclark.co-jekyll-theme)) – My personal site, featuring articles about how to get hired as a web developer.
+* [Coding Tidbits](http://blog.cuberoot.in) ([source](https://github.com/cuberoot-sw/cuberoot-sw.github.com)) – Cube Root Software Blog – Ruby, Rails and ReactJS
+* [TechnoParkCorp.com](http://www.technoparkcorp.com) ([source](https://github.com/teamed/technoparkcorp.com)) – Corporate website of a custom software development company
+* [Teamed.io](http://www.teamed.io) ([source](https://github.com/teamed/teamed.io)) – Software development in distributed teams, corporate website
+* [The Best of Youth](http://thebestofyouth.com/) ([source](https://github.com/baishui2004/baishui2004.github.io)) – Simple layout and Source (Chinese,中文).
+* [Ivan Tse’s Blog](http://ivantsepp.github.io) ([source](https://github.com/ivantsepp/ivantsepp.github.io)) – Personal blog about my journey with Ruby and JavaScript.
+* [Andy Lau’s Blog / 刘松的博客](http://liusongx.com) ([source](https://github.com/andylauCN/andylauCN.github.io))- Personal blog on fiction and computer science(both simplified Chinese and English)
+* [Debashis Barman](http://www.debashisbarman.in) ([source](https://github.com/debashisbarman/debashisbarman.github.io)) – Personal website and blog with a clean and minimal content focused layout, built on [Jekyll](http://jekyllrb.com) and hosted on [GitHub Pages](http://pages.github.com).
+* [bitwiser.in](http://bitwiser.in) ([source](https://github.com/brijeshb42/brijeshb42.github.io)) – Powered by Jekyll using a custom self made theme([Bitwiser](https://github.com/brijeshb42/bitwiser)). Built on [Jekyll](http://jekyllrb.com) and hosted on [GitHub Pages](http://pages.github.com).
+* [scotte.github.io](https://scotte.github.io) ([source](https://github.com/scotte/scotte.github.io)) – My personal site and blog, built with my [Jekyll Clean theme](https://github.com/scotte/jekyll-clean) and hosted on GitHub Pages.
+* [zenorocha.com](http://zenorocha.com) ([source](https://github.com/zenorocha/zenorocha.com)) – Brazilian Front-End Engineer personal site
+* [code.Antrikshy](http://blog.antrikshy.com) ([source](https://github.com/Antrikshy/antrikshy.github.io)) – Blog documenting Antriksh Yadav’s programming adventures
+* [Benoit Frigon](http://www.bfrigon.com) ([source](https://github.com/bfrigon/bfrigon.github.io)) – Electronic, VOIP telephony with Asterisk and programming.
+* [»Feeling Responsive« Theme for Jekyll](http://phlow.github.io/feeling-responsive/) ([source](https://github.com/Phlow/feeling-responsive)) – A responsive theme based on [Foundation](http://foundation.zurb.com/)
+* [Brick](http://brick.im) ([source](https://github.com/alfredxing/brick)) - A free & open source webfont service focusing on render quality.
+* [Willog Timeline](http://now.willin.wang/) ([source](http://github.com/willin/now)) – Using AJAX and Geolocation. Mobile Valid (Chinese, 中文).
+* [there4.co](http://there4.co) ([source](https://github.com/jamming/jamming.github.io)) - Juanjo Aguililla's personal Blog and open source projects (English).
+* [elementary OS tips & tricks](https://timbog80.github.io/) ([source](https://github.com/timbog80/timbog80.github.io)) - Personal Blog about elementary OS tips & tricks (English).
+* [scottmeisburger.com](http://scottmeisburger.com/) ([source](https://github.com/protonpopsicle/protonpopsicle.github.io)) - Personal website and blog of Scott Meisburger.
+* [sevko.io](http://sevko.io/) ([source](https://github.com/sevko/sevko.github.io)) - Severyn Kozak's personal site and blog.
+* [sampedley.com](http://sampedley.com/) ([source](https://github.com/SamPedley/samJekyll)) - Personal Site and random front-end blog posts.
+* [Icecast.org](http://icecast.org) ([source](http://git.xiph.org/?p=icecast-website.git)) - Official Icecast Streaming Media Server Project Website
+* [ChemBio Hub](https://chembiohub.ox.ac.uk) ([source](https://github.com/thesgc/chembiohub-site)) - ChemBio Hub at University of Oxford
+* [Jeric Bryle Dy](http://www.jericdy.com/) ([source](https://github.com/jericbryledy/jericbryledy.github.io)) - My personal site.
+* [leoditommaso.io](http://leoditommaso.io) ([source](https://github.com/leoditommaso/leoditommaso.io)) - Leandro Di Tommaso's personal website about technology, servers, networking, development and other stuff.
+* [blog.kissdata.com](http://blog.kissdata.com/) ([source](https://github.com/vincentzhwg/vincentzhwg.github.io)) - kissdata, based on bootstrap.
+* [luolinjia](http://luolinjia.com) ([source](https://github.com/luolinjia/luolinjia.github.com)) - Karl luo's personal site.
+* [Alper Unal](http://www.alperunal.com) ([source](https://github.com/jspduke/scribble)) - Alper Unal's personal site.
+* [BankSimple](http://www.simple.com) ([source](https://www.simple.com/blog/behind-the-scenes-of-our-site-refresh)) - late 2010 revision of Simple's website.
+* [haisum.github.io](http://haisum.github.io) ([source](https://github.com/haisum/haisum.github.io)) - Haisum Bhatti's personal blog.
+* [Gayan Virajith](http://gayan.me) ([source](https://github.com/gayanvirajith)) - Gayan Virajith's personal site and the blog.
+* [Behrooz Hasanbeygi](http://behroozam.com) ([source](https://github.com/behroozam/behroozam.com)) my persian/farsi blog - در مورد تکنولوژی جامعه و فناوری اطلاعات سلامت
+* [Comtu](http://comtu.github.io) ([source](https://github.com/comtu)) - comtu personal website and blog.个人博客.(Chinese, 中文)
+* [Why & How](http://wanglongqi.github.io) ([source](https://github.com/wanglongqi/wanglongqi.github.io)) - Personal site based on [Hyde](http://hyde.getpoole.com/) template. (Primary language: Chinese, 中文)
+* [Alexandr Bizikov](http://bizikov.ru) ([source](https://github.com/bizikov/bizikov.ru))
+* [Eric Hansander](http://erichansander.com/) ([source](https://github.com/ehdr/jekyll-erichansander.com))
+* [Ciudadano Inteligente](http://ciudadanointeligente.org/) ([source](https://github.com/ciudadanointeligente/ciudadanoi))
+* [Project Zeppelin](http://gdg-x.github.io/zeppelin/) ([source](https://github.com/gdg-x/zeppelin)) - GDG DevFest 2014 site template
+* [Daniel Peukert](http://www.danielpeukert.cz/) ([source](https://github.com/dapil/dapil.github.io)) - Personal website & blog with a custom theme
+* [Tobias Abarbanell](http://abarbanell.github.io/) ([source](https://github.com/abarbanell/abarbanell.github.io)) - Blog about Software development with a custom [theme](https://github.com/abarbanell/theme-tobias) using SASS
+* [Măng cụt - Thiền và công việc lập trình](http://www.mangcut.vn/) ([source](https://github.com/thith/thith.github.io)) - Góc nhìn của Trương Hồng Thi về công nghệ và con người (Vietnamese, some posts in English)
+* [Pratibha Dutta](http://pratibhadutta.us/) ([source](http://github.com/ishankapoor/pratibhadutta))
+* [Monika Ratan](http://monikaratan.in/) ([source](https://github.com/monikaratan/monikaratan.github.io)) -  Portfolio page of Monika Ratan - Graphic Designer, Game Developer, Blogger.
+* [Webstoemp](http://www.webstoemp.com) ([source](https://github.com/jeromecoupe/jeromecoupe.github.io)) -  Blog and portfolio of Jérôme Coupé - Web designer, front-end developer and teacher.
+* [Od Samego Rana](http://odsamegorana.3manaties.com "Antonio Valdez Arce") ([source](https://github.com/antonio-valdez-arce/odsamegorana)) -  Personal blog - Antonio Valdez Arce - Web developer.
+* [Bro Kaizen](http://bro-kaizen.github.io) ([source](https://github.com/bro-kaizen/bro-kaizen.github.io/tree/source)) - A blog about the growth mindset for young men. Now running on Octopress.
+* [Sara Iris Garcia] (http://montjoile.github.io/) ([source](https://github.com/montjoile/montjoile.github.io)) - Personal blog and portfolio
+* [org-trello] (http://org-trello.github.io/) ([source](https://github.com/org-trello/org-trello.github.io)) - org-trello's documentation
+* [ibrother](http://blog.ibrother.me) ([source](https://github.com/ibrother/jekyll-omega-theme)) – Personal blog,个人博客 (Chinese, 中文)
+* [Stefan Imhoff](http://stefanimhoff.de/) ([source](https://github.com/kogakure/stefanimhoff.de-jekyll)) – Personal website and blog (running Jekyll + Gulp.js)
+* [Premkumar Masilamani](http://blog.smileprem.com/) ([source](https://github.com/prem82/prem82.github.io)) – Personal blog for Prem using Modified Poole Theme
+* [Andras Kindler](http://andraskindler.com) ([source](https://github.com/andraskindler/andraskindler.github.io)) - A development blog focusing on Android
+* [Douglas Eichelberger](http://dduugg.github.io/) ([source](https://github.com/dduugg/dduugg.github.io)) – A software engineer's blog
+* [JanWalter.org](https://www.janwalter.org/) ([source](https://github.com/wahn/jan_walter_org)) - Lots of rendering related blog posts
+* [Hack Your Design!](http://blog.toshimaru.net/) ([source](https://github.com/toshimaru/blog.toshimaru.net)) - Personal tech blog. (Japanese)
+* [Provence Linux User Group](http://plugfr.org/) ([source](https://github.com/plug/plugfr.org)) - French Linux User Group, around Marseilles
+* [Arturo Herrero] (http://arturoherrero.com/) ([source](https://github.com/arturoherrero/arturoherrero.com)) - Personal portfolio and blog.
+* [Codestar Framework] (http://codestarframework.com/) ([source](https://github.com/Codestar/codestar-framework/tree/gh-pages)) - A Lightweight WordPress Theme Options Framework
+* [require 'mind'](http://requiremind.com) ([source](https://github.com/requiremind/requiremind.github.io)) - A blog about tips’n’tricks you can learn to live better and love your dev life!
+* [Simarpreet Singh] (http://simar7.github.io) ([source](https://github.com/simar7/simar7.github.io)) - Personal blog of a university engineering major.
+* [Dalia Frazier] (http://liafrazier.github.io) ([source](http://liafrazier.github.io)) - MIU Web Design Student
+* [Graphic Designer Ricky Delgado] (http://rickydelgado.github.io/blog/) ([source](http://rickydelgado.github.io/blog/)) - Miami International University of Art & Design Web Design Student
+* [MIU Graphic Design Student Valeria Becerra](http://valesbc.github.io/) ([source](https://github.com/valesbc/)) -Miami International University of Art & Design Student
+* [Stephan Gittens](http://stephan0992.github.io) ([source](https://github.com/stephan0992/stephan0992.github.io)) Graphic Designer
+* [Andrés Chacin](http://andresevix.github.io/) ([source](https://github.com/Andresevix)) - MIU Graphic Design Student
+* [Lana Pant](http://lanapant.github.io/)([source](https://github.com/lanapant/lanapant.github.io))- MIU
+* [Graphic Designer Juan Nunez Fernandez](http://peruvian0311.github.io)([source](http//peruvian0311.github.io))-Miami International University of Art & Web Design Student
+* [Kenny Gonzalez Web Designer]( http://kennygonzalez10.github.io/) ([source]( https://github.com/kennygonzalez10/kennygonzalez10.github.io)) – MIU Web Designer
+* [Anthony Santacruz](http://tonywwjd1.github.io/) ([source](9http://tonywwjd1.github.io/)) - MIU Web Designer
+* [Jose Ferrer] (http://joseAi.github.io) ([source](https://joseAi.github.io)) - MIU Graphic Design Student
+* [Install Jekyll] (http://jekyllis.com/) ([source](https://github.com/vjinn/vjinn.github.io)) - Jekyll Tip!, 지킬 팁 (korean, 한글)
+* [Xceptance] (https://www.xceptance.com/) ([source](https://github.com/Xceptance/Xceptance-Website-OpenSource)) - Company website, two languages, .htaccess-based language detection and tuning
+* [Herodney Emile](http://hero02.github.io/) ([source](http://hero02.github.io/)) - MIU Web Designer
+* [Bernardo Pacheco](http://bernardopacheco.net) ([source](https://github.com/bernardopacheco/bernardopacheco.github.io)) - Personal blog of Bernardo Pacheco
+* [Mark Tareshawty](http://marktareshawty.com) ([source](https://github.com/tarebyte/tarebyte.github.io)) - Personal blog and social media links
+* [Almace Scaffolding](http://sparanoid.com/lab/amsf/) ([source](https://github.com/sparanoid/almace-scaffolding)) - A super-fast Jekyll framework. Supports live reloading (BrowserSync), LESS, HTML minification, inlined stylesheets and more.
+* [牧童恩戴米恩](http://ssdr.github.io) ([source](http://github.com/ssdr/ssdr.github.io))
+* [داده‌های گم‌شده](http://mahmoudmy.github.io) ([source](http://github.com/mahmoudmy/mahmoudmy.github.io)) - وبلاگ فارسی با موضوع آمار و آر و چیزهای دیگر
+* [datos.gob.mx](http://datos.gob.mx/) ([source](https://github.com/mxabierto/dgm)) - Mexico's Open Data Portal
+* [Milan Aryal](http://milanaryal.com/) ([source](//github.com/MilanAryal/milanaryal.github.io)) - Livin' on the edge of web standards.
+* [Julian Villella](http://jvillella.com) ([source](https://github.com/JVillella/jvillella.github.io)) - iOS and Android Software Developer Portfolio
+* [Raghu Nayyar](http://raghunayyar.com) ([source](https://github.com/beingminimal/beingminimal.github.io)) - User Interface designer and developer portfolio
+* [Kevin Law](http://kevinlaw.info) ([source](https://github.com/thatarchguy/KevinLawDotInfo)) - Personal site and blog about security research and open source.
+* [wahnsite.org](https://www.wahnsite.org/) ([source](https://github.com/wahn/wahnsite_org)) - Photos taken by Jan Douglas Bert Walter while traveling (or working abroad).
+* [Joway.W](http://joway.wang) ([source](https://github.com/Joway/joway.github.io)) - Chinese blog about computer and literature . 个人博客，中文.
+* [Subasish Das](http://subasish.github.io) ([source](https://github.com/subasish/subasish.github.io)) - Blog on traffic safety, and data science.
+* [oonlab](http://oonlab.com) ([source](https://github.com/ariestiyansyah/naringu)) - Lab of ariestiyansyah
+* [adamWadeHarris.com](http://www.adamwadeharris.com) ([source](https://github.com/aharris88/aharris88.github.io))- Developer blog
+* [Lifestone Church](http://www.lifestonechurch.net) ([source](https://github.com/Mountainview-WebDesign/lifestonechurch/tree/gh-pages))- Church website
+* [Panela de Pau](http://paneladepau.com.br) ([source](https://github.com/PaneladePau/paneladepau-jekyll-blog)) - Brazilian food blog
+* [Running Code](http://www.runningcode.net) ([source](https://github.com/mmertsock/mmertsock.github.io)) - Blog about programming and running
+* [Yous](https://yous.be) ([source](https://github.com/yous/yous.github.io)) - Blog for hackers by @yous
+* [Elizar Pepino](http://elizarpepino.com) ([source](https://github.com/elizarpepino/elizarpepino.github.io)) - Dev and Design Blog.
+* [Hybrid SyntaX](http://hybridsyntax.com) ([source](https://github.com/Hybrid-SyntaX/hybrid-syntax.github.io)) - Abbas Allahyari's blog on programming (English, فارسی)
+* [Fernando Miguel Hahne](http://fernandomhahne.github.io/) ([source](https://github.com/fernandomhahne/fernandomhahne.github.io)) - My personal blog
+* [Argo Liivanurm](http://arghh.github.io/) ([source](https://github.com/Arghh/arghh.github.io)) - Personal Blog
+* [18f.gsa.gov](https://18f.gsa.gov)  ([source](https://github.com/18F/18f.gsa.gov)) - US Government agency website
+* [Hexagenic.net](http://hexagenic.net) ([source](https://github.com/hexagenic/hexagenic.github.io)) - Personal blog
+* [aktech's Blog](http://iamit.in) ([source](https://github.com/aktech/aktech.github.io)) - Programmer | Open Source Developer | Learner
+* [Carlos Malavé Blog](http://hellfish2.github.io) ([source](https://github.com/hellfish2/hellfish2.github.io)) - Web + UX/UI + Frontend + Android Developer
+* [Greg Blake](http://www.gregblake.net/) ([source](https://github.com/gregblake/gregblake.github.io)) – My personal website about ruby on rails and other web development topics.
+* [Areidz.me](http://areidz.github.io) ([source](https://github.com/Areidz/areidz.github.io)) – My tech and hacking blog using [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/) template.
+* [littlecheesecake.me](http://littlecheesecake.me)([source](https://github.com/yulu/yulu.github.io)) - My personal blog - Android, Image and More
+* [Yi-Xin Liu](http://ngpy.org)([source](https://github.com/liuyxpp/liuyxpp.github.io)) - My personal homepage, blog, and academic profile.
+* [Oslo Sessions](http://oslosessions.com/)([source](https://github.com/oslosessions/oslosessions.github.io)) - Professional live music recordings for Norway's finest bands and artists.
+* [Skyost's Blog](http://blog.skyost.eu)([source](https://github.com/Skyost/skyost.github.io)) - A developer's blog.
+* [Robert Keizer](http://robert.keizer.ca/) ([source](https://github.com/robertkeizer/robert.keizer.ca)) - Personal Site.
+* [Nooku](http://www.nooku.org) ([source](https://github.com/nooku/www.nooku.org)) - Open Source PHP Framework website + blog
+* [Open Police](http://www.openpolice.be) ([source](https://github.com/belgianpolice/www.openpolice.be)) - Website + blog about developing and iterating the Belgian Police Web Platform
+* [Bodhinyana Group](http://www.bodhinyanagroup.org.uk) ([source](https://github.com/bodhinyana-group/bodhinyana-group.github.io)) - A Buddhist meditation group meeting at Amaravati Buddhist Monastery near Hemel Hempstead, UK
+* [Varun Agrawal](http://www.varunagrawal.me/) ([source](https://github.com/varunagrawal/varunagrawal.github.io))
+* [Velocity Labs](http://velocitylabs.io/) ([source](https://github.com/velocity-labs/velocitylabs.io)) - Website and blog of a web development company specializing in Ruby on Rails and JavaScript applications.
+* [Adriano Rosa](http://adrianorosa.com) ([source](https://github.com/adrianorsouza/adrianorosa.com)) - Personal website & blog. Looks like a Wordpress but was built with jekyll.
+* [RTXI](http://rtxi.org) ([source](https://github.com/rtxi/rtxi.github.io)) - Website for RTXI, an open-source system for hard real-time, closed-loop control applications for electrophysiology.
+* [Społeczna Gra Zespołowa](http://spolecznagrazespolowa.pl) ([source](https://github.com/kooperatywa/spoleczna-gra-zespolowa)) - A website for a sociology/economy conference.
+* [history.newtheatre.org.uk](http://history.newtheatre.org.uk/) ([source](https://github.com/newtheatre/history-project/)) - Historical archive project for Nottingham's student theatre, heavy use of collections.
+* [projects.chrisvogt.me](http://projects.chrisvogt.me) ([source](https://github.com/chrisvogt/projects)) - Jekyll-powered projects directory generator with a built-in API that publishes a [JSON feed](https://projects.chrisvogt.me/api/1.0/all.json) of all projects.
+* [Friends Of Cake](http://friendsofcake.com/) ([source](https://github.com/FriendsOfCake/FriendsOfCake.github.io)) - A group of dedicated individuals working together to promote good standards in the CakePHP community and foster a team of friendly, supportive developers. Powered by Jekyll.
+* [B3Lab](http://b3lab.it/blog) ([source](https://github.com/Juleship/B3Lab-Blog)) - A blog about digital products and design. Powered by Jekyll.
+* [Abhishek Dey Das](http://abhis.ws/) ([source](https://github.com/adeydas/adeydas.github.io)) - Personal blog on technology and algorithm design. Powered by Jekyll.
+* [Edward Zhu](http://edwardzhu.me/) ([source](http://github.com/zhued/zhued.github.io)) - Edward Zhu's personal site and blog
+* [Nick Clarkson](http://clarkson.io)([source](https://github.com/netotaku/netotaku.github.io)) - UK Based Technical Director, CV and Blog
+* [MasterR.org](http://masterr.org)([source](https://github.com/gmlang/masterr)) - A community where you can receive high quality training materials on data science and the R programming language for FREE.
+* [f6k](http://f6k.github.io) ([source](https://github.com/f6k/f6k.github.io)) - Personal blog in french on topics related to my studies and own interests.
+* [Agis Anastasopoulos](http://agis.io) ([source](https://github.com/agis-/agis.io)) - Personal blog, mostly about computers.
+* [Bogdan Rădulescu](http://bogdan.nimblex.net/) ([source](https://github.com/bogdanr/bogdanr.github.io))
+* [Dong Liang](http://ddbullfrog.com/) and ([Source](https://github.com/ddbullfrog/iCard-Resume)) - Personal Resume
+* [HyG](http://gaohaoyang.github.io/) ([source](https://github.com/Gaohaoyang/gaohaoyang.github.io)) - Cool Concise High-end Blog. Designed by gaohaoyang.
+* [Nithin Bekal](http://nithinbekal.com) ([source](https://github.com/nithinbekal/nithinbekal.github.io/))
+* [webdevphoenix](http://webdevphoenix.com) ([source](https://github.com/bradwestfall/webdevphoenix)) -  A Jekyll-generated list of web developers and companies that hire the latter in Phoenix, Arizona.
+* [CHRISVOGT.me](http://www.chrisvogt.me) ([source](https://github.com/chrisvogt/chrisvogt.me)) - A web developer's blog built using Jekyll. Fork to use as a template for your own blog.
+* [kyber.kits.ee](http://kyber.kits.ee/en/) ([source](https://github.com/gynter/gynter.github.io))
+* [Joseph Rex](http://josephrex.me/) ([source](https://github.com/bl4ckdu5t/bl4ckdu5t.github.io)) - A blog with a custom minimalist design
+* [BSidesVienna](http://bsidesvienna.at/) ([source](https://github.com/BSidesVienna/bsidesvienna.github.io)) - Page about the BSidesVienna Security Conference
+* [FileHelpers Project](http://www.filehelpers.net/) ([source](https://github.com/MarcosMeli/FileHelpers/tree/gh-pages)) - FileHelpers Project Home Page
+* [Matt McCormick](http://mbmccormick.com) ([source](https://github.com/mbmccormick/mbmccormick.github.io))
+* [Blog · Diki Ananta](https://blog.dikiaap.id) ([source](https://github.com/dikiaap/dikiaap.github.io)) - A blog site powered and builded by Jekyll and Mangan Theme.
+* [Beegit's Blog](http://blog.beegit.com) ([source](https://github.com/beegit/beegit.github.io)) - A Jekyll powered blog about Markdown best practices, content strategy  and content marketing.
+* [Beegit's Help Documentation](http://help.beegit.com) ([source](https://github.com/beegit/help.beegit.com)) - A Jekyll powered help site for [Beegit's Markdown collaboration platform](https://beegit.com) where you can find tips and tutorials on using the platform.
+* [Ivangold.net](http://ivangold.net/) ([source](https://github.com/Aurif3x/aurif3x.github.io)) - A front-end developer's personal site.
+* [ulf.codes](http://ulf.codes) ([source](https://github.com/ulfschneider/ulfschneider.github.io)) Personal site for Ulf Schneider. Developer and Agile Coach.
+* [0a.io](http://0a.io) ([source](https://github.com/0a-/0a-.github.io)) Arch Here.
+* [ITIN.UA - Lawyer Social Platform](http://itin.com.ua/)([source](https://github.com/itinua/itinua.github.io)) Maybe the most interesting social platform for lawyers in Ukraine
+* [Paul Robert Lloyd](https://paulrobertlloyd.com) ([source](https://github.com/paulrobertlloyd/paulrobertlloyd.com)) - My personal website and portfolio.
+* [Péter Maróti](http://www.marotipeter.com/) ([source](https://github.com/JarJarMP/PersonalSite)) - Personal site and portfolio.
+* [Berkan Dirim](http://dirim.co) ([source](https://github.com/berkandirim/berkandirim.github.io)) - Personal site
+* [Mixed Media Studios](http://www.mixedmediastudios.org/) ([source](https://github.com/mixedmediastudios/mixedmediastudios.github.io)) - Official website for Mixed Media Studios
+* [Section.io](https://www.section.io/) ([source](https://github.com/section-io/docs)) - Section.io Site
+* [Heiswayi Nrird](http://heiswayi.github.io) ([source](https://github.com/heiswayi/heiswayi.github.io)) - Heiswayi Nrird Personal Blog
+* [idiaz.roncero](http://idiazroncero.com)([source](https://github.com/idiazroncero/idiazroncero.source)) - Personal blog on web development, politics and journalism
+* [Ayush Goel](http://ayushgoel.github.io)([Source](https://github.com/ayushgoel/ayushgoel.github.io)) - Personal blog on iOS development, ruby, python and almost everything I come across.
+* [WiseCash SaaS Knowledge Base](https://www.wisecashhq.com/help/what-is-wisecash) ([source](https://github.com/wisecash/wisecash-support), [article "Lessons Learned Building a Git-Based KB for my SaaS Product"](https://www.wisecashhq.com/blog/lessons-learned-creating-a-git-based-knowledge-base-for-my-saas-product)).
+* [Juan on Software](http://juanonsoftware.github.io) ([Source](https://github.com/juanonsoftware/juanonsoftware.github.io)) - Personal blog on software development processes / techniques / news
+* [netlicensing.io](http://netlicensing.io) ([source](https://github.com/Labs64/netlicensing.io)) - Labs64 NetLicensing - Innovative License Management Solution
+* [Shannon Babincsak](http://codeinpink.github.io/) ([source](https://github.com/codeinpink/codeinpink.github.io)) - Personal site, portfolio, and blog.
+* [Christopher Randall Wells](http://christopher-randall-wells.divshot.io/) ([source](https://github.com/ExcaliburZero/christopher-randall-wells.divshot.io)) – Personal website and blog on programming and technology.
+* [Historisches Fechten Leipzig](http://historisches-fechten-leipzig.github.io/) ([source](https://github.com/historisches-fechten-leipzig/historisches-fechten-leipzig.github.io)) - small website/blog of a local [HEMA](https://en.wikipedia.org/wiki/Historical_European_martial_arts) group (German)
+* [Qing's Blog](http://1990q828j.github.io)([source](https://github.com/1990q828j/1990q828j.github.io)) - Personal pithy theme blog.
+* [vim cheat sheet](http://vim.rtorr.com/) ([source](https://github.com/rtorr/vim-cheat-sheet))
+* [Peter Y. Chuang - Novelist](http://novelist.xyz) ([source](https://github.com/peterychuang/peterychuang.github.io)) - The website of Peter Y. Chuang, novelist.
+* [Allan Chang](http://clchangnet.github.io/) ([Source](https://github.com/clchangnet/clchangnet.github.io)) - Learning to be a web application developer blog notes
+* [Sloth's Lab](http://www.slothslab.com/) ([Source](https://github.com/asomarribasd/asomarribasd.github.io)) - Blog and notes about Software Architecture and Development, Programming and Integration
+* [Tyler Cubell](http://www.tylercubell.com/) ([Source](https://github.com/tylercubell/tylercubell.github.io)) - Personal blog about web development.
+* [RWD Kent State](http://www.rwdkent.com/) ([Source](https://github.com/KentStateWeb/rwd/tree/gh-pages)) - Class website for Responsive Web Design at Kent State
+* [Christopher Hallahan](http://www.chrishallahan.com/) ([Source](https://github.com/challahan/portfolio/tree/gh-pages)) - Personal portfolio and blog for a web and user experience designer  
+* [Mohanad Salah](http://mohdule.github.io/) ([Source](http://github.com/mohdule/mohdule.github.io)) - Web  Developer "Portfolio / _Blog_" <fully custom theme>.  
+* [Flying Birds Gallery](http://flyingbirdsgallery.github.io/) ([Source](https://github.com/flyingbirdsgallery/flyingbirdsgallery.github.io)) - The portfolio of original art work by the American artist Marcy Schwartz.
+* Jekyll and Material Design Lite ([Source](https://github.com/getmarkus/jekyll-material-design-lite)) - An experiment combining Jekyll and MDL. Implementations of the various layouts in MDL.
+* [Peter Zieske](http://peterzieske.com/) ([source](https://github.com/pdz8/pdz8.github.io)) - Personal blog on topics related to computer science and technology.
+* [Verne in Github](http://einverne.github.io) ([Source](https://github.com/einverne/einverne.github.io)) - Personal blog about development notes with search function and random quote. (中文)
+* [PHP Reboot magazine](http://phpreboot.github.io/) ([Source](https://github.com/phpreboot/phpreboot.github.io)) - PHP Reboot community magazine to collect good blogs/articles/tutorials in PHP community.
+* [Theo Winter](https://theowinter.ch) ([source](https://github.com/aerobless/theowinter.ch)) - Personal blog of a swiss computer science student who's also passionate about photography.
+* [Ng Wei Leen](http://weileen.me) ([source](https://github.com/plen/plen.github.io)) - Personal blog of a Malaysian entrepreneur living in Singapore.
+* [Frank's Blog](http://flinhong.github.io) ([source](https://github.com/flinhong/flinhong.github.io.git)) - Personal blog of a Chinese student studying in Hong Kong. I've updated the blog template, the older one can be found [here](http://linhong.gitcafe.io). (English | 中文)
+* [RoboComp's Official Site](http://robocomp.github.io/website/) ([source](https://github.com/robocomp/website/tree/gh-pages)) - Official Site
+* [Chris Said](http://chris-said.io) ([source](https://github.com/csaid/csaid.github.io)) - Personal blog about tech, stats, and science.
+* [Polyglot](http://untra.github.io/polyglot) ([source](https://github.com/untra/polyglot)) - Jekyll i18n and multi-language support plugin
+* [Seki's note](http://sekika.github.io/) ([source](https://github.com/sekika/sekika.github.io)) - In Japanese. Tags per page are shown with links to pages with the tag. No plugin is used because it is hosted on Github Pages.
+* [Pure's app](https://www.pureapp.in.th/) ([source](https://github.com/pureexe/www.pureapp.in.th)) - Personal blog about tech and science.
+* [Theoretical Astrophysics Group](http://www.rccp.tsukuba.ac.jp/Astro) ([source](https://github.com/TheoreticalAstrophysicsGroup/TheoreticalAstrophysicsGroup.github.io)) - Webpage of the Theoretical Astrophysics Group, University of Tsukuba, Japan. Bilingual.
+* [UX Academy](http://uxacademy.in.th/) ([source](https://github.com/uxacademy/uxacademy.github.io)) - Official Site for User Experience Workshop in Thailand
+* [Richard Kraaijenhagen](http://riichard.com/) ([source](https://github.com/riichard/riichard)) - Personal blog about ergonomics, front/backend development and statistics.
+* [rapkin](http://rapkin.com.ua/) ([source](https://github.com/rapkin/rapkin.github.io/)) - Little blog about my little projects.
+* [Joe Buhlig](http://joebuhlig.com) ([source](https://github.com/joebuhlig/joebuhlig_com)) - Personal blog and podcast about productivity and life.
+* [Hassan Zaaferani](http://zaaferani.ir) ([source](https://github.com/zaaferani67/zaaferani67.github.io)) - Persian website on software - وبسایت فارسی من
+* [Sub85](http://sub85.com) ([source](https://github.com/matthewfedak/sub85blog)) - software development blog and hire page for British Software Developer Matthew Fedak
+* [Nonprofit Website Template](https://smartergiving.github.io/free-nonprofit-starter-website/) ([source](https://github.com/smartergiving/free-nonprofit-starter-website)) - Github Pages template to help grassroots nonprofits get online quickly
+* [USC's Center for Applied Network Analysis (CANA)](http://cana.usc.edu) ([source](https://github.com/USCCANA/USCCANA.github.io))
+* [Justin Harringa](http://harringa.com) ([source](https://github.com/justinharringa/harringa.com)) - Justin Harringa's site which could involve software development, travel, or other topics.
+* [Magazine du Webdesign](http://www.magazineduwebdesign.com/) ([source](https://github.com/MagazineduWebdesign/MagazineduWebdesign.github.io)) – Just the best of the interfaces.
+* [enilu's blog](http://enilu.github.io/) ([source](https://github.com/enilu/enilu.github.io)) –(Chinese, 中文).
+* [scienceofsoul.net](http://scienceofsoul.net) ([source](https://github.com/scienceofsoul/scienceofsoul.github.io)) - A blog - testing hypotheses using/on body and mind.
+* [opengl-tutorial.org/](http://www.opengl-tutorial.org/) ([source](https://github.com/opengl-tutorials/ogl/tree/gh-pages)) - Website - Free tutorials for modern Opengl (3.3 and later) in C/C++.
+* [Alex Carpenter](http://alexcarpenter.me/) ([source](https://github.com/alexcarpenter/alexcarpenter.github.io))
+* [Leopolis Research & Design](http://leopolisrd.pl/) ([source](https://github.com/kooperatywa/leopolis))
+* [Fedora Developer Portal](https://developer.fedoraproject.org/) ([source](https://github.com/developer-portal/website))
+* [Matthew Graybosch (author's website/personal blog)](http://matthewgraybosch.com) ([source](https://github.com/demifiend/matthewgraybosch))
+* [30 Days of Web Dev: Liz Krane's April 2015 challenge](http://learningnerd.com/30DaysOfWebDev) ([source](https://github.com/LearningNerd/30DaysOfWebDev))
+* [Ruwhan's Blog](http://ruwhan.github.io) ([source](https://github.com/ruwhan/ruwhan.github.io)) Web development technical blog, and tutorials.
+* [Loi's Studio](http://loiwu.github.io) ([source](https://github.com/loiwu/loiwu.github.io)) A personal blog, including the articles about iOS programming
+* [J Mikka Luster](http://jml.is) ([source](https://github.com/jluster/jml.is)) Personal blog, used to chronicle long distance hikes.
+* [*Simplicity* – Free Jekyll Theme](http://phlow.github.io/simplicity/) ([source](https://github.com/Phlow/simplicity)) A Jekyll Theme for Minimalists focused on essentials avoiding unnecessary clutter.
+* [jordifierro's blog](http://jordifierro.com) ([source](https://github.com/jordifierro/jordifierro.github.io)) - Personal blog about algorithmics, software and projects development.
+* [Valerio Pierbattista's Portfolio Website](http://valeriopierbattista.com) ([source](https://github.com/vlrprbttst/valeriopierbattista.com-2016)) - Personal website portfolio and blog
+* [Samantha North's tech + journalism blog](http://sjnorth.github.io) ([source](https://github.com/sjnorth/sjnorth.github.io )) - Journalist moving into programming, via Jekyll  
+* [Fernando Moreira](http://nandomoreira.me/) ([source](https://github.com/nandomoreirame/nandomoreirame.github.io)) - Brazilian Front-end Developer, developing website using HTML5, CSS3 and JS.
+* [Chad Kruse](http://www.chadkruse.com) ([source](https://github.com/chadokruse/chadokruse.github.com)) – A data-driven, card-UI-based portfolio site using Isotope.js. Bonus resume template based on JSON Resume spec.
+* [Justin Cheung](http://muffinlightning.github.io) ([source](https://github.com/muffinlightning/muffinlightning.github.io)) – A personal blog written by a computer science student. Includes programming commentary, interesting side projects, and game modding.
+* [Way Lau's Personal Site](http://www.waylau.com/) ([source](https://github.com/waylau/jekyll-bootstrap-blog)) - A theme for Jekyll to build a personal blog, based on Bootstrap 3, Font Awesome and jQuery.中文博客模版
+* [The Hornery](https://fusion809.github.io) ([source](https://github.com/fusion809/fusion809.github.io)) &mdash; a personal site for Brenton Horne (fusion809) covering mostly Linux-related topics. 
+* [intercooler.js](http://intercoolerjs.org/) ([source](https://github.com/LeadDyno/intercooler-js/tree/master/www)) - A declarative AJAX framework
+* [manikrathee.com](http://manikrathee.com/) ([source](https://github.com/manikrathee/manikrathee.com/)) - Personal portfolio, resources and blog.
+* [einundleipzig.de](http://einundleipzig.de/) ([source](https://github.com/einundleipzig/einundleipzig)) - A blog about the urban development of Leipzig
+* [30dienu.lt](http://30dienu.lt/) ([source](https://github.com/dainiuxt/30dienu)) - Personal blog about personal challenges and personality growth. In Lithuanian.
+* [ritmas.eu](http://ritmas.eu/) ([source](https://github.com/dainiuxt/ritmas)) - Website of running community. In Lithuanian.
+* [Erwartungskonforme Webseiten](http://www.informatik.uni-oldenburg.de/~iug15/ew/) ([source](https://gitlab.uni-oldenburg.de/erwartungskonforme-webseiten/website)) - German project website about the accessibility of websites
+* [pasoev.github.io](http://pasoev.github.io/) ([source](https://github.com/pasoev/pasoev.github.io)) - A blog on functional programming
+* [SCALABLE](http://jorgeatgu.com/blog/) ([source](https://github.com/jorgeatgu/Boira)) - A blog about SVG · CSS3 · HTML(SPANISH)
+* [Personal Development](http://jonathanpike.net) ([source](https://github.com/jonathanpike/jonathanpike.github.io)) - Personal blog about becoming a better developer.
+* [Oliver Pattison](https://olivermak.es) ([source](https://github.com/opattison/olivermakes)) – Archive of writing, photography and projects.
+* [Orange](https://talentedunicorn.github.io/orange) - A free jekyll theme for personal portfolio and blog 
+* [error code 0x12F](http://blog.kianooshnaghavi.com) ([source](https://github.com/theskn/theskn.github.io)) - Personal notes on game dev and music by Kianoosh Naghavi, in persian
+* [Sagar Gandhi](http://www.sagargandhi.com/) ([source](https://github.com/Gandhi-Sagar/Gandhi-Sagar.github.io)) - A personal website about Graphics, Vision and Machine Learning; inspired by [Tyler Cubell's](http://www.tylercubell.com/) ([Source](https://github.com/tylercubell/tylercubell.github.io)) work, though I changed many bits.
+* [Paspagon](http://paspagon.com) ([source](https://github.com/Paspagon/paspagon.github.io)) – a payment processor.
+* [Maxime Kjaer](https://kjaermaxi.me/) ([source](https://github.com/MaximeKjaer/kjaermaxi.me)) &mdash; Personal site and blog
+* [Trantor Liu](http://trantor.tw) ([source](https://github.com/trantorLiu/trantorliu.github.io)) - Personal site, blog, collection of poems. In Chinese and English. 個人網站、部落格、詩集
+* [Greg Virtucio](http://gvirtuc.io/) ([source](https://github.com/kronik3r/daktilo)) &mdash; Personal site and blog, based on Kronik3r's Daktilo theme.
+* [Mingdong's Blog](https://mdluo.github.io/) ([source](https://github.com/mdluo/mdluo.github.io)) – This is a personal blog of Mingdong on Github Pages. (Chinese, 中文).
+* [Mark Berger](http://maberger.com/) ([source](https://github.com/mark-berger/mark-berger.github.io)) &mdash; Personal site, blog, and resume
+* [Jacob Berchem](http://jacobberchem.com/) ([source](https://github.com/jakeberkuwmad/jakeberkuwmad.github.io)) &mdash; Personal design portfolio
+* [Koba Khitalishvili](http://www.kobakhit.com/) ([source](https://github.com/KobaKhit/kobakhit.github.io)) - A blog where I write about data science, math, stats, web design and grad school.
+* [Daniel Limberger](http://daniellimberger.de/en/) ([source](https://github.com/cgcostume/cgcostume.github.io)) - Portfolio optimized for researchers and those who strive for a minimal, file-based content management.
+* [Robin Stickel](http://robinstickel.com/) ([source](https://github.com/robinstickel/robinstickel.com)) - Personal Website, Blog and Portfolio
+* [Another Peak](http://anotherpeak.org/) ([source](https://github.com/abrahamdu/abrahamdu.github.io)) - Yi Du's Personal Site - Blog and Project
+* [Diney Wankhede](http://www.dineywankhede.com/) ([source](https://github.com/dineyw23/dineyw23.github.io)) - Diney's Personal Website 
+* [Daniel Knöll](http://danielknoell.de/)([source](https://github.com/Danny4927/danny4927.github.io)) - Personal Website and little Tech Blog
+* [Tyler McCraw](http://w3bshark.com/) ([source](http://github.com/TylerMcCraw/tylermccraw.github.io)) - Personal Blog on Android Development
+* [Mangan](https://mangan.dikiaap.id) ([source](https://github.com/dikiaap/mangan)) - Mangan is simple theme for Geeks.
+* [Ali Haddadkar](http://haddadkar.me) ([source](https://github.com/alihaddadkar/haddadkar.me)) - Personal Website and Blog.
+* [Bitcoin Manchester](http://www.bitcoinmanchester.org.uk/) ([source](https://github.com/bitcoinmanchester/bitcoinmanchester.github.io)) - Bitcoin / cryptocurrency meetup in Manchester, UK
+* [Jason Hee](http://jasonhee.com) ([source](https://github.com/jasonheecs/jasonheecs.github.io)) - Personal website and portfolio
+* [liungkejin](https://liungkejin.github.io)([source](https://github.com/liungkejin/liungkejin.github.io)) - 一个非常简单的个人博客
+* [Rabid Canary](http://mttmccb.github.io)([source](http://github.com/mttmccb/mttmccb.github.io)) - Full-Stack Web Development Blog
+* [Lookuga](https://lookuga.com) ([source](https://github.com/lookuga/lookuga.github.io)) - Security & Development Blog
+* [Trendara.com](http://trendara.com/) ([source](https://github.com/rowe-morehouse/trendara-public)) — Marketing automation agency website.
+* [jacobroy.quebec](https://jacobroy.quebec) ([source](https://github.com/lejacobroy/lejacobroy.github.io)) - Photography portfolio and transactional store for prints.
+* [William He](http://williammer.github.io) ([source](https://github.com/Williammer/Williammer.github.io)) - TV/Web app developer William He's concise Personal Website.
+* [CircleCI Docs](https://circleci.com/docs/) ([source](https://github.com/circleci/circleci-docs)) - Documentation for CircleCI, continuous integration platform.
+* [Vernando Simbolon](https://vernandosimbolon.com) ([source](https://github.com/Vernando05/vernando05.github.io)) - Personal & portfolio website.
+* [Willy Mayo, Venezuelan Luthier & musician](http://willymayo.com.ve) - Personal & instrument catalog website.
+* [Zsolt Udvari](http://uzsolt.hu) ([source](http://git.uzsolt.hu/jekyll-homepage/)) - Personal homepage with multi-level menu system, gallery, downloadable documents, notes, RSS, etc. Without any JavaScript! Only in hungarian!
+* [Yaoyu Yang](http://yaoyuyang.com) ([source](https://github.com/sunshineyyy/sunshineyyy.github.io)) - Personal homepage and blog with responsive design and customized template from [Clean Blog theme](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll).
+* [Yasin Yousif](https://engyasin.github.io) ([source](https://github.com/engyasin/engyasin.github.io))
+* [Robert's Blog](http://www.robertiagar.com) ([source](https://github.com/robertiagar/robertiagar.com)) - Personal blog using the [mediator template](https://github.com/dirkfabisch/mediator)
+* [Jens Willmer](http://jwillmer.de) ([source](https://github.com/jwillmer/jekyllDecent)) - Personal blog
+* [LionNet Maciej Lew](http://lion.net.pl) ([source](https://github.com/maciejlew/maciejlew.github.io)) - Personal blog about software development, especially lan management systems for internet service providers
+* [Shekhar Prasad Rajak](http://shekharrajak.github.io/) ([source](https://github.com/Shekharrajak/shekharrajak.github.io)) - Personal blog for GSoC 
+* [Electric Book Workflow](http://electricbookworks.github.io/electric-book-workflow/) ([source](https://github.com/electricbookworks/electric-book-workflow)) - Professional book-production toolchain
+* [Mig Salazar](http://migsalazar.com) ([source](https://github.com/migsalazar/migsalazar.github.io)) - Debugging stories, coding, hacking and a little sarcasm.
+* [Alain Pellaux](http://alain.info) ([source](https://github.com/gallib/gallib.github.io)) - Personal homepage
+* [Nam Pho](https://nampho.me) ([source](https://github.com/nampho2/nampho2.github.io)) - Personal homepage
+* [Marcelo Canina](https://marcanuy.com) ([source](https://github.com/marcanuy/marcanuy.github.io/)) - Personal homepage (Multilanguage jekyll in Github Pages)
+* [Taken theme](http://vfalanis.me/taken/) ([source](https://github.com/vfalanis/taken)) -- Taken is a minimalist two-column jekyll theme based on chapter tumblr theme
+* [Alex Zhuang](http://www.zhuangyan.cn) ([source](https://github.com/zhuangyan/zhuangyan.github.com)) Personal blog.(Simplified Chinese, 简体中文)
+* [Ben Sanders](https://bensanders.me/) ([source](https://github.com/bensanders/bas)) Personal Blog
+* [Santuan](http://santuan.github.io/stn/) ([source](https://github.com/santuan/stn)) Personal Blog
+* [Keith Buhler](http://www.keithbuhler.com/) ([source](https://github.com/keithbuhler/keithbuhler.github.io)) Professional Website - Philosophy
+* [EMC](http://emengine.space) ([source](https://github.com/emengine/emengine.github.io)) Simple site using Bootstrap, Muut for comments, Bootstrap modal image popup, mathjax for math equations, google analytics for tracking and hotjar for heatmaps.
+* [Babji Chetty](https://bchetty.com) ([source](https://github.com/bchetty/bchetty.github.io)) - Simple, responsive site and blog built using Jekyll, Bootstrap, Font-Awesome, Google Fonts, etc
+* [11route.com](https://11route.com) ([source](https://github.com/ayastreb/11route)) - Travel Photo Blog. It's my bilingual blog with nice galleries and [PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe) integration.
+* [Jekyll Maps Demo](https://ayastreb.github.io/jekyll-maps/) ([source](https://github.com/ayastreb/jekyll-maps/tree/gh-pages-src)) - Demo page for [Jekyll Maps](https://github.com/ayastreb/jekyll-maps) plugin.
+* [Reet Lago: writer of meaningful things](https://reetlago.github.io/) ([source](https://github.com/reetlago/reetlago.github.io)) Site featuring select works of Reet Lago, a once-in-a-blue-moon writer of stories, poems, lyrics or anything meaningful.
+* [git-secret](https://sobolevn.github.io/git-secret/) - A bash-tool to store your private data inside a git repository.
+* [pixyzehn](http://pixyzehn.com/) ([source](https://github.com/pixyzehn/pixyzehn.github.io)) Personal Blog
+* [Martin Rotter](https://martinrotter.github.io/) ([source](https://github.com/martinrotter/martinrotter.github.io)) Personal website & blog
+* [Nicolas Hoizey](https://nicolas-hoizey.com/) ([source](https://github.com/nhoizey/nicolas-hoizey.com)) - Personal site and blog.
+* [Kaltura](https://vpaas.kaltura.com) ([source](https://github.com/kaltura/DeveloperPortalDocs)) - Kaltura VPaaS
+* [zazazack.github.io](https://zazazack.github.io) ([source](https://github.com/zazazack/zazazack.github.io)) - Personal site/blog
+* [eightportions.com](https://eightportions.com) ([source](https://gitlab.com/rtlee/rtlee.gitlab.io/tree/master) / [fork](https://github.com/daattali/beautiful-jekyll)) - Personal blog on risk, finance, technology and assorted other topics
+* [blog.thibmaekelbergh.be](https://blog.thibmaekelbergh.be) ([source](https://github.com/thibmaek/thibmaek.github.io)) - Blog about web development, technology and more. Also landing page & contact (Dutch)
+) - Personal Blog on travel, life and technology
+* [Step By Step](http://jokinkuang.github.io) ([source](https://github.com/jokinkuang/jokinkuang.github.io)
+) - Personal Blog (一个简明响应式博客)
+* [Mathilde Rouault](http://mathilderouault.com/) ([source](https://github.com/mathilderouault/mathilderouault.github.io)
+) - Personal site
+* [latex-project.org](https://www.latex-project.org/) ([source](https://github.com/latex3/latex3.github.io)) - The LaTeX3 Project website
+* [daodaoliang](https://daodaoliang.github.io) ([source](https://github.com/daodaoliang/daodaoliang.github.com)) - 刀刀亮的个人博客
+* [himsel.me](http://himsel.me) ([source](https://github.com/lukas-h/lukas-h.github.io)) - Another personal Blog
+* [kaunteya.github.io](https://kaunteya.github.io/) ([source](https://github.com/kaunteya/kaunteya.github.io)) - Personal blog on Swift & iOS
+* [Renato Mandic](http://renatomandic.com/) ([source](https://github.com/renopeno/renatomandic.com)) - Front end dev Personal blog/Portfolio
+* [BeezTEM](https://beeztem.github.io) ([source](https://www.github.com/beeztem/beeztem.github.io)) - Personal blog and project site
+* [Apache ORC project](https://orc.apache.org) ([source](https://github.com/apache/orc/tree/master/site)) - Apache ORC website
+* [Junade Ali](https://icyapril.com) ([source](https://github.com/IcyApril/icyapril.github.io)) - Personal blog
+* [Undiscovered Attractions](https://undiscoveredattractions.com) ([source](https://github.com/UndiscoveredAttractions/undiscoveredattractions.github.io)) - Travel blog using a custom edit of the halve theme
+* [FATZOMBI](http://fatzombi.github.io/) ([source](http://github.com/fatzombi/fatzombi.github.io)) - a simple themed, personal blog & distopia
+* [Fri Rasyidi](http://frirasyidi.com/) ([source](http://github.com/frirasyidi/frirasyidi.github.io))
+* [David Young](https://blog.davidyoung.tech) ([source](http://github.com/dayvidwhy/blog.davidyoung.tech))
+* [Dev Haufe](https://haufe-lexware.github.io) ([source](https://github.com/Haufe-Lexware/Haufe-Lexware.github.io) ) - Haufe Group writing about Dev things, soon also about Design and other things.
+* [Synthetase's World of Nerd](http://syntheta.se) personal blog, source [here](https://github.com/StaphSynth/StaphSynth.github.io). Site implements tagging and DISQUS integration. Also uses Jekyll-sitemap and Jekyll-SEO.
+* [jCanvas](http://projects.calebevans.me/jcanvas/) ([source](https://github.com/caleb531/jcanvas-website)) - The official website of jCanvas, the jQuery canvas library. Site implements collections for documentation, Jekyll-SEO, Jekyll-Sitemap. Theme is completely custom.
+* [Yateendra Sahu](http://yateender.com) ([source](https://yateendra.github.io)) - Personal blog
+* [Is the Holocaust Real? Unfortunately, yes.](http://www.istheholocaustreal.com) - A strike back at Holocaust deniers and hate sites.
+* [Yarn](https://yarnpkg.com/)([source](https://github.com/yarnpkg/website)) - A next generation package management tool for JavaScript developers from Facebook, Exponent, Google, and Tilde.
+* [ShareX](https://getsharex.com) ([source](https://github.com/ShareX/sharex.github.io)) - ShareX is a free and open source program that lets you capture or record any area of your screen and share it with a single press of a key.
+* [Mathifold](http://mathifold.org/) ([source](https://github.com/mathifold/mathifold)) - Mathifold is a project whose goal is to make mathematics accessible to everybody, completely free, based on open collaboration and the best pedagogical tools.
+* [Rafael Comino Matas - Ilustration](http://blog.cominoilustracion.com/) ([source](https://github.com/CominoMatas/CominoMatas.github.io)) - My personal site about illustration. Made with Jekyll Now and bootstrap 4.
+* [gaboratorium notes](http://gaboratorium.com/) ([source](https://github.com/gaboratorium/gaboratorium-notes)) - Scepticism, criticism and lots of JavaScript
+* [technicat](https://technicat.github.io/) ([source](https://github.com/technicat/technicat.github.io)) - Site for Technicat LLC
+* [Tampa Bay Book Group](http://www.tampabaybookgroup.org/) ([source](https://github.com/scottcwilson/ort)) - Site for a book club
+* [Art Bergmann](http://artbergmann.com/) ([source](https://github.com/va7sdf/artbergmann)) - Official website of Art Bergmann, anti-hero-iconoclast of Canadian music for over 40 years.
+* [Gordon Celesta](http://gordon.celesta.me/) ([source](https://github.com/va7sdf/va7sdf.github.io)) - Personal Blog.
+* [Dav Chana - i.dc1.in](https://i.dc1.in/) ([source](https://gitlab.com/davch/dc1-blog/tree/deploy)) - Personal Blog.
+* [LineageOS Wiki](http://wiki.lineageos.org/) ([source](https://github.com/LineageOS/lineage_wiki))
+* [Blog Muhammad Zaini](http://muhammadzaini.com/blog) ([source](https://github.com/mzaini30/blog)) - Personal Blog about mindset and code (Indonesian language)
+* [Juliano Boesel Mohr](http://www.juliaaano.com/) ([source](https://github.com/juliaaano/juliaaano.github.io)) - A blog about software engineering.
+* [Victor Caldas](http://www.victorcaldas.com/) ([source](https://github.com/vcaldas/vcaldas.github.io)) - Personal and academic website.
+* [Banter bloguje](https://blog.zvestov.cz/) ([source](https://github.com/banterCZ/blog/)) - Personal blog mostly about software engineering (in Czech) 
+* [Adi Fahmi](https://adifahmi.me/) ([source](https://github.com/AdiFahmi/AdiFahmi.github.io)) - Personal Site.
+* [Duc A. Hoang](http://hoanganhduc.github.io/) ([source](https://github.com/hoanganhduc/jekyll-webpage-source)) - Personal and Academic Site.
+* [Webjeda](https://blog.webjeda.com) ([Source](https://github.com/sharu725/blog-v3)) - Jekyll Tutorials.
+* [Adit Deshpande](https://adeshpande3.github.io/) ([Source](https://github.com/adeshpande3/adeshpande3.github.io)) - Machine Learning Blog.
+* [grandprixstats.org](http://www.grandprixstats.org) ([Source](https://github.com/grand-prix-stats/grand-prix-stats.github.io)) - Formula 1® Programmatically Generated Statistics
+* [Chuck Masterson's Actual Blog](http://www.chuckmasterson.com) ([Source](https://github.com/chuckmasterson/chuckmasterson.github.io)) — Personal blog, with greatly customized CSS and threaded commenting via Staticman.
+* [Aevyz's Project Hub](https://aevyz.github.io) ([source](https://github.com/Aevyz/aevyz.github.io)) - Personal blog focussing on Jekyll coding. 
+* [Diego S.C.](https://diegosc.com) ([source](https://github.com/diegosozua/diegosozua.github.io)) - My personal blog about programming, music, drawing.
+* [The Flow of Language](http://derek.com.ua) ([source](https://github.com/derekkedziora/derekkedziora.github.io)) - My personal blog and a mini CMS for lesson plans 
+* [Niels Oeltjen](http://nielsoeltjen.com/) ([source](https://github.com/Elbone/nielsoeltjen)) — Australian Artist and Digital Maker
+* [飲冰](http://facaiy.github.io/) ([source](https://github.com/facaiy/facaiy.github.io)) - 专注于机器学习的中文博客 (Chinese blog about machine learning)
+* [Bookoid](https://saurabhthorat.github.io/bookoid/) ([source](https://github.com/saurabhthorat/bookoid)) - Android app website
+* [ThemeJekyll](https://themejekyll.github.io/) ([source](https://github.com/ThemeJekyll/themejekyll.github.io)) - Search and find free, open source Jekyll themes.
+* [Paul's Portfolio](https://lenpaul.github.io/) ([source](https://github.com/LeNPaul/LeNPaul.github.io)) - My personal portfolio built from the ground up, powered by Jekyll
+* [Jekyll Skeleton](https://marcanuy.github.io/jekyll-skeleton/) ([source](https://github.com/marcanuy/jekyll-skeleton)) - A skeleton of a multilingual site (based in data files) to start new websites with Bootstrap 4 included.
+* [Fowlie's blog](https://fowlie.github.io) ([source](https://github.com/fowlie/fowlie.github.io)) - My personal blog about programming and music.
+* [Food Oasis LA](https://foodoasis.la/) ([source](https://github.com/foodoasisla/foodoasis.la)) - Food Oasis LA (FOLA) shows you the best places to find healthy food in Los Angeles. It's built by volunteers at Hack for LA, the official Los Angeles chapter of Code for America.
+* [Prashant's personal blog/timeline](https://imprashant.com/) ([source](https://github.com/x0v/x0v.github.io)) - a Machine Learning Engineer | Backend Developer. The site includes easy to deploy cool features like skills set presentation and search feature. Feel free to fork and deploy your own jekyll powered website in no time.
+* [Andy Davies](http://andydavi.es/) ([source](https://github.com/andavies/andavies.github.io/)) - Personal blog/portfolio - freelance web developer.
+* [Andor Polgar's photolog](http://andor.cool/) ([source](https://github.com/andormade/andor.cool)) - A personal photoblog.
+* [Official website of Lightrains Tech](https://lightrains.com "Blockchain Consulting Company") ([source](https://github.com/lightrainstech/website.source)) - Blockchain Consulting Company 
+* [Irfan Fadilah's Blog](http://blog.irfanfadilah.com/) ([source](https://github.com/irfanfadilah/irfanfadilah.github.io)) - Irfan Fadilah's personal blog about IT related things.
+* [Alireza Aghamohammadi](http://aaghamohammadi.ir) ([source](https://github.com/aaghamohammadi/aaghamohammadi.github.io)) - Personal website about life, food and technology in Persian (Farsi).
+* [Cedro Gropello](http://cedrogropello.com/) ([source](https://github.com/tommaso-negri/cedro-gropello)) - Website of an Italian beauty center
+* [Andrey Glauzer](https://andreyglauzer.com) ([source](https://github.com/andreyglauzer/andreyglauzer.github.io)) - A personal blog
+* [Multiplicidad Digital](http://amireynoso.github.io/multiplicidad) ([source](https://github.com/amireynoso/multiplicidad)) - Ami Reynoso's graduation project about web development (in Spanish). Uses custom responsive theme, integrates Disqus, and custom page types.
+* [Ajit Kumar's Webpage](https://krajit.github.io/) ([Source](https://github.com/krajit/krajit.github.io)) A simple academic webpage based on [hyde](https://github.com/poole/hyde) template.
+* [Theo Kalfas - teolandon](http://teolandon.com/) ([source](https://github.com/teolandon/teolandon.github.io/)) - Personal website/blog.
+* [Ganessh Kumar](https://ganesshkumar.com/) ([source](https://github.com/ganesshkumar/ganesshkumar.github.io/)) - A personal website
+* [Matt Grey](https://www.himatt.com) ([source](https://github.com/MattGreyDesign/himatt.com)) - Personal portfolio and font selling platform for a UX designer
+* [Viacheslav Avsenev Software Developer and Engineer](http://vavstech.com/) ([source](https://github.com/snmslavk/snmslavk.github.io)) - Personal website with portfolio and links to related resources
+* [Hossein Karami](https://hosseinkarami.com/) ([source](https://github.com/HosseinKarami/HosseinKarami.github.io)) - Personal portfolio
+* [Triangle Fraternity at Michigan Technological University](https://trianglefraternitymtu.github.io/) ([source](https://github.com/trianglefraternitymtu/trianglefraternitymtu.github.io)) - Website for a college fraternity.
+* [Milkleaks](http://milkleaks.ru/) ([source](https://github.com/sasha-travkina/blog)) - Personal blog about games, films, books, web and other.
+* [Brandon Skerritt](https://brandonskerritt.github.io/) ([source](https://github.com/brandonskerritt/brandonskerritt.github.io)) - Blog about AI and Maths. Sometimes personal blog posts.
+* [Louis Rassaby](http://rassaby.com/) ([source](https://github.com/lrassaby/lrassaby.github.io)) - Personal blog and portfolio with masonry layout.
+* [tekkie](https://tekkie.flashbit.net/) ([source](https://github.com/ain/tekkie.flashbit.net)) - Technology blog of Ain Tohvri, CTO at Savings United, international network of digital coupon marketplaces.
 
-* [aksh](https://github.com/svaksha/aksh) – Bibliography of STEM (Science, Technology, Engineering & Mathematics) resources and grey literature.
-* [amas](https://github.com/sindresorhus/amas) – Awesome & Marvelous Amas (Ask Me Anything) on GitHub
-* [Annual-Reading-List](https://github.com/davidskeck/Annual-Reading-List) – Things to read every year.
-* [awesomebandnames](https://github.com/jnv/awesomebandnames) – The open-source list of awesome band names.
-* [awesome-belarus-online](https://github.com/Friz-zy/awesome-belarus-online) – Useful belarusian online resources.
-* [awesome-biology](https://github.com/raivivek/awesome-biology) – Learning resources, research papers, tools and other resources related to Biology.
-* [awesome-board-games](https://github.com/edm00se/awesome-board-games) – Awesome and exceptional board games
-  - https://awesomeboard.games
-* [awesome-ethics](https://github.com/HussainAther/awesome-ethics)
-* [awesome-fantasy](https://github.com/RichardLitt/awesome-fantasy) – Fantasy literature worth reading.
-* [awesome-gif](https://github.com/Kikobeats/awesome-gif) – GIF /dʒ/ links and resources.
-* [awesome-glasgow](https://github.com/allyjweir/awesome-glasgow) – Some highlights around Glasgow, Scotland.
-* [awesome-hacking-locations](https://github.com/daviddias/awesome-hacking-locations) – Hacking places, organised by Country and City, listing if it features power and wifi.
-* [awesome-health](https://github.com/prabhic/awesome-health) – Useful health resources.
-* [awesome-images](https://github.com/heyalexej/awesome-images) – Free (stock) photo resources for your projects.
-* [awesome-kimchi](https://github.com/jeyraof/awesome-kimchi) – Kimchi of the people, by the people, for the people.
-* [awesome-lego](https://github.com/ad-si/awesome-lego)
-* [awesome-lockpicking](https://github.com/fabacab/awesome-lockpicking) – Guides, tools, and other resources related to the security and compromise of locks, safes, and keys.
-* [awesome-maps](https://github.com/simsieg/awesome-maps) – Various Online Maps
-* [awesome-mental-health](https://github.com/dreamingechoes/awesome-mental-health) – Articles, websites and resources about mental health in the software industry.
-  - https://dreamingechoes.github.io/awesome-mental-health
-* [awesome-parasite](https://github.com/ecohealthalliance/awesome-parasite) – Parasites and host-pathogen interactions.
-* [awesome-philosophy](https://github.com/HussainAther/awesome-philosophy) – Philosophy
-* [awesome-scifi](https://github.com/sindresorhus/awesome-scifi) – Sci-Fi worth consuming.
-* [awesome-speaking](https://github.com/matteofigus/awesome-speaking) – Resources about public speaking
-* [awesome-stock-resources](https://github.com/neutraltone/awesome-stock-resources) – Stock photography, video and illustration websites.
-* [awesome-theravada](https://github.com/johnjago/awesome-theravada) – Theravada Buddhist teachings
-* [awesome-uncopyright](https://github.com/johnjago/awesome-uncopyright) – All things public domain
-* [awesome-webcomics](https://github.com/dhamaniasad/awesome-webcomics)
-* [baby-sleep](https://github.com/simple10/baby-sleep) – Baby sleep guides curated from the best of the Internet.
-* [bailfunds.github.io](https://github.com/bailfunds/bailfunds.github.io) – Bail Funds for Protestors across the USA.
-  - https://bailfunds.github.io/
-* [boardgames](https://gitlab.com/gamearians/boardgames) – Boardgames and boardgame-related projects that can be found on GitHub.
-* [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) _In Chinese_ – The most comprehensive database of Chinese poetry
-  - http://shici.store
-* [cocktails](https://github.com/balevine/cocktails) – Cocktail Recipes
-* [corporate-logos](https://github.com/marketreef/corporate-logos) – Curated repo of publicly listed co. logos, identified by ticker. *Almost 1500 logos*
-* [creative-commons-media](https://github.com/shime/creative-commons-media) – Audio, graphics and other resources that provide media licensed under Creative Commons licenses.
-* [dissertation-tips](https://github.com/katychuang/dissertation-tips) – Resources to help PhD students complete their dissertation successfully.
-* [diversity-index](https://github.com/svaksha/diversity-index) – Grants, scholarships and FA that encourages diversity in STEM fields aimed at half the world's population, Women!
-  - http://svaksha.github.io/diversity-index
-* [diversity-twitter](https://github.com/gregorycoleman/diversity-twitter) – Twitter feeds of interesting people to follow for Diversity & Inclusion
-* [food](https://notabug.org/themusicgod1/food)
-* [food-recipes](https://github.com/obfuscurity/food-recipes) – Honest-to-goodness "real food" recipes
-* [frequent-transit-maps](https://github.com/wwcline/list-of-frequent-transit-maps) – Transit maps highlighting frequent all-day service
-* [global-reports](https://github.com/andressoop/global-reports) – Major global reports published by international organisations
-* [guitarspecs](https://github.com/gitfrage/guitarspecs) – Electric guitar's parts specs
-  - https://gitfrage.github.io/guitarspecs/
-* [isaacs/reading-list](https://github.com/isaacs/reading-list) – [isaac](https://github.com/isaacs)'s reading list.
-* [lawrence-veggie](https://github.com/codysoyland/lawrence-veggie) – Vegetarian/vegan restaurants in Lawrence, KS.
-* [lawyersongithub](https://github.com/dpp/lawyersongithub) – A club full of lawyers who also have GitHub accounts.
-* [low-resource-languages](https://github.com/RichardLitt/low-resource-languages) – Conservation, development, and documentation of endangered, minority, and low or under-resourced human languages.
-* [Mind-Expanding-Books](https://github.com/hackerkid/Mind-Expanding-Books) – :books: Books that will blow your mind
-  - http://books.vishnuks.com
-* [mining-resources](https://github.com/Mining-Resources/mining-resources) – Natural resources mining.
-* [no-free-basics](https://github.com/net-neutrality/no-free-basics) – Those who have spoken up against Facebook's “Free Basics”
-  - https://net-neutrality.github.io/no-free-basics/
-* [plastic-free](https://github.com/IrosTheBeggar/plastic-free) – Plastic-free products.
-* [ProjectSoundtracks](https://github.com/sarthology/ProjectSoundtracks) – Soundtracks to boost your Productivity and Focus.
-* [PublicMedia](https://github.com/melodykramer/PublicMedia) – Everything about public (broadcast) media.
-  - Also [an introduction to working with GitHub](https://melodykramer.github.io/2015/04/06/learning-github-without-one-line-of-code) for non-programmers.
-* [recipes](https://github.com/bzimmerman/recipes) by @bzimmerman – This repository contains tasty open-source recipes.
-* [recipes](https://github.com/csswizardry/recipes) by @csswizardy – Collection of things I like cooking
-* [recipes](https://github.com/LarryMad/recipes) by @LarryMad
-* [recipes](https://github.com/nofunsir/recipes) by @nofunsir
-* [recipes](https://github.com/schacon/recipes) by @schacon
-* [recipes](https://github.com/silizuo/recipes) _In Chinese and English_ by @silizuo
-* [sf-vegetarian-restaurants](https://github.com/mojombo/sf-vegetarian-restaurants) – Awesome vegetarian-friendly restaurants in SF
-* [shelfies](https://github.com/kyro/shelfies) – Bookshelves of awesome people, community-transcribed.
-* [SiliconValleyThingsToDo](https://github.com/cjbarber/SiliconValleyThingsToDo) – Things to do and activities within Silicon Valley.
-* [stayinghomeclub](https://github.com/phildini/stayinghomeclub) – All the companies working from home or events changed because of covid-19.
-  - https://stayinghome.club
-* [Sustainable-Earth](https://github.com/bizz84/Sustainable-Earth) – All things sustainable
-* [tacofancy](https://github.com/sinker/tacofancy) – community-driven taco repo. stars stars stars.
-* [teesites](https://github.com/elder-cb/teesites) – Great sites to buy awesome t-shirts and other cool stuff.
-
-
-## Technical
-
-* [101](https://github.com/ojas/101) – Resources on running a software biz.
-* [10PL](https://github.com/nuprl/10PL) – 10 papers that all PhD students in programming languages ought to know, for some value of 10.
-* [1on1-questions](https://github.com/VGraupera/1on1-questions) – 1 on 1 meeting questions.
-* [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code) – JavaScript snippets you can understand in 30 seconds or less.
-  - https://30secondsofcode.org/
-* [30-seconds-of-interviews](https://github.com/30-seconds/30-seconds-of-interviews) – Common interview questions to help you prepare for your next interview.
-* [a11yproject.com](https://github.com/a11yproject/a11yproject.com) – A community–driven effort to make web accessibility easier.
-  - https://a11yproject.com
-* [addinslist](https://github.com/daattali/addinslist) – Useful [RStudio](https://www.rstudio.com/) addins
-* [admesh-projects](https://github.com/admesh/admesh-projects) – Projects using [ADMesh](https://github.com/admesh/admesh) (a triangulated solid meshes processor).
-* [AI-reading-list](https://github.com/m0nologuer/AI-reading-list) – Papers about Artificial Intelligence.
-* [alexandria](https://github.com/alxgcrz/alexandria) _In English and Spanish_ – Various resources by [@alxgcrz](https://github.com/alxgcrz)
-* [algovis](https://github.com/enjalot/algovis) – Algorithm Visualization.
-* [alternative-internet](https://github.com/redecentralize/alternative-internet) – A collection of interesting new networks and tech aiming at decentralisation (in some form).
-* [amazing-deployment](https://github.com/delirehberi/amazing-deployment)
-* [android-awesome-libraries](https://github.com/kaiinui/android-awesome-libraries) – Useful Android development libraries with usage examples.
-* [android-dev-readme](https://github.com/anirudh24seven/android-dev-readme) – Links for every Android developer.
-* [AndroidDevTools](https://github.com/inferjay/AndroidDevTools) _In Chinese_ – SDK, development tools, libraries, and resources.
-  - http://www.androiddevtools.cn/
-* [android-jobs](https://github.com/android-cn/android-jobs) _In Chinese_ – Android positions in China.
-* [Android-Learning-Resources](https://github.com/zhujun2730/Android-Learning-Resources) _In Chinese_ – Learning resources for Android.
-* [android-open-project](https://github.com/Trinea/android-open-project) _In Chinese_ – Collect and classify android open source projects.
-* [android-security-awesome](https://github.com/ashishb/android-security-awesome) – “A lot of work is happening in academia and industry on tools to perform dynamic analysis, static analysis and reverse engineering of android apps.”
-* [android-tech-frontier](https://github.com/hehonghui/android-tech-frontier) _In Chinese_ – Translation of articles about Android development.
-* [angular-education](https://github.com/timjacobi/angular-education) – Helpful material to develop using Angular
-* [AngularJS-Learning](https://github.com/jmcunningham/AngularJS-Learning)
-* [ansible-gentoo-roles](https://github.com/jirutka/ansible-gentoo-roles) – Ansible roles for Gentoo Linux.
-* [app-ideas](https://github.com/florinpop17/app-ideas) – Application ideas which can be used to improve your coding skills.
-* [app-launch-guide](https://github.com/adamwulf/app-launch-guide) – Indie dev's definitive guide to building and launching your app, including pre-launch, marketing, building, QA, buzz building, and launch.
-* [applied-ml](https://github.com/eugeneyan/applied-ml) – Data science & machine learning in production.
-* [APTnotes](https://github.com/kbandla/APTnotes) – Various public documents, whitepapers and articles about APT [Advanced persistent threat] campaigns.
-* [architect-awesome](https://github.com/xingshaocheng/architect-awesome) _In Chinese_ – 后端架构师技术图谱
-* [asynchronous-php](https://github.com/elazar/asynchronous-php) – Asynchronous programming in PHP.
-* [Automated-SPA-Testing](https://github.com/webpro/Automated-SPA-Testing) – Automated unit & functional testing for web applications [JavaScript et al.].
-* [awful-ai](https://github.com/daviddao/awful-ai) – Current scary usages of AI, hoping to raise awareness to its misuses in society.
-* [awmy](https://github.com/potch/awmy) – Are We Meta Yet?
-  - http://arewemetayet.com/
-* [Backpack](https://github.com/sevab/Backpack) – Various learning resources, organized by technology/topic.
-* [badass-dev-resources](https://github.com/sodevious/badass-dev-resources) – #bada55 front-end developer resources.
-* [bangalore-startups](https://github.com/hemanth/bangalore-startups) – Startups in Bangalore.
-* [beautiful-docs](https://github.com/PharkMillups/beautiful-docs) – Pointers to useful, well-written, and otherwise beautiful documentation.
-* [BEM-resources](https://github.com/sturobson/BEM-resources)
-* [Best-App](https://github.com/hzlzh/Best-App) _In Chinese_ – Recommendations for best desktop and mobile apps.
-* [best-of-awesomeness-and-usefulness-for-webdev](https://github.com/Pestov/best-of-awesomeness-and-usefulness-for-webdev) – Digest of the most useful tools and resources for the last year.
-  - [Russian version](https://github.com/Pestov/best-of-awesomeness-and-usefulness-for-webdev/tree/master/ru)
-* [best-practices-checklist](https://github.com/palash25/best-practices-checklist) – Language-specific resources to look up the best practices followed by that particular language's community.
-* [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit) – Some useful websites for programmers.
-* [bigdata-ecosystem](https://github.com/zenkay/bigdata-ecosystem) – Big-data related projects packed into a JSON dataset.
-  - http://bigdata.andreamostosi.name/
-* [Big-List-of-ActivityPub](https://github.com/shleeable/Big-List-of-ActivityPub) – ActivityPub Projects
-* [big-list-of-naughty-strings](https://github.com/minimaxir/big-list-of-naughty-strings) – Strings which have a high probability of causing issues when used as user-input data.
-* [bioinformatics-compbio-tools](https://github.com/lancelafontaine/bioinformatics-compbio-tools) – Bioinformatics and computational biology tools.
-* [bitcoin-reading-list](https://github.com/jashmenn/bitcoin-reading-list) – Learn to program Bitcoin transactions.
-* [BNN-ANN-papers](https://github.com/takyamamoto/BNN-ANN-papers) – Papers about Biological and Artificial Neural Networks related to (Computational) Neuroscience
-* [bookmarklets](https://github.com/RadLikeWhoa/bookmarklets) – Bookmarklets that are useful on the web
-  - https://sacha.me/bookmarklets/
-* [bookshelf](https://github.com/OpenTechSchool/bookshelf) – Reading lists for learners.
-* [bots](https://github.com/hackerkid/bots) – Tools for building bots
-* [breakfast-repo](https://github.com/ashleygwilliams/breakfast-repo) – Videos, recordings, and podcasts to accompany our morning coffee.
-* [browser-resources](https://github.com/azu/browser-resources) – Latest JavaScript information by browser.
-* [build-your-own-x](https://github.com/danistefanovic/build-your-own-x) – Build your own (insert technology here)
-* [channels](https://github.com/andrew--r/channels) _In Russian_ – YouTube channels for web developers.
-* [citizen-science](https://github.com/dylanrees/citizen-science) – Scientific tools to empower communities and/or practice various forms of non-institutional science
-* [classics](https://github.com/eyy/classics) – Classical studies (Latin and Ancient Greek) resources: software, code and raw data.
-* [cloud-conferences](https://github.com/stefan-kolb/cloud-conferences) – A collection of scientific and industry conferences focused on cloud computing.
-  - http://stefan-kolb.github.io/cloud-conferences/
-* [code-canon](https://github.com/darius/code-canon) – Code worth reading.
-* [codeface](https://github.com/chrissimpkins/codeface) – Typefaces for source code / text editors.
-* [Colorful](https://github.com/Siddharth11/Colorful) – Choose your next color scheme
-* [CompilerJobs](https://github.com/mgaudet/CompilerJobs) – Compiler, language, and runtime teams for people looking for jobs in this area.
-* [compilers-targeting-c](https://github.com/dbohdan/compilers-targeting-c) – Compilers that can generate C code.
-* [computer-science](https://github.com/ossu/computer-science) – Path to a free self-taught graduation in Computer Science.
-* [content-management-systems](https://github.com/ahadb/content-management-systems) – Open source & proprietary content management systems.
-* [critical-path-css-tools](https://github.com/addyosmani/critical-path-css-tools) – Tools to help prioritize above-the-fold CSS.
-* [CryptoList](https://github.com/coinpride/CryptoList) – Blockchain & cryptocurrency resources.
-* [crypto-might-not-suck](https://github.com/sweis/crypto-might-not-suck) – Crypto Projects that Might not Suck.
-* [cscs](https://github.com/SalGnt/cscs) – Coding Style Conventions and Standards.
-* [css-in-js](https://github.com/MicheleBertoli/css-in-js) – CSS in JS techniques comparison for React et al.
-* [css-protips](https://github.com/AllThingsSmitty/css-protips) – Take your CSS skills pro
-* [curated-list-espresso-sugar-plugins](https://github.com/GioSensation/curated-list-espresso-sugar-plugins) – Sugar plugins for Espresso, the code editor by MacRabbit.
-* [curated-programming-resources](https://github.com/Michael0x2a/curated-programming-resources) – Resources for learning programming and computer science.
-* [curatedseotools](https://github.com/sneg55/curatedseotools) – Best SEO Tools Stash
-  - https://curatedseotools.com
-* [cycle-ecosystem](https://github.com/Widdershin/cycle-ecosystem) – What are the most popular and trending libraries for [Cycle.js](http://cycle.js.org/)?
-* [dad-jokes](https://github.com/wesbos/dad-jokes) – Dad style programming jokes.
-* [datajournalists-toolbox](https://github.com/basilesimon/datajournalists-toolbox) – Tools for datajournalists, with examples and gists.
-* [datascience](https://github.com/r0f1/datascience) – Python resources for data science.
-* [data-science-blogs](https://github.com/rushter/data-science-blogs)
-* [data-science-must-watch](https://github.com/kmonsoor/data-must-watch)
-* [datasciencemasters](https://github.com/datasciencemasters/go) – The Curriculum for learning Data Science, Open Source and at your fingertips.
-  - http://datasciencemasters.org/
-* [datascience-pizza](https://github.com/PizzaDeDados/datascience-pizza) _In Portugese_ – Materiais de estudo em análise de dados e áreas afins, empresas que trabalham com dados e dicionário de conceitos.
-* [DataSciencePython](https://github.com/ujjwalkarn/DataSciencePython) – Python tutorials for Data Science, NLP and Machine Learning
-* [debugging-stories](https://github.com/danluu/debugging-stories) – Collection of links to various debugging stories.
-* [degoogle](https://github.com/tycrek/degoogle) – Alternatives to Google's products.
-* [Developer-Conferences](https://github.com/MurtzaM/Developer-Conferences) – Upcoming developer conferences.
-* [dev-movies](https://github.com/aryaminus/dev-movies) – Recommended movies for people working in the Software and IT Industry.
-* [devopsbookmarks.com](https://github.com/devopsbookmarks/devopsbookmarks.com) – To discover tools in the devops landscape.
-  - http://www.devopsbookmarks.com/
-* [devops_resources](https://github.com/dustinmm80/devops_resources)
-* [DevopsWiki](https://github.com/Leo-G/DevopsWiki) – Devops Tools, Tutorials and Scripts.
-* [dev-resource](https://github.com/Ibrahim-Islam/dev-resource) – Resources for devs online and offline.
-* [digital-gardeners](https://github.com/MaggieAppleton/digital-gardeners) – Resources for gardeners tending their digital notes on the public interwebs.
-* [discount-for-student-dev](https://github.com/AchoArnold/discount-for-student-dev) – Discounts on software (SaaS, PaaS, IaaS, etc.) and other offerings for developers who are students
-* [dive-into-machine-learning](https://github.com/hangtwenty/dive-into-machine-learning) – Dive into Machine Learning with Python Jupyter notebook and scikit-learn
-  - http://hangtwenty.github.io/dive-into-machine-learning/
-* [django-must-watch](https://gitlab.com/rosarior/django-must-watch) – Must-watch videos bout Django web framework + Python.
-* [DL4NLP](https://github.com/andrewt3000/DL4NLP) – Deep Learning for Natural Language Processing resources.
-* [dumb-password-rules](https://github.com/dumb-password-rules/dumb-password-rules) – Shaming sites with dumb password rules.
-* [easy-application](https://github.com/j-delaney/easy-application) – Software engineering companies that are easy to apply to.
-* [effects-bibliography](https://github.com/yallop/effects-bibliography) – A collaborative bibliography of work related to the theory and practice of computational effects
-* [ElixirBooks](https://github.com/sger/ElixirBooks) – Elixir programming language books
-* [elm-companies](https://github.com/jah2488/elm-companies) – Companies using Elm
-* [ember-links/list](https://github.com/ember-links/list) – Ember.js web framework
-* [empathy-in-engineering](https://github.com/KimberlyMunoz/empathy-in-engineering) – Building and promoting more compassionate engineering cultures
-* [engineering-blogs](https://github.com/kilimchoi/engineering-blogs)
-* [engine.so](https://github.com/pmwkaa/engine.so) – Tracking, Benchmarking and Sharing Information about an open source embedded data storage engines, internals, architectures, data storage and transaction processing.
-* [erlang-bookmarks](https://github.com/0xAX/erlang-bookmarks) – All about erlang programming language.
-* [erlang-watchlist](https://github.com/gabrielelana/erlang-watchlist) – Where to find good code to master Erlang idioms
-* [ES6-Learning](https://github.com/ericdouglas/ES6-Learning) – Resources to learn ECMAScript 6!
-* [es6-tools](https://github.com/addyosmani/es6-tools) – An aggregation of tooling for ES6
-* [Essential-JavaScript-Links](https://github.com/starandtina/Essential-JavaScript-Links)
-  - http://starandtina.github.io/Essential-JavaScript-Links/
-* [every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) – (Mostly) technical things every software developer should know.
-* [Facets](https://github.com/O-I/Facets) – One-liners in Ruby
-* [fks](https://github.com/JacksonTian/fks) _In Chinese_ – Frontend Knowledge Structure.
-* [flat-file-cms](https://github.com/ahadb/flat-file-cms) – Stictly flat-file cms systems.
-* [FOSS-for-Dev](https://github.com/tvvocold/FOSS-for-Dev) – Free and open-source software for developers
-* [freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) – Open Source, Free Full Stack Training with hours of coding challenges, projects, and certifications.
-  - https://www.freecodecamp.org/
-* [free-for-dev](https://github.com/ripienaar/free-for-dev) – Software, SaaS, PaaS etc offerings that have free tiers for devs.
-  - https://free-for.dev/
-* [free-programming-books](https://github.com/EbookFoundation/free-programming-books)
-  - http://resrc.io/list/10/list-of-free-programming-books/
-* [free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) _In Chinese_
-* [frontdesk](https://github.com/miripiruni/frontdesk) – Useful things for Front End Developers
-* [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) – Helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.
-  - Available in [various translations](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions/tree/master/Translations)
-* [Front-end-Web-Development-Interview-Question](https://github.com/paddingme/Front-end-Web-Development-Interview-Question) _In Chinese_
-* [Front-End-Web-Development-Resources](https://github.com/RitikPatni/Front-End-Web-Development-Resources)
-  - https://resources.ritikpatni.me/
-* [frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks) – Frontend development resources I collected over time.
-* [frontend-dev-resources](https://github.com/dmytroyarmak/frontend-dev-resources) – Frontend resources [conferences].
-* [frontend-resources](https://github.com/JonathanZWhite/frontend-resources) by @JonathanZWhite
-* [frontend-resources](https://github.com/zedix/frontend-resources) by @zedix
-* [frontend-stuff](https://github.com/moklick/frontend-stuff) – Framework/libraries/tools to use when building things on the web. Mostly Javascript stuff.
-* [frontend-tools](https://github.com/codylindley/frontend-tools) – Tools for frontend (i.e. html, js, css) desktop/laptop (i.e. does not include tablet or phone yet) web development
-* [fsharp-companies](https://github.com/Kavignon/fsharp-companies) – Companies that use F#
-* [game-datasets](https://github.com/leomaurodesenv/game-datasets) – Game datasets, tools for artificial intelligence in games
-* [Game-Networking-Resources](https://github.com/MFatihMAR/Game-Networking-Resources) – Game Network Programming
-* [games](https://github.com/leereilly/games) – Popular/awesome videos games, add-on, maps, etc. hosted on GitHub.
-* [generated-awesomeness](https://github.com/orsinium-labs/generated-awesomeness) – Awesome list autogenerated from GitHub API.
-* [git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet) – git and git flow cheat sheet
-  - http://bilalarslan.me/git-cheat-sheet/
-* [github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) – Cool features of Git and GitHub.
-* [github-drama](https://github.com/nikolas/github-drama)
-* [github-hall-of-fame](https://github.com/mehulkar/github-hall-of-fame) – Hall of Fame for spectacular things on Github.
-* [GoBooks](https://github.com/dariubs/GoBooks) – Golang books.
-* [go-is-not-good](https://github.com/ksimka/go-is-not-good) – Articles that complain about Golang's imperfection.
-* [go-must-watch](https://github.com/sauravtom/go-must-watch) – Must-watch videos about Golang.
-* [go-patterns](https://github.com/tmrts/go-patterns) – Go design patterns, recipes and idioms
-  - http://tmrts.com/go-patterns
-* [graph-adversarial-learning-literature](https://github.com/YingtongDou/graph-adversarial-learning-literature) – Adversarial learning papers on graph-structured data.
-* [graphics-resources](https://github.com/mattdesl/graphics-resources) – Game development and realtime graphics programming.
-* [guides](https://github.com/NARKOZ/guides) by @NARKOZ – Design and development guides
-* [guides](https://github.com/taniarascia/guides) by @taniarascia – Web Development Guides, Tutorials and Snippets.
-* [Hackathon-Resources](https://github.com/xasos/Hackathon-Resources) by @xasos – Hackathon Resources for organizers.
-* [hack-chat/3rd-party-software-list](https://github.com/hack-chat/3rd-party-software-list) – Bots, clients, and other software people have made for [hack.chat](https://hack.chat).
-* [hacker-laws](https://github.com/dwmkerr/hacker-laws) – Laws, Theories, Principles and Patterns that developers will find useful.
-* [hacktoberfest-swag](https://github.com/benbarth/hacktoberfest-swag) – Looking for [Hacktoberfest](https://hacktoberfest.digitalocean.com/) swag? You've come to the right place.
-* [hacktoberfest-swag-list](https://github.com/crweiner/hacktoberfest-swag-list) – Companies giving out swag for participation in [Hacktoberfest](https://hacktoberfest.digitalocean.com/).
-  - https://hacktoberfestswaglist.com
-* [HarmonyOS](https://github.com/Awesome-HarmonyOS/HarmonyOS) – [HarmonyOS](https://www.harmonyos.com/en/) by Huawei
-* [haskell-companies](https://github.com/erkmos/haskell-companies) – Companies using Haskel
-* [haskell-must-watch](https://github.com/hzlmn/haskell-must-watch)
-* [HeadlessBrowsers](https://github.com/dhamaniasad/HeadlessBrowsers)
-* [hipchat-alternatives](https://github.com/cjbarber/hipchat-alternatives)
-* [hiring-without-whiteboards](https://github.com/poteto/hiring-without-whiteboards) – Companies that don't have a broken hiring process.
-* [htaccess](https://github.com/phanan/htaccess) – Useful .htaccess snippets.
-* [hyperawesome](https://github.com/jorgebucaran/hyperawesome) – Hyperapp JavaScript framework
-* [idaplugins-list](https://github.com/onethawt/idaplugins-list) – Plugins for [IDA disassembler](https://www.hex-rays.com/products/ida/).
-* [ideas](https://github.com/samsquire/ideas) – One Hundred Ideas for Computing
-* [InfoSec-Black-Friday](https://github.com/0x90n/InfoSec-Black-Friday) – Deals for InfoSec related software/tools this Black Friday
-* [Inspire](https://github.com/NoahBuscher/Inspire) – Links to assist you in web design and development
-* [interviews](https://github.com/kdn251/interviews) – Your personal guide to Software Engineering technical interviews.
-* [InterviewThis](https://github.com/Twipped/InterviewThis) – Developer questions to ask prospective employers
-* [ios-awesome-libraries](https://github.com/kaiinui/ios-awesome-libraries) – Useful iOS development libraries with usage examples.
-* [iOS-Developer-and-Designer-Interview-Questions](https://github.com/9magnets/iOS-Developer-and-Designer-Interview-Questions)
-* [iOSDevResource](https://github.com/objcc/iOSDevResource)
-* [javascript-dev-bookmarks](https://github.com/didicodes/javascript-dev-bookmarks) – Articles that will help you get better at JavaScript.
-* [javascript-patterns](https://github.com/shichuan/javascript-patterns) – JavaScript Patterns
-  - http://shichuan.github.io/javascript-patterns/
-* [javascript-resources](https://github.com/ztsu/javascript-resources)
-* [javascript-sdk-design](https://github.com/hueitan/javascript-sdk-design)
-* [jquery-tips-everyone-should-know](https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know)
-* [jsemu](https://github.com/fcambus/jsemu) – Emulators written in JavaScript.
-* [jshomes/learning-resources](https://github.com/jshomes/learning-resources) – Web Platform/SaaS Learning Resources.
-* [jslibs](https://github.com/esamattis/jslibs) – My picks of promising/useful Javascript libraries.
-  - *See also [JSwiki](http://jswiki.org/)*
-* [js-must-watch](https://github.com/bolshchikov/js-must-watch) – Must-watch videos about javascript.
-* [jsonauts](https://github.com/jsonauts/jsonauts.github.com) – The ultimate reference for JSON tooling and specs.
-  - http://jsonauts.github.io/
-* [jstips](https://github.com/loverajoel/jstips) – JavaScript tips
-  - http://jstips.co
-* [jstools](https://github.com/codefellows/jstools) – Foundational JavaScript Tools
-* [js-type-master](https://github.com/yumyo/js-type-master) – JavaScript resources about web typography.
-  - https://www.codefellows.org/blog/a-list-of-foundational-javascript-tools
-* [Julia.jl](https://github.com/svaksha/Julia.jl) – Curated decibans of Julia language.
-  - https://github.com/svaksha/Julia.jl
-* [killer-talks](https://github.com/PharkMillups/killer-talks) – Talks that are worth watching.
-* [kubernetes-failure-stories](https://github.com/hjacobs/kubernetes-failure-stories) – Public failure/horror stories related to Kubernetes
-  - https://k8s.af
-* [language-list](https://github.com/thomasfoster96/language-list) – Programming languages being developed on GitHub.
-* [Laravel-Resources](https://github.com/abhimanyu003/Laravel-Resources) – Laravel Framework Resources and Blogs.
-* [learn-drupal](https://github.com/rocketeerbkw/learn-drupal) – Stuff to help you learn Drupal.
-* [learn-for-free](https://github.com/aviaryan/learn-for-free) – Free learning resources for all topics you can think of.
-* [learnhaskell](https://github.com/bitemyapp/learnhaskell) – A curated guide for learning Haskell.
-* [learning-code-through-github-repos](https://github.com/muchirijane/learning-code-through-github-repos) – Github repositories that you can use in your coding journey.
-* [learn-python](https://github.com/adrianmoisey/learn-python) by @adrianmoisey – Links that teach Python.
-* [learn-python](https://github.com/trekhleb/learn-python) by @trekhleb – Python scripts that are split by topics and contain code examples with explanations.
-* [learn-to-program](https://github.com/karlhorky/learn-to-program) – Foundation in Web Development.
-* [learn-tt](https://github.com/jozefg/learn-tt) – Resources for learning type theory.
-* [learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs) – Code documentation written as code!
-  - https://learnxinyminutes.com/
-* [libertr](https://github.com/gaapt/libertr) – Resources for liberty seekers.
-* [lifeofjs](https://github.com/abhijeetkpawar/lifeofjs) – Curated source for all types of awesome resources available for JavaScript.
-* [Linux_websites](https://github.com/hduffddybz/Linux_websites) _In Chinese_ – Websites related to Linux kernel development.
-* [machine-learning-algorithms](https://github.com/Sahith02/machine-learning-algorithms) – Conceptual understanding of all machine learning algorithms.
-* [Machine-Learning-Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials) – Machine Learning and Deep Learning Tutorials
-* [machine-learning-with-ruby](https://github.com/arbox/machine-learning-with-ruby) – Machine learning in Ruby
-* [macos-apps](https://github.com/learn-anything/macos-apps)
-* [magictools](https://github.com/ellisonleao/magictools) – Game Development resources to make magic happen.
-* [maintenance-modules](https://github.com/maxogden/maintenance-modules) – NPM / Node.js modules useful for maintaining or developing modules
-* [manong](https://github.com/nemoTyrant/manong) _In Chinese_ – Weekly digest of technology
-* [markdown-resources](https://github.com/rhythmus/markdown-resources) – Markdown resources: apps, dialects, parsers, people, …
-* [Marketing-for-Engineers](https://github.com/goabstract/Marketing-for-Engineers) – Marketing articles & tools to grow your product.
-* [mind-bicycles](https://github.com/pel-daniel/mind-bicycles) – Future of programming projects
-* [motion-ui-design](https://github.com/fliptheweb/motion-ui-design) – Motion UI design, animations and transitions.
-* [movies-for-hackers](https://github.com/k4m4/movies-for-hackers)
-  - https://hackermovie.club/
-* [must-watch-css](https://github.com/AllThingsSmitty/must-watch-css) – Must-watch videos about CSS.
-* [must-watch-javascript](https://github.com/AllThingsSmitty/must-watch-javascript) – Must-watch videos about JavaScript.
-* [my_tech_resources](https://github.com/JamesLavin/my_tech_resources) by @JamesLavin
-* [nashville-lispers/resources](https://github.com/nashville-lispers/resources) – Lisp Resources: exercises, great books, videos, etc.
-* [net-libraries-that-make-your-life-easier](https://github.com/tallesl/net-libraries-that-make-your-life-easier) – Open Source .NET libraries that make your life easier.
-* [neural-network-papers](https://github.com/robertsdionne/neural-network-papers)
-* [nginx-resources](https://github.com/fcambus/nginx-resources) – Nginx web server (+ Lua), OpenResty and Tengine.
-* [nlp_thai_resources](https://github.com/kobkrit/nlp_thai_resources) – Natural Language Processing for Thai
-* [nlp-with-ruby](https://github.com/arbox/nlp-with-ruby) – Practical Natural Language Processing done in Ruby
-  - http://rubynlp.org
-* [node-daily](https://github.com/dailyNode/node-daily) _In Chinese_ – Daily article about Node.js.
-* [node-frameworks](https://github.com/pillarjs/node-frameworks) – Comparison of server-side Node frameworks.
-* [nodejs-conference-cfps](https://github.com/rosskukulinski/nodejs-conference-cfps) – NodeJS and Javascript Conference Call for Presentations.
-* [NodeJS-Learning](https://github.com/sergtitov/NodeJS-Learning) – Resources to help you learn Node.js and keep up to date.
-* [NotesIndex](https://github.com/Wilbeibi/NotesIndex)
-* [not-yet-awesome-rust](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust) – Rust code and resources that do NOT exist yet, but would be beneficial to the Rust community.
-* [offline-first](https://github.com/pazguille/offline-first) – Everything you need to know to create offline-first web apps.
-* [open-source-android-apps](https://github.com/pcqpcq/open-source-android-apps) – Collection of Android Apps which are open source.
-* [open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) – Open-source iOS apps.
-* [open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) – macOS open source applications.
-* [open-source-meetup-alternatives](https://github.com/coderbyheart/open-source-meetup-alternatives)
-* [ops-books](https://github.com/stack72/ops-books) – Book recommendations related to Continuous Delivery, DevOps, Operations and Systems Thinking.
-* [osx-and-ios-security-awesome](https://github.com/ashishb/osx-and-ios-security-awesome) – OSX and iOS related security tools
-* [papers](https://github.com/NicolasT/papers) – A collection of papers found across the web.
-* [papers-we-love](https://github.com/papers-we-love/papers-we-love) – Papers from the computer science community to read and discuss. (Contains actual papers)
-* [ParseAlternatives](https://github.com/relatedcode/ParseAlternatives) – Alternative backend service providers ala [Parse](http://parse.com/).
-* [pattern_classification](https://github.com/rasbt/pattern_classification) – A collection of tutorials and examples for solving and understanding machine learning and pattern classification tasks.
-* [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) – Useful payloads and bypasses for Web Application Security and Pentest/CTF
-* [personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) – 100+ tips for protecting digital security and privacy
-* [php-must-watch](https://github.com/phptodayorg/php-must-watch) – Must-watch videos about PHP.
-* [phpvietnam/bookmarks](https://github.com/phpvietnam/bookmarks) – PHP resources for Vietnamese.
-* [PlacesToPostYourStartup](https://github.com/mmccaff/PlacesToPostYourStartup) – “Where can I post my startup to get beta users?”
-* [planetruby/calendar](https://github.com/planetruby/calendar) – Ruby events (meetups, conferences, camps, etc.) from around the world.
-  - https://planetruby.github.io/calendar/
-* [post-mortems](https://github.com/danluu/post-mortems)
-* [programmers-proverbs](https://github.com/AntJanus/programmers-proverbs) – Proverbs from the programmer
-* [programming-talks](https://github.com/hellerve/programming-talks) – Awesome & Interesting Talks concerning Programming
-* [progressive-enhancement-resources](https://github.com/jbmoelker/progressive-enhancement-resources) – (code) examples.
-* [project-based-learning](https://github.com/tuvtran/project-based-learning) – Programming tutorials to build an application from scratch.
-* [Projects](https://github.com/karan/Projects) – Practical projects that anyone can solve in any programming language.
-* [public-apis](https://github.com/public-apis/public-apis) – JSON APIs for use in web development.
-* [purescript-companies](https://github.com/ajnsit/purescript-companies) – Companies that use Purescript
-* [pycrumbs](https://github.com/kirang89/pycrumbs) – Bits and Bytes of Python from the Internet.
-* [py-must-watch](https://github.com/s16h/py-must-watch) by @s16h – Must-watch videos about Python.
-* [python-github-projects](https://github.com/checkcheckzz/python-github-projects) – Collect and classify python projects on Github.
-  - http://itgeekworkhard.com/python-github-projects/
-* [pythonidae](https://github.com/svaksha/pythonidae) – Curated decibans of Python scientific programming resources.
-  - http://svaksha.github.io/pythonidae/
-* [python-must-watch](https://github.com/primalpop/python-must-watch) by @primalpop – Must-watch videos about Python.
-* [python_reference](https://github.com/rasbt/python_reference) – Useful functions, tutorials, and other Python-related things.
-* [Qix](https://github.com/ty4z2008/Qix) _In Chinese_ – Node, Golang, Machine Learning, PostgreSQL.
-* [queues.io](https://github.com/lukaszx0/queues.io) – Job queues, message queues and other queues.
-  - http://queues.io/
-* [quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins) – macOS Quick Look plugins for developers
-* [rails-must-watch](https://github.com/gerricchaplin/rails-must-watch) – Must-watch videos about Ruby on Rails.
-* [rbooks](https://github.com/RomanTsegelskyi/rbooks) – R programming language books
-* [remote-in-japan](https://github.com/remote-jp/remote-in-japan) – Tech companies in Japan that hire remote workers.
-* [remote-jobs](https://github.com/remoteintech/remote-jobs) – Semi to fully remote-friendly companies in tech.
-* [remote-jobs-brazil](https://github.com/lerrua/remote-jobs-brazil) – Remote-friendly Brazilian companies.
-* [resource-list](https://github.com/kyasui/resource-list) – Design & Development Resources.
-* [resources](https://github.com/jbranchaud/resources) by @jbranchaud – Free, online resources for various technologies, languages, and tools.
-* [Resources](https://github.com/tevko/Resources) by @tevko – Tools for front end devs.
-* [Resources-for-Writing-Shaders-in-Unity](https://github.com/VoxelBoy/Resources-for-Writing-Shaders-in-Unity)
-* [retter](https://github.com/MaciejCzyzewski/retter) – Hash functions, ciphers, tools, libraries, and materials related to cryptography & security.
-* [reverse-interview](https://github.com/viraptor/reverse-interview) – Questions to ask the company during your interview
-* [Rich-Hickey-fanclub](https://github.com/tallesl/Rich-Hickey-fanclub) – Rich Hickey's works on the internet.
-* [rss-readers-list](https://github.com/smithbr/rss-readers-list) – Reader replacements megalist
-  - http://smithbr.github.io/rss-readers-list
-* [rubybib.org](https://github.com/rubybib/rubybib.org) – The Ruby Bibliography
-  - http://rubybib.org/
-* [ruby-bookmarks](https://github.com/dreikanter/ruby-bookmarks) – Ruby and Ruby on Rails bookmarks collection.
-* [ruby-dev-bookmarks](https://github.com/saberma/ruby-dev-bookmarks) – Ruby development resources I've collected.
-* [ruby-nlp](https://github.com/diasks2/ruby-nlp) – Ruby Natural Language Processing (NLP) libraries, tools and software.
-* [rust-lang-resources](https://github.com/dschenkelman/rust-lang-resources) – Links related to the Rust programming language.
-* [rxjs-ecosystem](https://github.com/Widdershin/rxjs-ecosystem) – What are the most popular libraries in the RxJS ecosystem?
-* [rx-react-flux](https://github.com/christianramsey/rx-react-flux) – RxJS + React/Flux implementations.
-* [scalable-css-reading-list](https://github.com/davidtheclark/scalable-css-reading-list) – Collected dispatches from The Quest for Scalable CSS.
-* [search-engine-optimization](https://github.com/marcobiedermann/search-engine-optimization) – Checklist / collection of Search Engine Optimization (SEO) tips and technics.
-* [SecLists](https://github.com/danielmiessler/SecLists) – Lists used during security assessments: usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, etc.
-* [secure-email](https://github.com/OpenTechFund/secure-email) – Overview of projects working on next-generation secure email.
-* [Security_list](https://github.com/zbetcheckin/Security_list)
-* [services-engineering](https://github.com/mmcgrana/services-engineering) – A reading list for services engineering, with a focus on cloud infrastructure services.
-* [shareable-links](https://github.com/vinkla/shareable-links) – URLs for sharing on social media.
-* [shellshocker-pocs](https://github.com/mubix/shellshocker-pocs) – Proof of concepts and potential targets for Shellshock.
-* [slack-groups](https://github.com/learn-anything/slack-groups) – Public Slack communities.
-* [spark-joy](https://github.com/sw-yx/spark-joy) – Add design flair, user delight, and whimsy to your product.
-* [spawnedshelter](https://github.com/unbalancedparentheses/spawnedshelter) – Erlang Spawned Shelter – the best articles, videos and presentations related to Erlang.
-* [speech-language-processing](https://github.com/edobashira/speech-language-processing)
-* [stack-on-a-budget](https://github.com/255kb/stack-on-a-budget) – Services with great free tiers for developers on a budget
-* [startup-must-watch](https://github.com/gerricchaplin/startup-must-watch) – Must-watch videos devoted to Entrepreneurship and Startups.
-* [startupreadings](https://github.com/dennybritz/startupreadings) – Reading list for all things startup-related.
-* [startup-resources](https://github.com/JonathanZWhite/startup-resources)
-* [state-machines](https://github.com/achou11/state-machines)
-* [static-analysis](https://github.com/analysis-tools-dev/static-analysis) – Static analysis tools, linters and code quality checkers
-* [Static-Site-Generators](https://github.com/pinceladasdaweb/Static-Site-Generators)
-* [staticsitegenerators-list](https://github.com/bevry/staticsitegenerators-list)
-  - https://staticsitegenerators.net/
-* [streaming-papers](https://github.com/sorenmacbeth/streaming-papers) – Papers on streaming algorithms.
-* [structured-text-tools](https://github.com/dbohdan/structured-text-tools) – Command line tools for manipulating structured text data
-* [styleguide-generators](https://github.com/davidhund/styleguide-generators) – Automatic living styleguide generators.
-* [sublime](https://github.com/JaredCubilla/sublime) – Some of the best Sublime Text packages, themes, and goodies.
-* [sublime-bookmarks](https://github.com/dreikanter/sublime-bookmarks) – Sublime Text essential plugins and resources.
-* [svelte/integrations](https://github.com/sveltejs/integrations) – Ways to incorporate [Svelte](https://svelte.dev/) framework into your stack
-* [SwiftInFlux](https://github.com/ksm/SwiftInFlux) – An attempt to gather all that is in flux in Swift.
-* [tech-weekly](https://github.com/adrianmoisey/tech-weekly) – Weekly technical newsletters.
-* [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy) – Terminal frameworks, plugins & resources for CLI lovers.
-  - https://terminalsare.sexy/
-* [the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) – Inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
-* [The-Documentation-Compendium](https://github.com/kylelobo/The-Documentation-Compendium) – Templates & tips on writing high-quality documentation
-* [think-awesome](https://github.com/thinkjs/think-awesome) – [ThinkJS](https://thinkjs.org/) Node.js framework
-* [til](https://github.com/jbranchaud/til) – Today I Learned.
-* [tips](https://github.com/git-tips/tips) – Most commonly used git tips and tricks.
-  - http://git.io/git-tips
-* [Toolbox](https://github.com/Dillion/Toolbox) – Open source iOS stuff.
-* [tool_lists](https://github.com/johnyf/tool_lists) – Links to tools by theme. *Verification, synthesis, and static analysis.*
-* [tools](https://github.com/lvwzhen/tools) – Tools for web.
-* [toolsforactivism](https://github.com/drewrwilson/toolsforactivism) – Digital tools for activism
-* [ToolsOfTheTrade](https://github.com/cjbarber/ToolsOfTheTrade) – Tools of The Trade, from Hacker News.
-* [top-starred-devs-and-repos-to-follow](https://github.com/StijnMiroslav/top-starred-devs-and-repos-to-follow) – Top-Starred Python GitHub Devs, Orgs, and Repos to Follow (All-Time and Trending).
-* [trending-repositories](https://github.com/Semigradsky/trending-repositories) – Repositories that were trending for a day.
-* [trip-to-iOS](https://github.com/Aufree/trip-to-iOS) _In Chinese_ – Delightful iOS resources.
-* [twofactorauth](https://github.com/2factorauth/twofactorauth) – Sites with two factor auth support which includes SMS, email, phone calls, hardware, and software.
-  - https://twofactorauth.org/
-* [type-findings](https://github.com/charliewilco/type-findings) – Posts about web typography.
-* [typography](https://github.com/deanhume/typography) – Web typography
-  - https://deanhume.github.io/typography/
-* [ui-styleguides](https://github.com/kevinwuhoo/ui-styleguides)
-  - http://kevinformatics.com/ui-styleguides/
-* [universities-on-github](https://github.com/filler/universities-on-github) – Universities which have a public organization on GitHub.
-* [upcoming-conferences](https://github.com/svenanders/upcoming-conferences) – Upcoming web developer conferences.
-* [vertx-awesome](https://github.com/vert-x3/vertx-awesome) – [Vert.x](http://vertx.io/) toolkit
-* [vim-galore](https://github.com/mhinz/vim-galore) – All things Vim!
-* [visual-programming-codex](https://github.com/ivanreese/visual-programming-codex) – Resources and references for the past and future of visual programming.
-* [we-are-twtxt](https://github.com/mdom/we-are-twtxt) – [twtxt](https://twtxt.readthedocs.io/) users and bots
-* [web-audio-resources](https://github.com/alemangui/web-audio-resources) – A list of curated resources related to the Web audio API.
-* [WebComponents-Polymer-Resources](https://github.com/matthiasn/WebComponents-Polymer-Resources)
-* [webcomponents-the-right-way](https://github.com/mateusortiz/webcomponents-the-right-way) – Introduction to Web Components.
-* [web-dev-resources](https://github.com/ericandrewlewis/web-dev-resources) – A table of contents for web developer resources across the internet.
-* [web-development-resources](https://github.com/MasonONeal/web-development-resources)
-* [webdev-jokes](https://github.com/jerstew/webdev-jokes) – Web development jokes.
-* [webdevresourcecuration](https://github.com/lwakefield/webdevresourcecuration)
-* [weekly](https://github.com/zenany/weekly) _In Chinese_ – Weekly summary of articles and resources.
-* [what-next](https://github.com/messa/what-next) _In Czech_ – Co dělat, když se chci naučit programovat ještě víc.
-* [Women-Made-It](https://github.com/LisaDziuba/Women-Made-It) – Design & development tools, books, podcasts, and blogs made by women.
-* [Worth-Reading-the-Android-technical-articles](https://github.com/zmywly8866/Worth-Reading-the-Android-technical-articles) _In Chinese_
-* [You-Dont-Need](https://github.com/you-dont-need/You-Dont-Need) – People choose popular projects, often not because it applies to their problems.
-
-
-### awesome-*
-
-* [awesome-2048-and-beyond](https://github.com/cstrap/awesome-2048-and-beyond) – Waste and lose at least 8 hours of your life… then **multiply** it…
-* [awesome4girls](https://github.com/cristianoliveira/awesome4girls) – Inclusive events/projects/initiatives for women in the tech area.
-* [awesome-a11y](https://github.com/brunopulis/awesome-a11y) – Accesibility tools, articles and resources.
-* [awesome-accessibility](https://github.com/GonzagaAccess/awesome-accessibility) – Utilities for accessibility-based web development
-* [awesome-acf](https://github.com/navidkashani/awesome-acf) – Add-ons for the Advanced Custom Field plugin for WordPress.
-* [awesome-actions](https://github.com/sdras/awesome-actions) – [GitHub Actions](https://github.com/features/actions)
-* [awesome-actionscript3](https://github.com/robinrodricks/awesome-actionscript3) – ActionScript 3 and Adobe AIR.
-* [awesome-activeadmin](https://github.com/serradura/awesome-activeadmin) – Active Admin resources, extensions, posts and utilities. *For Rails.*
-* [awesome-activitypub](https://github.com/BasixKOR/awesome-activitypub) – ActivityPub based projects
-* [awesome-ad-free](https://github.com/johnjago/awesome-ad-free) – Ad-free alternatives to popular services on the web
-* [awesome-ada](https://github.com/ohenley/awesome-ada) – Ada and SPARK programming language
-* [awesome-adafruitio](https://github.com/adafruit/awesome-adafruitio) – [Adafruit IO](https://io.adafruit.com/) Internet of Things platform
-* [awesome-agile](https://github.com/lorabv/awesome-agile) – Agile Software Development.
-  - https://lorabv.github.io/awesome-agile
-* [awesome-agriculture](https://github.com/brycejohnston/awesome-agriculture) – Open source technology for agriculture, farming, and gardening
-* [awesome-alfred-workflows](https://github.com/alfred-workflows/awesome-alfred-workflows) – [Alfred](https://www.alfredapp.com/) macOS app workflows
-* [awesome-algolia](https://github.com/algolia/awesome-algolia) – [Algolia](https://www.algolia.com/) web search service
-* [awesome-algorithms](https://github.com/tayllan/awesome-algorithms) – Places to learn and/or practice algorithms.
-* [awesome-algorithms-education](https://github.com/gaerae/awesome-algorithms-education) – Learning and practicing algorithms
-  - https://gaerae.com/awesome-algorithms
-* [awesome-ama-answers](https://github.com/stoeffel/awesome-ama-answers) – @stoeffel's AMA answers
-* [awesome-amazon-alexa](https://github.com/miguelmota/awesome-amazon-alexa) – Resources for the Amazon Alexa platform.
-* [awesome-amazon-seller](https://github.com/ScaleLeap/awesome-amazon-seller) – Tools and resources for Amazon sellers.
-* [awesome-analytics](https://github.com/onurakpolat/awesome-analytics) – Analytics services, frameworks, software and other tools.
-* [awesome-android](https://github.com/Jackgris/awesome-android) _In Spanish._ by @Jackgris
-* [awesome-android](https://github.com/JStumpp/awesome-android) by @JStumpp
-* [awesome-android](https://github.com/snowdream/awesome-android) _Partially in Chinese_ by @snowdream
-* [awesome-android-awesomeness](https://github.com/yongjhih/awesome-android-awesomeness)
-* [awesome-android-kotlin-apps](https://github.com/androiddevnotes/awesome-android-kotlin-apps) – Open-source Android apps written in Kotlin with particular tech stack and libraries.
-* [awesome-android-learner](https://github.com/MakinGiants/awesome-android-learner) – A “study guide” for mobile development.
-* [awesome-android-learning-resources](https://github.com/androiddevnotes/awesome-android-learning-resources)
-* [awesome-android-libraries](https://github.com/wasabeef/awesome-android-libraries) – General Android libraries.
-* [awesome-android-performance](https://github.com/Juude/awesome-android-performance) – Performance optimization on Android.
-* [awesome-android-release-notes](https://github.com/pedronveloso/awesome-android-release-notes) – Keep up-to-date with all the things related with Android software development.
-* [awesome-android-tips](https://github.com/jiang111/awesome-android-tips) _In Chinese_
-* [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui) – UI/UX libraries for Android.
-* [awesome-androidstudio-plugins](https://github.com/jiang111/awesome-androidstudio-plugins) _In Chinese_
-* [awesome-angular](https://github.com/hugoleodev/awesome-angular) by @hugoleodev
-* [awesome-angular](https://github.com/PatrickJS/awesome-angular) by @PatrickJS
-* [awesome-angularjs](https://github.com/gianarb/awesome-angularjs) by @gianarb
-* [awesome-animation](https://github.com/Animatious/awesome-animation) – Open-source UI animations by Animatious Group.
-* [awesome-ansible](https://github.com/jdauphant/awesome-ansible) – [Ansible](https://www.ansible.com/) configuration management
-* [awesome-answers](https://github.com/cyberglot/awesome-answers) – Inspiring and thoughtful answers given at stackoverflow, quora, etc.
-* [awesome-ant-design](https://github.com/websemantics/awesome-ant-design) – [Ant Design](https://ant.design/) system
-* [awesome-api](https://github.com/Kikobeats/awesome-api) – Design and implement RESTful API's
-* [awesome-app-ideas](https://github.com/tastejs/awesome-app-ideas) – Ideas for apps to demonstrate how framework or library approach specific problems.
-* [awesome-appium](https://github.com/SrinivasanTarget/awesome-appium) – [Appium](http://appium.io/) test automation frmework
-* [awesome-apple](https://github.com/joeljfischer/awesome-apple) – 3rd party libraries and tools for Apple platforms development.
-* [awesome-appsec](https://github.com/paragonie/awesome-appsec) – Resources for developers to learn application security.
-* [awesome-arabic](https://github.com/OthmanAba/awesome-arabic) – Arabic supporting tools, fonts, and development resources.
-* [Awesome-arduino](https://github.com/Lembed/Awesome-arduino) – Arduino hardwares, libraries and softwares with update script
-* [awesome-arm-exploitation](https://github.com/HenryHoggard/awesome-arm-exploitation) – ARM processors security and exploitation.
-* [awesome-artificial-intelligence](https://github.com/owainlewis/awesome-artificial-intelligence)
-* [awesome-asciidoc](https://github.com/bodiam/awesome-asciidoc) – Collection of AsciiDoc tools, guides, tutorials and examples of usage.
-* [awesome-asciidoctor](https://github.com/dongwq/awesome-asciidoctor) – Collection of asciidoctor’s intros, examples and usages.
-* [awesome-asyncio](https://github.com/timofurrer/awesome-asyncio) – [asyncio](https://docs.python.org/3/library/asyncio.html) Python library
-* [awesome-asyncio-cn](https://github.com/chenjiandongx/awesome-asyncio-cn) _In Chinese_ – [asyncio](https://docs.python.org/3/library/asyncio.html) Python library
-  - https://awesome-asyncio-cn.chenjiandongx.com/
-* [awesome-atom](https://github.com/mehcode/awesome-atom) – [Atom](https://atom.io/) text editor
-* [awesome-audio-visualization](https://github.com/willianjusten/awesome-audio-visualization)
-* [awesome-aurelia](https://github.com/aurelia-contrib/awesome-aurelia) – [Aurelia](https://aurelia.io/) JavaScript framework
-* [awesome-authentication](https://github.com/gitcommitshow/awesome-authentication)
-* [awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey) – AutoHotkey libraries, library distributions, scripts, tools and resources.
-* [awesome-AutoIt](https://github.com/J2TeaM/awesome-AutoIt) – UDFs, example scripts, tools and useful resources for AutoIt.
-  - https://j2team.github.io/awesome-AutoIt/
-* [awesome-automotive](https://github.com/Marcin214/awesome-automotive) – Automotive engineering.
-* [awesome-ava](https://github.com/avajs/awesome-ava) – [AVA](https://github.com/avajs/ava) JavaScript test runner.
-* [awesome-avr](https://github.com/fffaraz/awesome-avr)
-* [awesome-aws](https://github.com/donnemartin/awesome-aws) – Amazon Web Services (AWS)
-* [awesome-backbone](https://github.com/sadcitizen/awesome-backbone) – Resources for [Backbone.js](http://backbonejs.org/)
-* [awesome-bash](https://github.com/awesome-lists/awesome-bash)
-* [awesome-bci](https://github.com/NeuroTechX/awesome-bci) – Brain-Computer Interface.
-* [awesome-beacon](https://github.com/rabschi/awesome-beacon) – Bluetooth beacon (iBeacon, Eddystone)
-* [awesome-beancount](https://github.com/wzyboy/awesome-beancount) – [Beancount](http://furius.ca/beancount/), a double-entry bookkeeping with text files.
-* [awesome-bem](https://github.com/getbem/awesome-bem) – Tools, sites, articles about BEM (frontend development method).
-* [awesome-big-o](https://github.com/okulbilisim/awesome-big-o) – Big O notation
-* [awesome-bigdata](https://github.com/onurakpolat/awesome-bigdata) – Big data frameworks, resources and other awesomeness.
-* [Awesome-Bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics) – Open-source bioinformatics software and libraries.
-* [awesome-bitcoin](https://github.com/igorbarinov/awesome-bitcoin) – Bitcoin services and tools for software developers.
-* [awesome-bitcoin-payment-processors](https://github.com/alexk111/awesome-bitcoin-payment-processors) – Bitcoin payment processors and stories from merchants using them.
-* [awesome-blazor](https://github.com/AdrienTorris/awesome-blazor) – [Blazor](https://blazor.net/), a .NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly.
-* [awesome-blender](https://github.com/agmmnn/awesome-blender) – [Blender](https://www.blender.org/) add-ons, tools, tutorials and 3D resources.
-* [awesome-blockchain](https://github.com/0xtokens/awesome-blockchain) by @0xtokens – Blockchain and Crytocurrency Resources
-* [awesome-blockchain](https://github.com/coderplex-org/awesome-blockchain) by @coderplex-org – Blockchain, Bitcoin and Ethereum related resources
-* [awesome-blockchain](https://github.com/cyberFund/awesome-blockchain) _In Russian_ by @cyberFund – Digest of knowledge about crypto networks (including cryptocurrencies).
-* [awesome-blockchain](https://github.com/hitripod/awesome-blockchain) by @hitripod
-* [awesome-blockchain](https://github.com/igorbarinov/awesome-blockchain) by @igorbarinov – The bitcoin blockchain services
-* [awesome-blockchain](https://github.com/imbaniac/awesome-blockchain) by @imbaniac – Blockchain services and exchanges
-* [awesome-blockchain](https://github.com/iNiKe/awesome-blockchain) by @iNiKe – Blockchain, ICO, ₿itcoin, Cryptocurrencies
-* [awesome-blockchain](https://github.com/oiwn/awesome-blockchain) by @oiwn – Projects and services based on blockchain technology
-* [awesome-blockchain-ai](https://github.com/steven2358/awesome-blockchain-ai) – Blockchain projects for Artificial Intelligence and Machine Learning
-* [awesome-blockchains](https://github.com/openblockchains/awesome-blockchains) – Blockchains - open distributed databases w/ crypto hashes incl. git
-* [awesome-blockstack](https://github.com/jackzampolin/awesome-blockstack) – [Blockstack](https://blockstack.org/) decentralized computing platform
-* [awesome-book-authoring](https://github.com/TalAter/awesome-book-authoring) – Resources for technical book authors
-* [awesome-bootstrap](https://github.com/therebelrobot/awesome-bootstrap) – Free Bootstrap themes I think are cool.
-* [awesome-bpm](https://github.com/ungerts/awesome-bpm) – Business Process Management (BPM) awesomeness.
-* [awesome-broadcasting](https://github.com/ebu/awesome-broadcasting) – Open source resources related to broadcast technologies
-  - http://ebu.io/opensource
-* [awesome-browser-extensions-for-github](https://github.com/stefanbuck/awesome-browser-extensions-for-github) – Browser extensions for GitHub.
-* [awesome-browserify](https://github.com/browserify/awesome-browserify) – [Browserify](http://browserify.org/) bundler
-* [awesome-btcdev](https://github.com/btcbrdev/awesome-btcdev) – Bitcoin development
-* [awesome-bugs](https://github.com/criswell/awesome-bugs) – Funny and interesting bugs
-* [awesome-building-blocks-for-web-apps](https://github.com/componently-com/awesome-building-blocks-for-web-apps) – Standalone features (services, components, libraries) to be integrated into web applications.
-  - https://www.componently.com/
-* [awesome-c](https://github.com/aleksandar-todorovic/awesome-c) by @aleksandar-todorovic – Continuing the development of awesome-c on GitHub
-* [awesome-c](https://github.com/kozross/awesome-c) by @kozross – C frameworks, libraries, resources etc.
-  - [mirror](https://notabug.org/koz.ross/awesome-c)
-* [awesome-cakephp](https://github.com/FriendsOfCake/awesome-cakephp) – [CakePHP](https://cakephp.org/) web framework
-* [awesome-calculators](https://github.com/xxczaki/awesome-calculators)
-* [awesome-canvas](https://github.com/raphamorim/awesome-canvas) – HTML5 Canvas
-* [awesome-captcha](https://github.com/ZYSzys/awesome-captcha) – Captcha libraries and crack tools.
-  - http://zyszys.github.io/awesome-captcha/
-* [awesome-cassandra](https://github.com/yikebocai/awesome-cassandra)
-* [awesome_challenge_list](https://github.com/AwesomeRubyist/awesome_challenge_list) – Sites with challenges to improve your programming skills.
-* [awesome-challenges](https://github.com/mauriciovieira/awesome-challenges) – Algorithmic challenges
-* [awesome-charting](https://github.com/zingchart/awesome-charting) – Charts and dataviz.
-* [awesome-chatops](https://github.com/exAspArk/awesome-chatops) – ChatOps – managing operations through a chat
-* [awesome-chef](https://github.com/obazoud/awesome-chef) – Cookbooks, handlers, add-ons and other resources for Chef, a configuration management tool.
-* [awesome-cheminformatics](https://github.com/hsiaoyi0504/awesome-cheminformatics) – Chemical informatics
-* [awesome-chess](https://github.com/hkirat/awesome-chess) – Chess software, libraries, and resources
-* [awesome-choo](https://github.com/choojs/awesome-choo) – [choo](https://choo.io/) web framework
-* [awesome-chrome-devtools](https://github.com/ChromeDevTools/awesome-chrome-devtools) – Chrome DevTools ecosystem tooling and resources.
-* [awesome-ci](https://github.com/ligurio/awesome-ci) by @ligurio – Comparison of cloud based CI services.
-* [awesome-ci](https://github.com/pditommaso/awesome-ci) by @pditommaso – Continuous integation services.
-* [awesome-ciandcd](https://github.com/cicdops/awesome-ciandcd) – Continuous Integration and Continuous Delivery
-  - http://www.ciandcd.com/
-* [awesome-circuitpython](https://github.com/adafruit/awesome-circuitpython) – [CircuitPython](https://circuitpython.org/) microcontrollers programming language
-* [awesome-cl](https://github.com/CodyReichert/awesome-cl) – Common Lisp
-* [awesome-cl-software](https://github.com/azzamsa/awesome-cl-software) – Applications built with Common Lisp
-* [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) – Command line apps
-* [awesome-clojure](https://github.com/mbuczko/awesome-clojure) by @mbuczko – Useful links for clojurians
-* [awesome-clojure](https://github.com/razum2um/awesome-clojure) by @razum2um
-* [awesome-clojurescript](https://github.com/hantuzun/awesome-clojurescript)
-* [awesome-cloud](https://github.com/JStumpp/awesome-cloud) – Delightful cloud services.
-* [awesome-cloud-certifications](https://gitlab.com/edzob/awesome-cloud-certifications) – Certifications for cloud platforms
-* [awesome-cmake](https://github.com/onqtam/awesome-cmake) – CMake
-* [awesome-cms](https://github.com/postlight/awesome-cms) – Open and closed source Content Management Systems (CMS)
-* [awesome-cobol](https://github.com/mickaelandrieu/awesome-cobol) – COBOL programming language
-* [awesome-cocoa](https://github.com/v-braun/awesome-cocoa) – Cocoa controls for iOS, watchOS and macOS
-  - http://cocoa.rocks
-* [awesome-code-formatters](https://github.com/rishirdua/awesome-code-formatters)
-* [awesome-code-review](https://github.com/joho/awesome-code-review)
-* [awesome-codepoints](https://github.com/Codepoints/awesome-codepoints) – Interesting Unicode characters
-* [awesome-coins](https://github.com/Zheaoli/awesome-coins) – Guide to cryto-currencies and their algos.
-* [awesome-cold-showers](https://github.com/hwayne/awesome-cold-showers) – For when people get too hyped up about things.
-* [awesome-coldfusion](https://github.com/seancoyne/awesome-coldfusion)
-* [awesome-common-lisp-learning](https://github.com/GustavBertram/awesome-common-lisp-learning)
-* [awesome-community](https://github.com/phpearth/awesome-community) – development, support and discussion channels, groups and communities.
-* [awesome-community-detection](https://github.com/benedekrozemberczki/awesome-community-detection) – Community detection papers with implementations.
-* [awesome-comparisons](https://github.com/dhamaniasad/awesome-comparisons) – Framework and code comparison projects, like TodoMVC and Notejam.
-* [awesome-competitive-programming](https://github.com/lnishan/awesome-competitive-programming) – Competitive Programming, Algorithm and Data Structure resources
-  - http://codeforces.com/blog/entry/23054
-* [awesome-composer](https://github.com/jakoch/awesome-composer) – Composer, Packagist, Satis PHP ecosystem
-* [awesome-computational-neuroscience](https://github.com/eselkin/awesome-computational-neuroscience) – Schools and researchers in computational neuroscience
-* [awesome-computer-history](https://github.com/watson/awesome-computer-history) – Computer history videos, documentaries and related folklore.
-* [awesome-computer-vision](https://github.com/AGV-IIT-KGP/awesome-computer-vision) by @AGV-IIT-KGP
-* [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) by @jbhuang0604
-* [awesome-computer-vision-models](https://github.com/nerox8664/awesome-computer-vision-models) – Popular deep learning models related to classification and segmentation task
-* [awesome-conference-playlists](https://github.com/chentsulin/awesome-conference-playlists) – Video playlists for conferences.
-* [awesome-conferences](https://github.com/RichardLitt/awesome-conferences)
-* [awesome-connectivity-info](https://github.com/stevesong/awesome-connectivity-info) – Connectivity indexes and reports to help you better under who has access to communication infrastructure and on what terms.
-* [awesome-conservation-tech](https://github.com/anselmbradford/awesome-conservation-tech) – Intersection of tech and environmental conservation.
-* [awesome-construct](https://github.com/WebCreationClub/awesome-construct) – [Construct](https://www.construct.net/) game development toolkit
-* [awesome-container](https://github.com/tcnksm/awesome-container) – Container technologies and services.
-* [awesome-conversational](https://github.com/mortenjust/awesome-conversational) – Conversational UI
-* [awesome-cordova](https://github.com/busterc/awesome-cordova) _Apache Cordova / PhoneGap_
-* [Awesome-CoreML-Models](https://github.com/likedan/Awesome-CoreML-Models) – Models for Core ML (for iOS 11+)
-* [awesome-coronavirus](https://github.com/soroushchehresa/awesome-coronavirus) – Projects and resources related to SARS-CoV-2 and COVID-19.
-* [awesome-couchdb](https://github.com/quangv/awesome-couchdb) – CouchDB resource list.
-* [awesome-courses](https://github.com/fffaraz/awesome-courses) by @fffaraz – Online programming/CS courses.
-* [awesome-courses](https://github.com/prakhar1989/awesome-courses) by @prakhar1989 – University Computer Science courses across the web.
-* [awesome-cpp](https://github.com/fffaraz/awesome-cpp) – C/C++
-* [awesome-crdt](https://github.com/alangibson/awesome-crdt) – Conflict-free replicated data types
-* [awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) – Creative Coding: Generative Art, Data visualization, Interaction Design
-  - https://creativecoding.rocks
-* [Awesome-Cross-Platform-Apps](https://github.com/Juude/Awesome-Cross-Platform-Apps) – Solutions for building cross-platform apps.
-* [awesome-cross-platform-nodejs](https://github.com/bcoe/awesome-cross-platform-nodejs) – Tools for writing cross-platform Node.js code.
-* [awesome-crypto-papers](https://github.com/pFarb/awesome-crypto-papers) – Cryptography papers, articles, tutorials and howtos.
-* [awesome-cryptocurrencies](https://github.com/kasketis/awesome-cryptocurrencies)
-* [awesome-cryptography](https://github.com/sobolevn/awesome-cryptography) – Cryptography and encryption resources.
-* [awesome-crystal](https://github.com/veelenga/awesome-crystal) – Crystal Language
-* [awesome-css](https://github.com/awesome-css-group/awesome-css) by @awesome-css-group
-* [awesome-css](https://github.com/bring2dip/awesome-css) by @deepakbhattarai
-* [awesome-css-frameworks](https://github.com/troxler/awesome-css-frameworks) – CSS frameworks
-* [awesome-css-learning](https://github.com/micromata/awesome-css-learning) – A tiny list limited to the best CSS Learning Resources
-* [awesomeCSV](https://github.com/secretGeek/awesomeCSV) – CSV, Comma Separated Values format
-* [awesome-ctf](https://github.com/apsdehal/awesome-ctf) – [Capture the Flag](https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security)
-  - https://apsdehal.in/awesome-ctf/
-* [awesome-cybersecurity-blueteam](https://github.com/fabacab/awesome-cybersecurity-blueteam) – [Cybersecurity blue teams](https://en.wikipedia.org/wiki/Blue_team_(computer_security)) resources
-* [awesome-cyclejs](https://github.com/cyclejs-community/awesome-cyclejs) – Cycle.js framework
-* [awesome-d](https://github.com/zhaopuming/awesome-d) – D programming language.
-* [awesome-d3](https://github.com/wbkd/awesome-d3) – [D3js](http://d3js.org/) libraries, plugins and utilities.
-* [awesome-dart](https://github.com/yissachar/awesome-dart)
-* [awesome-dash](https://github.com/ucg8j/awesome-dash) – [Dash (plotly)](https://plot.ly/dash/) framework for analytical web applications
-* [awesome-dashboard](https://github.com/obazoud/awesome-dashboard) – Dashboards/visualization resources.
-* [awesome-data-engineering](https://github.com/igorbarinov/awesome-data-engineering) – Data engineering tools for software developers.
-* [awesome-datascience](https://github.com/academic/awesome-datascience) – An open source DataScience repository to learn and apply for real world problems.
-* [awesome-datasets](https://github.com/viisar/awesome-datasets) – Datasets for papers/experiments/validation.
-* [awesome-dataviz](https://github.com/fasouto/awesome-dataviz) – Data visualizations frameworks, libraries and software.
-* [awesome-db](https://github.com/numetriclabz/awesome-db) – Database libraries and resources.
-* [awesome-ddd](https://github.com/heynickc/awesome-ddd) by @heynickc – Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming
-* [awesome-ddd](https://github.com/wkjagt/awesome-ddd) by @wkjagt – Domain-Driven Design
-* [awesome-decentralized-web](https://github.com/gdamdam/awesome-decentralized-web) – Decentralized services and technologies
-* [awesome-decision-tree-papers](https://github.com/benedekrozemberczki/awesome-decision-tree-papers) – Decision Tree Research Papers
-* [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning) – Deep Learning tutorials, projects and communities.
-* [awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers) – The most cited deep learning papers
-* [awesome-deep-learning-resources](https://github.com/guillaume-chevalier/awesome-deep-learning-resources) – Rough list of resources about deep learning.
-* [awesome-deep-rl](https://github.com/tigerneil/awesome-deep-rl) – Deep Reinforcement Learning
-* [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision) – Computer vision / deep learning.
-* [awesome-deku](https://github.com/lambtron/awesome-deku) – Resources for the Deku library.
-* [awesome-delphi](https://github.com/Fr0sT-Brutal/awesome-delphi)
-* [awesome-deno](https://github.com/denolib/awesome-deno) – [Deno](https://deno.land/), a secure runtime for JavaScript and TypeScript.
-* [awesome-derby](https://github.com/russll/awesome-derby) – Components for DerbyJS.
-* [awesome-design](https://github.com/troyericg/awesome-design) – Resources for digital designers.
-* [awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) – Resources on software design patterns.
-* [awesome-design-principles](https://github.com/robinstickel/awesome-design-principles)
-* [awesome-design-systems](https://github.com/alexpate/awesome-design-systems)
-* [Awesome-Design-Tools](https://github.com/goabstract/Awesome-Design-Tools)
-  - https://flawlessapp.io/designtools
-* [awesome-desktop-js](https://github.com/styfle/awesome-desktop-js) – Implementing desktop apps with JavaScript
-* [awesome-dev-fun](https://github.com/mislavcimpersak/awesome-dev-fun) – Fun libs/packages/languages that have no real purpose but to make a developer chuckle.
-* [awesome-developer-blogs](https://github.com/endymion1818/awesome-developer-blogs)
-* [awesome-devenv](https://github.com/jondot/awesome-devenv) – Tools, resources and workflow tips making an awesome development environment.
-* [awesome-devops](https://github.com/joubertredrat/awesome-devops)
-* [awesome-devtools](https://github.com/moimikey/awesome-devtools) – In-browser bookmarklets, tools, and resources for front-end devs.
-* [awesome-digital-nomads](https://github.com/cbovis/awesome-digital-nomads) – Resources for Digital Nomads.
-* [awesome-digitalocean](https://github.com/jonleibowitz/awesome-digitalocean) – DigitalOcean cloud infrastructure provider
-* [awesome-diversity](https://github.com/folkswhocode/awesome-diversity) – Diversity in technology.
-* [awesome-django](https://github.com/wsvincent/awesome-django) – [Django](https://www.djangoproject.com/) Python web framewoek
-* [awesome-django-cms](https://github.com/mishbahr/awesome-django-cms) – django CMS add-ons.
-* [awesome-docker](https://github.com/veggiemonk/awesome-docker) by @veggiemonk
-* [awesome-docsify](https://github.com/docsifyjs/awesome-docsify) – [docsify](https://docsify.js.org/) documentation site generator.
-* [awesome-doctrine](https://github.com/biberlabs/awesome-doctrine) – Doctrine ORM libraries and resources.
-* [awesome-dojo](https://github.com/petk/awesome-dojo) – Dojo JavaScript Toolkit resources and libraries.
-* [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
-* [awesome-dotnet](https://github.com/quozd/awesome-dotnet) – .NET libraries, tools, frameworks and software.
-* [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core) – .NET core libraries, tools, frameworks and software
-* [awesome-draft-js](https://github.com/nikgraf/awesome-draft-js) – [Draft.js](https://draftjs.org/) text editor framework
-* [awesome-dropwizard](https://github.com/stve/awesome-dropwizard) – [Dropwizard](https://www.dropwizard.io/) Java web framework
-* [awesome-drupal](https://github.com/emincansumer/awesome-drupal) by @emincansumer
-* [awesome-drupal](https://github.com/mrsinguyen/awesome-drupal) by @mrsinguyen
-* [awesome-drupal](https://github.com/nirgn975/awesome-drupal) by @nirgn975 – Useful resources for Drupal CMS :droplet:
-* [awesome-dtrace](https://github.com/xen0l/awesome-dtrace) – DTrace books, articles, videos, tools and resources.
-  - https://awesome-dtrace.com
-* [awesome-ebpf](https://github.com/zoidbergwill/awesome-ebpf) – eBPF Linux packet filter
-* [awesome-economics](https://github.com/antontarasenko/awesome-economics) – Economics related projects, software, people
-* [awesome-edtech-tools](https://github.com/hkalant/awesome-edtech-tools) – Tools and resources for educators and virtual teachers.
-* [awesome-educate](https://github.com/mercer/awesome-educate) – Education resources online.
-* [awesome-educational-games](https://github.com/yrgo/awesome-educational-games) – Educational games to learn editors, languages, programming
-* [awesome-ejabberd](https://github.com/shantanu-deshmukh/awesome-ejabberd) – All awesome stuff of the ejabberd ecosystem.
-  - https://ejabberd.shantanudeshmukh.com
-* [awesome-electron](https://github.com/sindresorhus/awesome-electron) – Resources for creating apps with [Electron](http://electron.atom.io/) (formerly atom-shell).
-* [awesome-electronics](https://github.com/kitspace/awesome-electronics) – Electronic engineering
-* [awesome-elixir](https://github.com/h4cc/awesome-elixir)
-* [awesome-elm](https://github.com/sporto/awesome-elm) – [Elm](https://elm-lang.org/), a functional reactive language
-* [awesome-emacs](https://github.com/emacs-tw/awesome-emacs) by @emacs-tw
-* [awesome-emacs](https://github.com/sefakilic/awesome-emacs) by @sefakilic
-* [awesome-emacs](https://github.com/tacticiankerala/awesome-emacs) by @tacticiankerala
-* [awesome-emails](https://github.com/jonathandion/awesome-emails) – Build better emails.
-* [awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust) – Embedded and Low-level development in the Rust programming language
-* [awesome-ember](https://github.com/ember-community-russia/awesome-ember) by @ember-community-russia – [Ember.js](https://emberjs.com/) JavaScript framework
-* [awesome-ember](https://github.com/nmec/awesome-ember) by @nmec – Ember.js things.
-* [awesome-endless-codeforall-list](https://github.com/RobTranquillo/awesome-endless-codeforall-list) – Every tool that civic hackers worldwide use to work.
-* [awesome-engineer-onboarding](https://github.com/posquit0/awesome-engineer-onboarding)
-* [awesome-engineering-ladders](https://github.com/posquit0/awesome-engineering-ladders)
-* [awesome-engineering-team-principles](https://github.com/posquit0/awesome-engineering-team-principles)
-* [awesome-eosio](https://github.com/DanailMinchev/awesome-eosio) – [EOS.IO](https://eos.io/) blockchain protocol
-* [awesome-erlang](https://github.com/drobakowski/awesome-erlang)
-* [awesome-eslint](https://github.com/dustinspecker/awesome-eslint) – [ESLint](https://eslint.org/) JavaScript linter
-* [awesome-esolangs](https://github.com/angrykoala/awesome-esolangs) – Esoteric languages
-* [awesome-eta](https://github.com/sfischer13/awesome-eta) – [Eta](https://eta-lang.org/) programming language
-* [awesome-ethereum](https://github.com/bekatom/awesome-ethereum) by @bekatom – [Ethereum](https://ethereum.org/) decentralized software platform & Dapps.
-* [Awesome-Ethereum](https://github.com/ttumiel/Awesome-Ethereum) by @ttumiel
-* [awesome-ethereum](https://github.com/vinsgo/awesome-ethereum) by @vinsgo
-  - http://awesome-ethereum.com/
-* [awesome-ethereum-virtual-machine](https://github.com/pirapira/awesome-ethereum-virtual-machine)
-* [awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood) – Falsehoods programmers believe in.
-* [awesome-fantasy](https://github.com/r7kamura/awesome-fantasy) – FinalFantasy-ish metaphors in software.
-* [awesome-fast-check](https://github.com/dubzzz/awesome-fast-check) – [fast-check](https://github.com/dubzzz/fast-check/) property based testing framework for JavaScript/TypeScript
-* [awesome-feathersjs](https://github.com/feathersjs/awesome-feathersjs) – [Feathers](https://feathersjs.com/) Node.js framework for real-time applications REST APIs.
-* [awesome-fediverse](https://github.com/emilebosch/awesome-fediverse) – [Fediverse](https://en.wikipedia.org/wiki/Fediverse) resources.
-* [awesome-ffmpeg](https://github.com/transitive-bullshit/awesome-ffmpeg) – FFmpeg resources.
-* [awesome-firebase](https://github.com/jthegedus/awesome-firebase) – Firebase mobile development platform
-* [awesome.fish](https://github.com/jorgebucaran/awesome.fish) – Fish shell
-  - https://git.io/awesome-fish
-* [awesome-flask](https://github.com/humiaozuzu/awesome-flask) – Flask Python web framework resources and plugins.
-* [awesome-flexbox](https://github.com/afonsopacifer/awesome-flexbox) – CSS Flexible Box Layout Module.
-* [awesome-fluidapp](https://github.com/lborgav/awesome-fluidapp) – Icons, Userstyles and Userscripts for Fluid Apps
-* [awesome-flutter](https://github.com/Solido/awesome-flutter) – An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.
-* [awesome-fonts](https://github.com/brabadu/awesome-fonts) – Fonts and everything
-* [awesome-food](https://github.com/jzarca01/awesome-food) – Food related software projects
-* [awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) – Beginner-friendly projects to start contributing.
-* [awesome-fortran](https://github.com/rabbiabram/awesome-fortran)
-* [awesome-foss-apps](https://github.com/DataDaoDe/awesome-foss-apps) – Production grade free and open source software
-* [awesome-fp-js](https://github.com/stoeffel/awesome-fp-js) – Functional programming stuff in JavaScript.
-* [awesome-framer](https://github.com/podo/awesome-framer) – Framer prototyping tool
-* [awesome-fraud-detection-papers](https://github.com/benedekrozemberczki/awesome-fraud-detection-papers) – Fraud detection research papers.
-* [awesome-frc](https://github.com/andrewda/awesome-frc) – First Robotics Competition
-* [awesome-free-software](https://github.com/johnjago/awesome-free-software) – Free as in freedom software
-* [awesome-frege](https://github.com/sfischer13/awesome-frege) – [Frege](https://github.com/Frege/frege) programming language
-* [awesome-fsharp](https://github.com/fsprojects/awesome-fsharp) – F# programming language
-* [awesome-fsm](https://github.com/leonardomso/awesome-fsm) by @leonardomso – Finite State Machines and Statecharts
-* [awesome-fsm](https://github.com/soixantecircuits/awesome-fsm) by @soixantecircuits – Finite State Machines
-* [awesome-functional-programming](https://github.com/lucasviola/awesome-functional-programming) by @lucasviola
-* [awesome-functional-programming](https://github.com/xgrommx/awesome-functional-programming) by @xgrommx
-* [awesome-funny-markov](https://github.com/sublimino/awesome-funny-markov) – Delightfully amusing and facetious Markov chain output.
-* [awesome-fuse](https://github.com/fuse-compound/awesome-fuse) – [Fuse](https://fuseopen.com/) mobile development framework
-* [awesome-fuzzing](https://github.com/cpuu/awesome-fuzzing) – Fuzzing (or Fuzz Testing) for software security
-* [awesome-gametalks](https://github.com/hzoo/awesome-gametalks) – Gaming talks (development, design, etc)
-* [awesome-gbdev](https://github.com/gbdev/awesome-gbdev) – Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs
-  - https://gbdev.github.io/list
-* [awesome-geek-podcasts](https://github.com/ayr-ton/awesome-geek-podcasts) – Podcasts we like to listen to.
-  - http://ayr-ton.github.io/awesome-geek-podcasts
-* [awesome-geojson](https://github.com/tmcw/awesome-geojson) – GeoJSON
-* [awesome-gideros](https://github.com/stetso/awesome-gideros) – [Gideros](http://giderosmobile.com/) game development framework
-* [awesome-gif](https://github.com/davisonio/awesome-gif) – GIF software resources
-  - https://davison.io/awesome-gif
-* [awesome-gists](https://github.com/vsouza/awesome-gists) – Amazing gists
-* [awesome-git](https://github.com/dictcp/awesome-git) – Git tools, resources and shiny things.
-* [awesome-git-addons](https://github.com/stevemao/awesome-git-addons) – Add-ons that extend/enhance the git CLI.
-* [awesome-git-hooks](https://github.com/CompSciLauren/awesome-git-hooks) – Easy-to-use git hooks for automating tasks during git workflows.
-* [awesome-github](https://github.com/AntBranch/awesome-github) _In Chinese_ by @AntBranch – GitHub guides, articles, sites, tools, projects and resources.  收集这个列表，只是为了更好地使用亲爱的GitHub,欢迎提交pr和issue。
-  - https://github.com/AntBranch/awesome-github
-* [awesome-github](https://github.com/fffaraz/awesome-github) by @fffaraz – Git and GitHub references.
-* [awesome-github](https://github.com/Kikobeats/awesome-github) by @Kikobeats – GitHub secrets and goodies.
-* [awesome-github](https://github.com/phillipadsmith/awesome-github) by @phillipadsmith – GitHub's awesomeness
-* [awesome-github-repo](https://github.com/flyhigher139/awesome-github-repo) – GitHub repositories; various topics like study materials, Raspberry Pi etc.
-* [awesome-gnome](https://github.com/Kazhnuz/awesome-gnome) – Gnome Desktop Environment.
-* [awesome-go](https://github.com/avelino/awesome-go) by @avelino – Golang
-  - http://awesome-go.com/
-* [awesome-go-books](https://github.com/heatroom/awesome-go-books) – Online and free golang books.
-* [awesome-godot](https://github.com/godotengine/awesome-godot) – [Godot](https://godotengine.org/) game engine
-* [awesome-gradient-boosting-papers](https://github.com/benedekrozemberczki/awesome-gradient-boosting-papers) – Gradient boosting research papers with implementations.
-* [awesome-grails](https://github.com/hitenpratap/awesome-grails)
-* [awesome-graph-classification](https://github.com/benedekrozemberczki/awesome-graph-classification) – Graph embedding papers with implementations.
-* [awesome-graphql](https://github.com/chentsulin/awesome-graphql) – GraphQL & Relay Resources.
-* [awesome-groovy](https://github.com/kdabir/awesome-groovy)
-* [awesome-growth-hacking](https://github.com/bekatom/awesome-growth-hacking)
-* [awesome-gulp](https://github.com/alferov/awesome-gulp) – [Gulp](http://gulpjs.com/) build system resources and plugins.
-* [awesome-gyazo](https://github.com/gyazo/awesome-gyazo) – Tools for [Gyazo](https://gyazo.com/) screen capture application.
-* [awesome-h2o](https://github.com/h2oai/awesome-h2o) – H2O Machine Learning
-* [awesome-hacking](https://github.com/carpedm20/awesome-hacking)
-* [awesome-hacktoberfest-2020](https://github.com/Piyushhbhutoria/awesome-hacktoberfest-2020) – [Hacktoberfest](https://hacktoberfest.digitalocean.com/)-friendly repositories and resources.
-* [awesome-hadoop](https://github.com/youngwookim/awesome-hadoop) – Hadoop and Hadoop ecosystem resources.
-* [awesome-haskell](https://github.com/krispo/awesome-haskell)
-* [awesome-hasura](https://github.com/aaronhayes/awesome-hasura) – [Hasura](https://hasura.io/) is an instant realtime GraphQL engine for PostgreSQL.
-* [awesome-haxe-gamedev](https://github.com/dvergar/awesome-haxe-gamedev) – Game development in [Haxe](https://haxe.org/) cross-platform programming language
-* [awesome-hbase](https://github.com/rayokota/awesome-hbase) – Apache HBase
-* [awesome-hdl](https://github.com/drom/awesome-hdl) – Hardware Description Languages
-* [awesome-healthcare](https://github.com/kakoni/awesome-healthcare) – Open source healthcare software, libraries, tools and resources.
-* [awesome-heroku](https://github.com/ianstormtaylor/awesome-heroku) – Heroku resources.
-* [awesome_hierarchical_matrices](https://github.com/gchavez2/awesome_hierarchical_matrices) – Hierarchical matrices frameworks, libraries, and software.
-* [awesome-home-assistant](https://github.com/frenck/awesome-home-assistant) – [Home Assistant](https://www.home-assistant.io/) home automation
-  - https://awesome-ha.com
-* [awesome-homematic](https://github.com/homematic-community/awesome-homematic) – [HomeMatic](https://www.homematic.com/) home automation
-* [awesome-honeypots](https://github.com/paralax/awesome-honeypots) – Honeypot resources
-* [awesome-html5](https://github.com/diegocard/awesome-html5)
-* [awesome-humane-tech](https://github.com/humanetech-community/awesome-humane-tech) – Promoting Solutions that Improve Wellbeing, Freedom and Society
-* [awesome-hyper](https://github.com/bnb/awesome-hyper) – [Hyper](https://hyper.is/) terminal
-* [awesome-ibmcloud](https://github.com/victorshinya/awesome-ibmcloud) – IBM Cloud
-  - https://awesome-ibmcloud.mybluemix.net
-* [awesome-icons](https://github.com/notlmn/awesome-icons) – Downloadable SVG/PNG/Font icon projects
-* [awesome-idris](https://github.com/joaomilho/awesome-idris) – 𝛌 [Idris](https://www.idris-lang.org/), functional programming language with dependent types
-* [awesome-incident-response](https://github.com/meirwah/awesome-incident-response) – Resources useful for incident responders.
-* [awesome-indie](https://github.com/mezod/awesome-indie) – Resources for independent developers to make money
-* [awesome-influxdb](https://github.com/mark-rushakoff/awesome-influxdb) – Resources for the time series database InfluxDB
-* [awesome-information-retrieval](https://github.com/harpribot/awesome-information-retrieval) – Information retrieval resources
-* [awesome-inspectit](https://github.com/inspectit-labs/awesome-inspectit) – InspectIT documentations and resources.
-* [awesome-interview-questions](https://github.com/MaximAbramchuck/awesome-interview-questions) – Interview questions.
-* [awesome-ionic](https://github.com/candelibas/awesome-ionic) – [Ionic](https://ionicframework.com/) mobile development framework
-* [awesome-ios](https://github.com/vsouza/awesome-ios)
-* [awesome-ios-cn](https://github.com/jobbole/awesome-ios-cn) _In Chinese_ – iOS 资源大全中文版，内容包括：框架、组件、测试、Apple Store、SDK、XCode、网站、书籍等
-* [awesome-ios-ui](https://github.com/cjwirth/awesome-ios-ui) – UI/UX libraries for iOS.
-* [awesome-IoT](https://github.com/dharmeshkakadia/awesome-IoT) by @dharmeshkakadia – Internet of Things
-* [awesome-iot](https://github.com/HQarroum/awesome-iot) by @HQarroum – Internet of Things
-* [awesome-IoT-hybrid](https://github.com/weblancaster/awesome-IoT-hybrid) – Internet of Things and Hybrid Applications
-* [awesome-ipfs](https://github.com/ipfs/awesome-ipfs) – [IPFS](https://ipfs.io/) distributed web
-  - https://awesome.ipfs.io/
-* [awesome-irc](https://github.com/davisonio/awesome-irc) – Internet Relay Chat protocol.
-* [awesome-it-quotes](https://github.com/victorlaerte/awesome-it-quotes) – Collect all relevant quotes said over the history of IT
-* [awesome-jamstack](https://github.com/automata/awesome-jamstack) – [JAMstack](https://jamstack.org) (JavaScript, APIs, Markup)
-* [awesome-java](https://github.com/akullpp/awesome-java)
-* [awesome-javascript](https://github.com/sorrycc/awesome-javascript)
-* [awesome-javascript-books](https://github.com/heatroom/awesome-javascript-books) – Online and free JavaScript books.
-* [awesome-javascript-learning](https://github.com/micromata/awesome-javascript-learning) – Tiny list limited to the best JavaScript Learning Resources
-* [awesome-jitsi](https://github.com/easyjitsi/awesome-jitsi) – [Jitsi](https://jitsi.org/) open-source video conferencing.
-* [awesome-jmeter](https://github.com/aliesbelik/awesome-jmeter) – Apache JMeter load testing
-* [awesome-job-boards](https://github.com/emredurukn/awesome-job-boards) by @emredurukn
-* [awesome-job-boards](https://github.com/tramcar/awesome-job-boards) by @tramcar
-* [awesome-jquery](https://github.com/petk/awesome-jquery)
-* [awesome-js-drama](https://github.com/scottcorgan/awesome-js-drama) – JavaScript topics the just might spark the next revolt!
-* [awesome-json](https://github.com/burningtree/awesome-json)
-* [awesome-json-datasets](https://github.com/jdorfman/awesome-json-datasets) – JSON datasets that don't require authentication
-* [awesome-julia](https://github.com/melvin0008/awesome-julia)
-* [awesome-jupyter](https://github.com/markusschanta/awesome-jupyter) – [Jupyter](https://jupyter.org/)
-* [awesome-jvm](https://github.com/deephacks/awesome-jvm)
-* [awesome-kafka](https://github.com/monksy/awesome-kafka) – [Apache Kafka](http://kafka.apache.org/), distributed streaming platform
-* [awesome-katas](https://github.com/gamontal/awesome-katas) – Code katas
-* [awesome-kde](https://github.com/francoism90/awesome-kde) – KDE Desktop Environment.
-* [awesome-knockout](https://github.com/dnbard/awesome-knockout) – Plugins for Knockout MVVM framework.
-* [awesome-koa](https://github.com/ellerbrock/awesome-koa) – [Koa.js](https://koajs.com/) Web Framework
-  - https://ellerbrock.github.io/awesome-koa
-* [awesome-koans](https://github.com/ahmdrefat/awesome-koans) – Programming kōans in various languages.
-* [awesome-kotlin](https://github.com/KotlinBy/awesome-kotlin) – [Kotlin](https://kotlinlang.org/) programming language
-  - https://kotlin.link/
-* [awesome-kotlin-native](https://github.com/bipinvaylu/awesome-kotlin-native) – Kotlin Multiplatform libraries & resources.
-* [awesome-kr-foss](https://github.com/darjeeling/awesome-kr-foss) – Korean open source projects.
-* [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
-  - https://ramitsurana.github.io/awesome-kubernetes
-* [awesome-languages](https://github.com/perfaram/awesome-languages) – Open-source programming languages.
-* [awesome-laravel](https://github.com/chiraggude/awesome-laravel) by @chiraggude
-* [awesome-laravel](https://github.com/TimothyDJones/awesome-laravel) by @TimothyDJones
-* [Awesome-Laravel-Education](https://github.com/fukuball/Awesome-Laravel-Education) _In English and Chinese_ – Laravel PHP framework learning resources.
-* [awesome-LaTeX](https://github.com/egeerardyn/awesome-LaTeX)
-* [awesome-ld-preload](https://github.com/gaul/awesome-ld-preload) – LD_PRELOAD, a mechanism for changing application behavior at run-time.
-* [awesome-leading-and-managing](https://github.com/LappleApple/awesome-leading-and-managing) – Leading people and being a manager. Geared toward tech, but potentially useful to anyone.
-* [awesome-learn-datascience](https://github.com/siboehm/awesome-learn-datascience) – Resources to help you get started with Data Science
-* [awesome-ledger](https://github.com/sfischer13/awesome-ledger) – Ledger command-line accounting system
-* [awesome-legacy-code](https://github.com/legacycoderocks/awesome-legacy-code) – Legacy systems with publicly available source code
-* [awesome-less](https://github.com/LucasBassetti/awesome-less) – Less CSS preprocessor
-* [awesome-lesscode](https://github.com/dream2023/awesome-lesscode) _In Chinese_ – Low code / no code projects
-* [awesome-libgdx](https://github.com/rafaskb/awesome-libgdx) – [libGDX](https://libgdx.badlogicgames.com/) cross-platform games development framework
-* [awesome-libra](https://github.com/learndapp/awesome-libra) – [Libra](https://libra.org/) cryptocurrency by Facebook
-* [awesome-librehosters](https://github.com/libresh/awesome-librehosters) – Nice hosting providers
-* [awesome-linguistics](https://github.com/theimpossibleastronaut/awesome-linguistics) – Tools, theory and platforms for linguistics.
-* [awesome-links](https://github.com/rbk/awesome-links) – Web Development Links by @richardbenjamin.
-* [awesome-linters](https://github.com/caramelomartins/awesome-linters) – Resources for a more literate programming.
-* [awesome-linux](https://github.com/aleksandar-todorovic/awesome-linux) – Linux software.
-* [awesome-linux-containers](https://github.com/Friz-zy/awesome-linux-containers) – Linux Containers frameworks, libraries and software
-* [awesome-linux-resources](https://github.com/itech001/awesome-linux-resources)
-  - http://www.linux6.com
-* [Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software) – Linux applications for all users and developers.
-* [awesome-linuxaudio](https://github.com/nodiscc/awesome-linuxaudio) – Professional audio/video/live events production on Linux.
-* [awesome-lit-html](https://github.com/web-padawan/awesome-lit-html) – [lit-html](https://lit-html.polymer-project.org/) HTML templating library
-* [awesome-livecoding](https://github.com/toplap/awesome-livecoding) – All things Livecoding.
-* [awesome-logging](https://github.com/roundrobin/awesome-logging)
-* [awesome-love2d](https://github.com/love2d-community/awesome-love2d) – [LÖVE](http://love2d.org/) Lua game framework
-* [awesome-lowcode](https://github.com/taowen/awesome-lowcode) _In Chinese_ – Chinese low code platforms.
-* [awesome-lua](https://github.com/forhappy/awesome-lua) by @forhappy
-* [awesome-lua](https://github.com/LewisJEllis/awesome-lua) by @LewisJEllis
-* [awesome-lumen](https://github.com/unicodeveloper/awesome-lumen) – [Lumen](https://lumen.laravel.com/), PHP Microframework by Laravel
-* [awesome-luvit](https://github.com/luvit/awesome-luvit) – [Luvit](https://luvit.io/), asynchronous I/O for Lua
-* [awesome-mac](https://github.com/jaywcjlove/awesome-mac) by @jaywcjlove – Premium macOS software in various categories
-  - https://git.io/macx
-* [awesome-mac](https://github.com/xyNNN/awesome-mac) by @xyNNN – macOS tools, applications and games.
-* [awesome-mac-apps](https://github.com/justin-j/awesome-mac-apps) – macOS apps
-* [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
-* [awesome-macOS](https://github.com/iCHAIT/awesome-macOS) – OS X applications, tools and communities.
-* [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) – Shell commands and tools specific to OS X.
-* [awesome-macos-screensavers](https://github.com/agarrharr/awesome-macos-screensavers) – Screensavers for Mac OS X
-* [awesome-mad-science](https://github.com/feross/awesome-mad-science) – npm packages that make you say "wow, didn't know that was possible!"
-* [awesome-magento2](https://github.com/DavidLambauer/awesome-magento2) – [Magento 2](https://magento.com/) PHP eCommerce platform
-  - https://davidlambauer.github.io/awesome-magento2/
-* [awesome-maintainers](https://github.com/nayafia/awesome-maintainers) – Talks, blog posts, and interviews about the experience of being an open source maintainer
-* [awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis)
-* [awesome-marionette](https://github.com/sadcitizen/awesome-marionette) – [marionette.js](https://marionettejs.com/) framework
-* [awesome-markdown](https://github.com/BubuAnabelas/awesome-markdown)
-* [awesome-masonite](https://github.com/vaibhavmule/awesome-masonite) – [Masonite](https://docs.masoniteproject.com/) Python web framework
-* [awesome-mastodon](https://github.com/tleb/awesome-mastodon) – [Mastodon](https://joinmastodon.org/) decentralized microblogging network
-* [awesome-material](https://github.com/sachin1092/awesome-material) – Google's material design
-* [Awesome-MaterialDesign](https://github.com/lightSky/Awesome-MaterialDesign) _In Chinese_ – Resources and libraries for [Material Design](http://www.google.com/design/spec/material-design/introduction.html).
-* [awesome-math](https://github.com/rossant/awesome-math) – Mathematics
-* [awesome-MATLAB](https://github.com/mikecroucher/awesome-MATLAB)
-* [awesome-mechanical-keyboard](https://github.com/BenRoe/awesome-mechanical-keyboard) – Mechanical Keyboards
-  - https://keebfol.io
-* [awesome-mesos](https://github.com/dharmeshkakadia/awesome-mesos) by @dharmeshkakadia
-* [awesome-mesos](https://github.com/parolkar/awesome-mesos) by @parolkar
-* [awesome-meteor](https://github.com/Urigo/awesome-meteor)
-* [awesome-meteor-developers](https://github.com/harryadel/awesome-meteor-developers) – Ways to support Meteor developers and packages.
-* [awesome-micro-npm-packages](https://github.com/parro-it/awesome-micro-npm-packages) – Small, focused npm packages.
-* [awesome-microbit](https://github.com/carlosperate/awesome-microbit) – BBC micro:bit
-* [awesome-microfrontends](https://github.com/ChristianUlbrich/awesome-microfrontends)
-* [awesome-microservices](https://github.com/mfornos/awesome-microservices) – Microservice Architecture related principles and technologies.
-* [awesome-minecraft](https://github.com/bs-community/awesome-minecraft)
-* [awesome-minimalist](https://github.com/neiesc/awesome-minimalist) – Minimalist frameworks (simple and lightweight).
-* [awesome-mobile](https://github.com/alec-c4/awesome-mobile) – Instruments for mobile marketing and development
-* [awesome-mobile-web-development](https://github.com/myshov/awesome-mobile-web-development) – All that you need to create a great mobile web experience
-* [awesome-mongodb](https://github.com/ramnes/awesome-mongodb)
-* [awesome-monitoring](https://github.com/crazy-canux/awesome-monitoring) – INFRASTRUCTURE、OPERATION SYSTEM and APPLICATION monitoring tools for Operations.
-  - http://canuxcheng.com/awesome-monitoring/
-* [awesome-monte-carlo-tree-search-papers](https://github.com/benedekrozemberczki/awesome-monte-carlo-tree-search-papers) – Monte Carlo tree search, a heuristic search algorithm frequently used in games.
-* [awesome-motion-design-web](https://github.com/lucasmaiaesilva/awesome-motion-design-web)
-* [awesome-motion-planning](https://github.com/AGV-IIT-KGP/awesome-motion-planning) – Papers, books and tools for motion planning.
-* [awesome-mqtt](https://github.com/hobbyquaker/awesome-mqtt) – MQTT related stuff.
-* [awesome-msr](https://github.com/dspinellis/awesome-msr) – Empirical Software Engineering: evidence-based, data-driven research on software systems
-* [awesome-music](https://github.com/ciconia/awesome-music) – Music, audio, MIDI
-* [awesome-mysql](https://github.com/shlomi-noach/awesome-mysql) – MySQL software, libraries, tools and resources
-* [awesome-neo4j](https://github.com/neueda/awesome-neo4j) – Neo4j graph database
-* [awesome-netherlands-events](https://github.com/awkward/awesome-netherlands-events) – Dutch (tech related) events
-* [awesome-network-analysis](https://github.com/briatte/awesome-network-analysis)
-  - http://f.briatte.org/r/awesome-network-analysis-list
-* [awesome-network-embedding](https://github.com/chihming/awesome-network-embedding) – Papers on node embedding techniques.
-* [awesome-network-js](https://github.com/Kikobeats/awesome-network-js) – Network layer resources in pure JavaScript
-* [Awesome-Networking](https://github.com/clowwindy/Awesome-Networking)
-* [awesome-neuroscience](https://github.com/analyticalmonk/awesome-neuroscience) – Neuroscience libraries, software and resources
-  - http://akashtandon.com/awesome-neuroscience/
-* [awesome-newsletters](https://github.com/mpron/awesome-newsletters) by @mpron – Developer newsletters
-* [awesome-newsletters](https://github.com/webpro/awesome-newsletters) by @webpro – The best (weekly) newsletters
-* [awesome-newsletters](https://github.com/zudochkin/awesome-newsletters) by @zudochkin
-* [awesome-nextjs](https://github.com/unicodeveloper/awesome-nextjs) – [Next.js](https://nextjs.org/) React-based JavaScript framework
-* [awesome-nim](https://github.com/VPashkov/awesome-nim) – [Nim](https://nim-lang.org/) programming language
-* [awesome-nlp](https://github.com/keon/awesome-nlp) – Natural Language Processing.
-* [awesome-no-login-web-apps](https://github.com/aviaryan/awesome-no-login-web-apps) – Web apps that work without login
-* [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) by @sindresorhus
-* [awesome-non-financial-blockchain](https://github.com/machinomy/awesome-non-financial-blockchain) – Non-financial applications of blockchain
-* [awesome-nosql-guides](https://github.com/erictleung/awesome-nosql-guides) – NoSQL databases
-  - https://erictleung.com/awesome-nosql-guides/
-* [awesome-npm](https://github.com/sindresorhus/awesome-npm)
-* [awesome-npm-scripts](https://github.com/RyanZim/awesome-npm-scripts) – using npm as a build tool
-* [awesome-ntnu](https://github.com/michaelmcmillan/awesome-ntnu) – Projects by NTNU students.
-* [awesome-nuxt](https://github.com/nuxt-community/awesome-nuxt) – Resources for [Nuxt.js](https://nuxtjs.org/), framework for universal Vue.js applications.
-* [awesome-objc-frameworks](https://github.com/follyxing/awesome-objc-frameworks)
-* [awesome-observables](https://github.com/sindresorhus/awesome-observables) – An Observable is a collection that arrives over time.
-* [awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian) – [Obsidian](https://obsidian.md/) knowledge base app.
-* [awesome-ocaml](https://github.com/ocaml-community/awesome-ocaml)
-* [awesome-okr](https://github.com/domenicosolazzo/awesome-okr) – Objective - Key Results, the best practice of setting and communicating company, team and employee objectives and measuring their progress based on achieved results
-* [awesome-online-ide](https://github.com/styfle/awesome-online-ide) – Online development environments
-  - https://ide.ceriously.com
-* [awesome-online-machine-learning](https://github.com/MaxHalford/awesome-online-machine-learning) – [Online machine learning](https://en.wikipedia.org/wiki/Online_machine_learning)
-* [awesome-open-company](https://github.com/opencompany/awesome-open-company) – Open companies: Share as much as possible, charge as little as possible.
-* [awesome-open-science](https://github.com/silky/awesome-open-science)
-* [awesome-open-source-supporters](https://github.com/zachflower/awesome-open-source-supporters) – Companies that offer their services for free to Open Source projects
-* [awesome-opengl](https://github.com/eug/awesome-opengl) – OpenGL libraries, debuggers and resources.
-* [awesome-opensource-documents](https://github.com/44bits/awesome-opensource-documents) – Open source or open source licensed documents, guides, books.
-* [awesome-OpenSourcePhotography](https://github.com/ibaaj/awesome-OpenSourcePhotography) – Free open source software & libraries for photography. Also tools for video.
-* [awesome-osc](https://github.com/amir-arad/awesome-osc) – [Open Sound Control](http://opensoundcontrol.org/)
-* [awesome-pascal](https://github.com/Fr0sT-Brutal/awesome-pascal) – Delphi/FreePascal/(any)Pascal frameworks, libraries, resources, and shiny things.
-* [awesome-pcaptools](https://github.com/caesar0301/awesome-pcaptools) – Tools to process network traces.
-* [awesome-pentest](https://github.com/enaqx/awesome-pentest) – Penetration testing resources and tools.
-* [awesome-pentest-cheat-sheets](https://github.com/coreb1t/awesome-pentest-cheat-sheets) – Penetration testing
-* [Awesome-People-in-Computer-Vision](https://github.com/solarlee/Awesome-People-in-Computer-Vision)
-* [awesome-perfocards](https://github.com/Wolg/awesome-perfocards) _See [perfokaart](https://et.wikipedia.org/wiki/Perfokaart)._
-* [awesome-perl](https://github.com/hachiojipm/awesome-perl)
-* [awesome-persian](https://github.com/fffaraz/awesome-persian) – Persian/Farsi supporting tools, fonts, and development resources.
-* [awesome-phalcon](https://github.com/phalcon/awesome-phalcon) – [Phalcon](https://phalconphp.com/en/) PHP framework libraries and resources.
-* [awesome-pharo](https://github.com/pharo-open-documentation/awesome-pharo) – [Pharo](https://pharo.org/) Smalltalk
-* [awesome-pharo-ml](https://github.com/pharo-ai/awesome-pharo-ml) – Machine learning, AI, data science in Pharo.
-* [awesome-php](https://github.com/ziadoz/awesome-php)
-* [awesome-PICO-8](https://github.com/pico-8/awesome-PICO-8) – [PICO-8](https://www.lexaloffle.com/pico-8.php) fantasy console for making, sharing and playing tiny games
-  - https://pico-8.github.io/awesome-PICO-8/
-* [awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists) – Dynamic pinned gists for GitHub.
-* [awesome-pipeline](https://github.com/pditommaso/awesome-pipeline) – Pipeline toolkits.
-* [awesome-piracy](https://github.com/Igglybuff/awesome-piracy) – Warez and piracy links
-* [awesome-pixel-art](https://github.com/Siilwyn/awesome-pixel-art)
-* [awesome-play1](https://github.com/PerfectCarl/awesome-play1) – Play Framework 1.x modules, tools, and resources.
-* [awesome-plotters](https://github.com/beardicus/awesome-plotters) – Computer-controlled drawing machines and other visual art robots.
-* [awesome-podcasts](https://github.com/Ghosh/awesome-podcasts) by @Ghosh – Podcasts for designers, developers, product managers, entrepreneurs and hustlers
-  - http://podcasts.surge.sh/
-* [awesome-podcasts](https://github.com/rShetty/awesome-podcasts) by @rShetty – Important Podcasts for software engineers.
-* [awesome-pokemon](https://github.com/tobiasbueschel/awesome-pokemon) – Pokémon & Pokémon Go
-* [awesome-polymer](https://github.com/Granze/awesome-polymer) – [Polymer Project](https://www.polymer-project.org/)
-* [awesome-postcss](https://github.com/jdrgomes/awesome-postcss) – [PostCSS](https://postcss.org/) CSS processor
-* [awesome-postgres](https://github.com/dhamaniasad/awesome-postgres)
-* [awesome-power-mode](https://github.com/codeinthedark/awesome-power-mode)
-* [awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
-* [awesome-preact](https://github.com/preactjs/awesome-preact) – [Preact](https://github.com/preactjs/preact) JavaScript framework
-* [awesome-prisma](https://github.com/catalinmiron/awesome-prisma) – [Prisma](https://www.prisma.io/) GraphQL library
-* [awesome-product-design](https://github.com/teoga/awesome-product-design) – Bookmarks, resources, articles for product designers.
-* [awesome-product-management](https://github.com/dend/awesome-product-management) – Resources for product/program managers to learn and grow.
-* [awesome-productivity](https://github.com/jyguyomarch/awesome-productivity) – Delightful productivity resources.
-* [awesome-ProductManager](https://github.com/hugo53/awesome-ProductManager) – Books and tools for Product Managers.
-* [awesome-programming-for-kids](https://github.com/HollyAdele/awesome-programming-for-kids) – Teaching kids programming
-* [awesome-progressive-web-apps](https://github.com/TalAter/awesome-progressive-web-apps) – Progressive Web Apps (PWA)
-* [awesome-projects-boilerplates](https://github.com/melvin0008/awesome-projects-boilerplates)
-* [awesome-prolog](https://github.com/klaussinani/awesome-prolog) – Prolog logic programming language
-* [awesome-prometheus](https://github.com/roaldnefs/awesome-prometheus) – [Prometheus](https://prometheus.io/) monitoring system
-* [awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts) – Prometheus alerting rules
-  - https://awesome-prometheus-alerts.grep.to
-* [awesome-promises](https://github.com/wbinnssmith/awesome-promises) – JavaScript Promises.
-* [awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) by @awesomedata – (Large-scale) public datasets on the Internet.
-  - [source data](https://github.com/awesomedata/apd-core)
-* [awesome-puppet](https://github.com/rnelson0/awesome-puppet)
-* [awesome-pure-css-no-javascript](https://github.com/Zhangjd/awesome-pure-css-no-javascript) _In Chinese_
-* [awesome-purescript](https://github.com/passy/awesome-purescript)
-* [awesome-pyramid](https://github.com/uralbash/awesome-pyramid) – Resources for Pyramid Python web framework.
-* [awesome-python](https://github.com/kevmo/awesome-python) by @kevmo
-* [awesome-python](https://github.com/vinta/awesome-python) by @vinta
-* [awesome-python-cn](https://github.com/jobbole/awesome-python-cn) _In Chinese_
-* [awesome-python-data-science](https://github.com/krzjoa/awesome-python-data-science)
-* [awesome-python-in-education](https://github.com/quobit/awesome-python-in-education)
-* [awesome-python-models](https://github.com/grundic/awesome-python-models) – List of ORMs, models, schemas, serializers, etc. libraries  for python.
-* [awesome-python-scientific-audio](https://github.com/faroit/awesome-python-scientific-audio) – Python software and packages related to scientific research in audio
-* [awesome-python-talks](https://github.com/jhermann/awesome-python-talks) – Videos related to Python, with a focus on training and gaining hands-on experience.
-* [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing) – Python types, stubs, plugins, and tools to work with them.
-* [Awesome-pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list) – [PyTorch](https://pytorch.org/) Python machine learning framework.
-* [awesome-qa](https://github.com/seriousran/awesome-qa) – [Question Answering](https://en.wikipedia.org/wiki/Question_answering) systems automatically answer questions asked in a natural language
-* [awesome-qsharp](https://github.com/ebraminio/awesome-qsharp) – [Q#](https://docs.microsoft.com/en-us/quantum/) quantum programming language
-* [awesome-qt](https://github.com/JesseTG/awesome-qt) by @JesseTG – Qt framework
-* [awesome-qt](https://github.com/skhaz/awesome-qt) by @skhaz – Qt framework
-* [awesome-quantified-self](https://github.com/woop/awesome-quantified-self) – Devices, Wearables, Applications, and Platforms for Self Tracking
-* [awesome-quantum-computing](https://github.com/desireevl/awesome-quantum-computing) – Quantum computing learning and developing resources.
-* [awesome-R](https://github.com/qinwf/awesome-R)
-* [awesome-radio](https://github.com/kyleterry/awesome-radio) – Radio and citizens band (CB) radio resources.
-* [awesome-rails](https://github.com/dpaluy/awesome-rails) by @dpaluy
-* [awesome-rails](https://github.com/gramantin/awesome-rails) by @gramantin – Projects and sites made with Rails.
-* [awesome-rails](https://github.com/ruby-vietnam/awesome-rails) by @ruby-vietnam – Rails libraries/app examples/ebooks/tutorials/screencasts/magazines/news.
-* [awesome-rails-gem](https://github.com/hothero/awesome-rails-gem) – Ruby Gems for Rails development.
-* [awesome-random-forest](https://github.com/kjw0612/awesome-random-forest) – Decision forest, tree-based methods, including random forest, bagging, and boosting.
-* [awesome-raspberry-pi](https://github.com/blackout314/awesome-raspberry-pi) by @blackout314
-  - http://blackout314.github.io/awesome-raspberry-pi/
-* [awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) by @thibmaek – Raspberry Pi tools, projects, images and resources
-* [awesome-react](https://github.com/enaqx/awesome-react) – ReactJS tools, resources, videos.
-* [awesome-react-components](https://github.com/brillout/awesome-react-components) – React Components & Libraries.
-* [awesome-react-hooks](https://github.com/glauberfc/awesome-react-hooks) – React Hooks
-* [awesome-react-native](https://github.com/jondot/awesome-react-native)
-  - http://www.awesome-react-native.com
-* [awesome-readme](https://github.com/matiassingers/awesome-readme) – READMEs examples and best practices
-* [awesome-reasonml](https://github.com/vramana/awesome-reasonml) – [ReasonML](https://reasonml.github.io/), [BuckleScript](https://bucklescript.github.io/) and [OCaml](https://ocaml.org/) programming languages.
-* [awesome-recommender-system](https://github.com/Geek4IT/awesome-recommender-system) – Recommender System frameworks, libraries and software.
-* [awesome-recursion-schemes](https://github.com/passy/awesome-recursion-schemes)
-* [awesome-redux](https://github.com/brillout/awesome-redux) by @brillout – Redux Libraries & Learning Material
-  - https://devarchy.com/redux
-* [awesome-redux](https://github.com/xgrommx/awesome-redux) by @xgrommx – [Redux](https://github.com/rackt/redux) web application state container
-* [awesome-refinerycms](https://github.com/refinerycms-contrib/awesome-refinerycms) – [Refinery](https://www.refinerycms.com/) Ruby on Rails CMS
-* [awesome-regex](https://github.com/aloisdg/awesome-regex) – Regular expressions
-* [awesome-regression-testing](https://github.com/mojoaxel/awesome-regression-testing) – Visual regression testing
-* [awesome-relay](https://github.com/expede/awesome-relay) – [Relay](https://relay.dev/) JavaScript framework for React and GraphQL
-* [awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) – Remote companies and other resources.
-* [awesome-RemoteWork](https://github.com/hugo53/awesome-RemoteWork) – Books and links about and for remote work.
-* [awesome-research](https://github.com/emptymalei/awesome-research) – Tools to help you with research/life
-  - http://openmetric.org/tool/
-* [awesome-rest](https://github.com/marmelab/awesome-rest) – Great resources about RESTful API architecture, development, test, and performance
-* [awesome-rethinkdb](https://github.com/d3viant0ne/awesome-rethinkdb) – [RethinkDB](https://rethinkdb.com/) realtime database
-* [awesome-ripple](https://github.com/vhpoet/awesome-ripple) – [Ripple](https://ripple.com/) cryptocurrency
-* [awesome-rl](https://github.com/aikorea/awesome-rl) – Reinforcement Learning.
-* [awesome-rnn](https://github.com/kjw0612/awesome-rnn) – Recurrent Neural Networks.
-* [awesome-roadmaps](https://github.com/liuchong/awesome-roadmaps) – Skills roadmaps for software development
-* [awesome-roam](https://github.com/roam-unofficial/awesome-roam) – Roam Research networked note-taking
-* [awesome-robotics](https://github.com/Kiloreux/awesome-robotics)
-* [awesome-ros2](https://github.com/fkromer/awesome-ros2) – [Robot Operating System](http://www.ros.org/)
-  - https://fkromer.github.io/awesome-ros2
-* [awesome-roslyn](https://github.com/ironcev/awesome-roslyn) – Roslyn .NET Compiler Platform
-* [awesome-rshiny](https://github.com/grabear/awesome-rshiny) – A curated list of resources for the R shiny package.
-  - https://grabear.github.io/awesome-rshiny/
-* [awesome-ruby](https://github.com/markets/awesome-ruby) by @markets
-  - http://awesome-ruby.com/
-* [awesome-ruby](https://github.com/Sdogruyol/awesome-ruby) by @Sdogruyol
-* [awesome-ruby-ast](https://github.com/rajasegar/awesome-ruby-ast) – Abstract Syntax Trees (AST) in Ruby
-* [AwesomeRubyist/awesome_podcast_list](https://github.com/AwesomeRubyist/awesome_podcast_list) – Podcasts about Ruby and development, also in Russian.
-* [AwesomeRubyist/awesome_reading_list](https://github.com/AwesomeRubyist/awesome_reading_list) – Books about Ruby and Rails.
-* [AwesomeRubyist/awesome_resource_list](https://github.com/AwesomeRubyist/awesome_resource_list) – Resources for Ruby and Rails.
-* [awesome-rubymotion](https://github.com/motion-open-source/awesome-rubymotion) – [RubyMotion](http://www.rubymotion.com/), cross-platform development in Ruby
-  - http://motion-open-source.github.io/awesome-rubymotion/
-* [awesome-rust](https://github.com/rust-unofficial/awesome-rust)
-* [awesome-rxjava](https://github.com/eleventigers/awesome-rxjava) – RxJava, reactive programming library
-* [awesome-salesforce](https://github.com/mailtoharshit/awesome-salesforce) – Salesforce Platform Resources
-* [awesome-saltstack](https://github.com/hbokh/awesome-saltstack) – [SaltStack](https://www.saltstack.com/) configuration management
-* [awesome-sarl](https://github.com/sarl/awesome-sarl) – Resources for [SARL](http://www.sarl.io/) Agent-Oriented Programming Language.
-* [awesome-SAS](https://github.com/huyingjie/awesome-SAS) – [SAS](https://www.sas.com/) analysis system
-* [awesome-sass](https://github.com/Famolus/awesome-sass) by @Famolus – Sass and SCSS CSS preprocessor
-* [awesome-sass](https://github.com/HugoGiraudel/awesome-sass) by @HugoGiraudel – Sass and SCSS CSS preprocessor
-* [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets) – Satellite imagery datasets with annotations for computer vision and deep learning.
-* [awesome-scala](https://github.com/lauris/awesome-scala) – Scala programming language
-* [awesome-scala-native](https://github.com/tindzk/awesome-scala-native) – [Scala Native](http://www.scala-native.org) compiler
-* [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) – The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
-* [awesome-scientific-computing](https://github.com/nschloe/awesome-scientific-computing) – Software for numerical analysis
-* [awesome-sdn](https://github.com/sdnds-tw/awesome-sdn) – Software Defined Network (SDN)
-* [awesome-sec-talks](https://github.com/PaulSec/awesome-sec-talks) – Security talks.
-* [awesome-security](https://github.com/sbilly/awesome-security) – Software, libraries, documents, books, resources and cool stuff about security.
-* [awesome-selenium](https://github.com/christian-bromann/awesome-selenium)
-* [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) – Network services and web applications which can be hosted locally.
-* [awesome-semantic-web](https://github.com/semantalytics/awesome-semantic-web) – Semantic web and linked data
-* [awesome-seo](https://github.com/teles/awesome-seo) – SEO (Search Engine Optimization) links.
-  - http://jotateles.com.br/awesome-seo/
-* [awesome-serverless](https://github.com/anaibol/awesome-serverless) by @anaibol – Services, solutions and resources for serverless / nobackend applications.
-* [awesome-serverless](https://github.com/pmuens/awesome-serverless) by @pmuens – Resources related to serverless computing and serverless architectures.
-* [awesome-serverless-security](https://github.com/puresec/awesome-serverless-security) – Serverless security resources
-* [awesome-service-workers](https://github.com/TalAter/awesome-service-workers) – Service Workers for Progressive Web Applications
-* [awesome-servicefabric](https://github.com/lawrencegripper/awesome-servicefabric) – Azure [Service Fabric](https://docs.microsoft.com/en-us/azure/service-fabric/) distributed services platform
-* [awesome-services](https://github.com/indrasantosa/awesome-services) – Services that make a painful programmer's life easier.
-* [awesome-sharepoint](https://github.com/BSUG/awesome-sharepoint) by @BSUG
-* [awesome-SharePoint](https://github.com/siaf/awesome-SharePoint) by @siaf
-* [awesome-sheet-music](https://github.com/ad-si/awesome-sheet-music) – Sheet music software, libraries and resources.
-* [awesome-shell](https://github.com/alebcay/awesome-shell) – Command-line frameworks, toolkits, guides and gizmos.
-* [awesome-sites](https://github.com/Gherciu/awesome-sites) – Various websites with resources for development, graphics, and learning
-* [awesome-sketch](https://github.com/diessica/awesome-sketch) – Guides, articles, videos about [Sketch 3](http://www.sketchapp.com/).
-* [awesome-slack](https://github.com/filipelinhares/awesome-slack) by @filipelinhares – Communities powered by Slack.
-* [awesome-slack](https://github.com/matiassingers/awesome-slack) by @matiassingers
-* [awesome-slack-communities](https://github.com/radermacher/awesome-slack-communities) – Public Slack Communities.
-* [awesome-smart-tv](https://github.com/vitalets/awesome-smart-tv) – Smart TV apps
-* [awesome-software-architecture](https://github.com/simskij/awesome-software-architecture) – Design, reason around and build software using architectural patterns and methods
-* [awesome-software-craftsmanship](https://github.com/benas/awesome-software-craftsmanship) – [Software craftsmanship](http://manifesto.softwarecraftsmanship.org/) resources to help learn the craft.
-* [awesome-software-patreons](https://github.com/uraimo/awesome-software-patreons) – Programmers and software-related Patreon accounts.
-* [awesome-software-quality](https://github.com/ligurio/awesome-software-quality) – Free software testing books.
-* [awesome-sound](https://github.com/hwclass/awesome-sound) – Sound & audio libraries and resources.
-* [awesome-space](https://github.com/elburz/awesome-space) – Outer Space
-* [awesome-space-books](https://github.com/Hunter-Github/awesome-space-books) – Space exploration related book
-* [awesome-spanish-nlp](https://github.com/dav009/awesome-spanish-nlp) – Linguistic Resources for doing NLP & CL on Spanish
-* [awesome-spark](https://github.com/awesome-spark/awesome-spark) – Apache Spark packages and resources.
-* [awesome-speakers](https://github.com/karlhorky/awesome-speakers) – Speakers in the programming and design communities
-* [awesome-sphinxdoc](https://github.com/yoloseem/awesome-sphinxdoc) – Tools for Sphinx Python Documentation Generator.
-* [awesome-sqlalchemy](https://github.com/dahlia/awesome-sqlalchemy) – Extra libraries for SQLAlchemy, a Python ORM.
-* [awesome-sre](https://github.com/dastergon/awesome-sre) – Site Reliability and Production Engineering
-  - https://sre.xyz
-* [awesome-ssh](https://github.com/moul/awesome-ssh)
-  - https://manfred.life/awesome-ssh
-* [awesome-stacks](https://github.com/stackshareio/awesome-stacks) – Tech stacks for building different applications & features
-  - https://awesomestacks.dev
-* [awesome-standard](https://github.com/standard/awesome-standard) – Documenting the explosion of packages in the [standard](http://standardjs.com/) (JavaScript code style) ecosystem.
-* [awesome-stars](https://github.com/lichunqiang/awesome-stars) _In Chinese_ – Useful libraries with personal remarks.
-* [awesome-startup](https://github.com/KrishMunot/awesome-startup) – Resources to build your own startup
-* [awesome-static-generators](https://github.com/myles/awesome-static-generators) – Static web site generators.
-* [awesome-static-website-services](https://github.com/agarrharr/awesome-static-website-services)
-* [awesome-steam](https://github.com/scholtzm/awesome-steam) – Steam video games distribution platform development
-* [awesome-storybook](https://github.com/lauthieb/awesome-storybook) – [Storybook](https://storybook.js.org/) UI web development
-* [awesome-streaming](https://github.com/manuzhang/awesome-streaming) – Streaming frameworks, applications, etc
-* [awesome-styleguides](https://github.com/RichardLitt/awesome-styleguides)
-* [awesome-stylelint](https://github.com/stylelint/awesome-stylelint) – [Stylelint](https://stylelint.io/) CSS linter.
-* [awesome-sustainable-technology](https://github.com/protontypes/awesome-sustainable-technology) – Open technology projects sustaining stable climate, energy supply and vital natural resources.
-  - https://opensustain.tech/
-* [awesome-svelte](https://github.com/CalvinWalzel/awesome-svelte) – [Svelte](https://svelte.dev/) framework
-* [awesome-svelte-resources](https://github.com/ryanatkn/awesome-svelte-resources) – [Svelte](https://svelte.dev/) framework
-* [awesome-svg](https://github.com/willianjusten/awesome-svg)
-* [awesome-swedish-opensource](https://github.com/gurre/awesome-swedish-opensource) – Open-source projects from Swedes
-* [awesome-swift](https://github.com/matteocrippa/awesome-swift) by @matteocrippa
-* [awesome-swift](https://github.com/Wolg/awesome-swift) by @Wolg
-* [awesome-swift-and-tutorial-resources](https://github.com/MaxChen/awesome-swift-and-tutorial-resources) – Swift programming language
-* [Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education) – Learn some Swift
-* [Awesome-Swift-Playgrounds](https://github.com/uraimo/Awesome-Swift-Playgrounds) – Swift Playgrounds
-* [awesome-symfony](https://github.com/sitepoint-editors/awesome-symfony) – [Symfony PHP framework](http://symfony.com/) bundles, utilities and resources.
-* [awesome-symfony-education](https://github.com/pehapkari/awesome-symfony-education) – Symfony PHP framework learning resources
-* [awesome-sysadmin](https://github.com/kahun/awesome-sysadmin) by @kahun – Open source sysadmin resources.
-* [awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin) by @n1trux – Open source sysadmin resources.
-* [awesome-system-design](https://github.com/madd86/awesome-system-design) – Distributed systems design
-* [awesome-taglines](https://github.com/miketheman/awesome-taglines) – Software taglines
-* [awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss) – [Tailwind CSS](https://tailwindcss.com/)
-  - https://git.io/awesome-tailwindcss
-* [awesome-talks](https://github.com/JanVanRyswyck/awesome-talks)
-* [awesome-tap](https://github.com/sindresorhus/awesome-tap) – Test Anything Protocol
-* [awesome-tech-conferences](https://github.com/trstringer/awesome-tech-conferences) – Upcoming technical conferences.
-* [awesome-tech-videos](https://github.com/lucasviola/awesome-tech-videos) – Tech conferences from youtube, vimeo, etc for us to get inspired
-* [awesome-technical-writing](https://github.com/BolajiAyodeji/awesome-technical-writing)
-* [awesome-telegram](https://github.com/ebertti/awesome-telegram) – Telegram messaging service
-* [awesome-tensorflow](https://github.com/jtoy/awesome-tensorflow) – [TensorFlow](https://www.tensorflow.org/) machine intelligence library.
-* [awesome-terraform](https://github.com/shuaibiyy/awesome-terraform) – HashiCorp Terraform
-* [awesome-test-automation](https://github.com/atinfo/awesome-test-automation)
-  - http://automated-testing.info
-* [awesome-testing](https://github.com/TheJambo/awesome-testing) – Testing resources
-  - https://git.io/v1hSm
-* [awesome-text-editing](https://github.com/dok/awesome-text-editing) – Text editing resources and libraries for the web
-* [awesome-textpattern](https://github.com/drmonkeyninja/awesome-textpattern) – Textpattern plugins and resources
-* [awesome-themes](https://github.com/AdrienTorris/awesome-themes) – Web themes and templates
-* [awesome-tikz](https://github.com/xiaohanyu/awesome-tikz) – [TikZ](https://pgf-tikz.github.io/) graph drawing package for TeX/LaTeX/ConTeXt
-* [awesome-tinkerpop](https://github.com/mohataher/awesome-tinkerpop) – [Apache TinkerPop](http://tinkerpop.apache.org/) graph computing framework
-* [awesome-token-sale](https://github.com/holographicio/awesome-token-sale) – Token sale / ICO resources
-* [awesome-torch](https://github.com/carpedm20/awesome-torch) – Tutorials, projects and communities for [Torch](http://torch.ch/), a scientific computing framework for LuaJIT.
-* [awesome-transit](https://github.com/CUTR-at-USF/awesome-transit) – Transit APIs, apps, datasets, research, and software
-* [awesome-twilio](https://github.com/Twilio-org/awesome-twilio) – Curated repository of useful and generally awesome Twilio tools and technologies
-* [AwesomeTwitterAccounts](https://github.com/yask123/AwesomeTwitterAccounts) – Twitter accounts, organised by programming communities.
-* [awesome-typescript](https://github.com/dzharii/awesome-typescript) by @dzharii – TypeScript programming language
-* [awesome-typescript](https://github.com/ellerbrock/awesome-typescript) by @ellerbrock
-  - https://ellerbrock.github.io/awesome-typescript
-* [awesome-typescript-projects](https://github.com/brookshi/awesome-typescript-projects) – TypeScript open-source projects
-* [awesome-typography](https://github.com/Jolg42/awesome-typography) – Resources on OpenType & TrueType.
-* [awesome-ui-component-library](https://github.com/anubhavsrivastava/awesome-ui-component-library) – Framework component libraries for UI styles/toolkit
-  - https://anubhavsrivastava.github.io/awesome-ui-component-library/
-* [awesome-umbraco](https://github.com/umbraco-community/awesome-umbraco) – Resources for Umbraco 7, a .NET CMS.
-* [Awesome-Unicode](https://github.com/Wisdom/Awesome-Unicode) – Unicode tidbits, packages and resources.
-  - https://git.io/Awesome-Unicode
-* [awesome-unity](https://github.com/RyanNielson/awesome-unity) – Assets and resources for [Unity](http://unity3d.com/) game engine.
-* [awesome-unix](https://github.com/sirredbeard/Awesome-UNIX)
-* [awesome-userscripts](https://github.com/brunocvcunha/awesome-userscripts)
-* [awesome-uses](https://github.com/wesbos/awesome-uses) – `/uses` pages detailing developer setups, gear, software and configs.
-  - https://uses.tech
-* [awesome-v](https://github.com/vlang/awesome-v) – [V](https://vlang.io/) programming language
-* [awesome-vagrant](https://github.com/iJackUA/awesome-vagrant)
-* [awesome-vanilla-js](https://github.com/davidhund/awesome-vanilla-js) – Plain—‘Vanilla’—JavaScript
-* [awesome-vapor](https://github.com/Cellane/awesome-vapor) – [Vapor](https://vapor.codes/) Swift web framework
-* [awesome-vector-tiles](https://github.com/mapbox/awesome-vector-tiles) – Implementations of the [Mapbox Vector Tile](https://www.mapbox.com/developers/vector-tiles/) specification.
-* [awesome-vehicle-security](https://github.com/jaredthecoder/awesome-vehicle-security) – Vehicle security and car hacking
-* [awesome-vhdl](https://github.com/VHDL/awesome-vhdl) – VHDL hardware description language
-* [awesome-vim](https://github.com/akrawchyk/awesome-vim) by @akrawchyk
-* [awesome-vim](https://github.com/matteocrippa/awesome-vim) by @matteocrippa
-* [awesome-volt](https://github.com/heri/awesome-volt) – [Volt](http://voltframework.com/) Ruby web framework.
-* [awesome-vorpal](https://github.com/vorpaljs/awesome-vorpal) – [Vorpal](http://vorpal.js.org/) Node.js interactive CLI framework
-* [awesome-vscode](https://github.com/viatsko/awesome-vscode) – Visual Studio Code
-  - https://viatsko.github.io/awesome-vscode/
-* [awesome-vue](https://github.com/vuejs/awesome-vue) – Resources for [Vue.js](http://vuejs.org/) JavaScript UI library.
-* [awesome-vulkan](https://github.com/vinjn/awesome-vulkan) – [3D graphics and compute API](https://www.khronos.org/vulkan/)
-* [awesome-wagtail](https://github.com/springload/awesome-wagtail) – [Wagtail](https://wagtail.io/) Python CMS
-* [awesome-wasm](https://github.com/mbasso/awesome-wasm) – WebAssembly
-* [awesome-watchos](https://github.com/yenchenlin/awesome-watchos) – Apple watchOS
-* [awesome-web-animation](https://github.com/sergey-pimenov/awesome-web-animation) – Web animation libraries, books, apps etc.
-  - https://awesome-web-animation.netlify.com
-* [awesome-web-archiving](https://github.com/iipc/awesome-web-archiving) – Getting started with web archiving
-* [awesome-web-design](https://github.com/nicolesaidy/awesome-web-design) – Resources for digital designers.
-* [awesome-web-scraping](https://github.com/lorien/awesome-web-scraping) – tools and programming libraries related to web scraping and data processing
-* [awesome-web-security](https://github.com/qazbnm456/awesome-web-security)
-  - https://awesomelists.top/#/repos/qazbnm456/awesome-web-security
-* [awesome-webaudio](https://github.com/notthetup/awesome-webaudio) – WebAudio packages and resources.
-* [awesome-webauthn](https://github.com/herrjemand/awesome-webauthn) – WebAuthn/FIDO2
-* [awesome-webcomponents](https://github.com/obetomuniz/awesome-webcomponents)
-* [Awesome-WebExtensions](https://github.com/fregante/Awesome-WebExtensions) – WebExtensions development.
-* [awesome-webgl](https://github.com/sjfricke/awesome-webgl) – WebGL libraries, resources and much more
-* [awesome-webpack](https://github.com/webpack-contrib/awesome-webpack) – Webpack resources, libraries and tools
-* [awesome-webpack-perf](https://github.com/iamakulov/awesome-webpack-perf) – Webpack tools for web performance
-* [awesome-webservice](https://github.com/wapmorgan/awesome-webservice) – Web and cloud services, SaaS.
-* [awesome-websockets](https://github.com/facundofarias/awesome-websockets) – Websocket libraries and resources.
-* [awesome-webvis](https://github.com/rajsite/awesome-webvis) – [WebVI](http://www.webvi.io/) examples made using [LabVIEW](http://www.ni.com/en-us/support/software-technology-preview.html) systems engineering software.
-* [awesome-weekly](https://github.com/jondot/awesome-weekly) – Quality weekly subscription newsletters from the software world.
-* [awesome-wicket](https://github.com/PhantomYdn/awesome-wicket) – [Apache Wicket](http://wicket.apache.org/) Java web framework
-* [awesome-wikipedia](https://github.com/emijrp/awesome-wikipedia) – Wikipedia-related frameworks, libraries, software, datasets and references.
-* [Awesome-Windows/Awesome](https://github.com/Awesome-Windows/Awesome) – Applications and tools for Windows.
-* [awesome-wordpress](https://github.com/dropndot/awesome-wordpress) by @dropndot
-* [awesome-wordpress](https://github.com/endel/awesome-wordpress) by @endel
-* [awesome-wordpress](https://github.com/miziomon/awesome-wordpress) by @miziomon
-* [awesome-workflow-engines](https://github.com/meirwah/awesome-workflow-engines) – Open source workflow engines
-* [awesome-workshopper](https://github.com/therebelrobot/awesome-workshopper)
-* [awesome-wpo](https://github.com/davidsonfellipe/awesome-wpo) – Web Performance Optimization
-* [awesome-xamarin](https://github.com/XamSome/awesome-xamarin) by @XamSome – [Xamarin](https://visualstudio.microsoft.com/xamarin/) mobile application framework
-* [awesome-xamarin](https://github.com/XamSome/awesome-xamarin) by @XamSome – Interesting libraries/tools for Xamarin mobile projects
-* [awesome-xcode-plugin](https://github.com/aashishtamsya/awesome-xcode-scripts) – XCode IDE scripts
-* [awesome-xmpp](https://github.com/bluszcz/awesome-xmpp) – Curated list of awesome XMPP protocol resources.
-* [awesome-yamada](https://github.com/supermomonga/awesome-yamada) – Dancing yamada
-* [awesome-yii](https://github.com/iJackUA/awesome-yii) – Yii PHP framework extensions, tutorials and other nice things.
-* [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins)
-* [awesomo](https://github.com/lk-geimfari/awesomo) – Open source projects in various languages.
-* [craftcms/awesome](https://github.com/craftcms/awesome) – [Craft CMS](https://craftcms.com/)
-* [not-awesome-es6-classes](https://github.com/petsel/not-awesome-es6-classes) – Why ES6 (aka ES2015) classes are NOT awesome
-  - https://matthias-endler.de/awesome-static-analysis/
-
-
-## Lists of lists
-
-* [awesome](https://github.com/sindresorhus/awesome) – A curated list of awesome lists.
-* [awesome-all](https://github.com/bradoyler/awesome-all) – A curated list of awesome lists of awesome frameworks, libraries and software
-* [awesome-android-awesomeness](https://github.com/yongjhih/awesome-android-awesomeness#awesomeness)
-* [awesome-awesome](https://github.com/aligoren/awesome-awesome) by @aligoren – List of GitHub Lists
-* [awesome-awesome](https://github.com/emijrp/awesome-awesome) by @emijrp – A curated list of awesome curated lists of many topics.
-* [awesome-awesome](https://github.com/erichs/awesome-awesome) by @erichs – A curated list of awesome curated lists! Inspired by inspiration.
-* [awesome-awesome](https://github.com/oyvindrobertsen/awesome-awesome) by @oyvindrobertsen – A curated list of curated lists of libraries, resources and shiny things for various languages.
-* [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) – A curated list of awesome awesomeness
-* [awesome-awesomeness-zh_CN](https://github.com/justjavac/awesome-awesomeness-zh_CN) _In Chinese_ – 中文版awesome list 系列文章
-* [awesome-awesomes](https://github.com/fleveque/awesome-awesomes) – Awesome collection of awesome lists of libraries, tools, frameworks and software for any programming language
-* [awesome-collection](https://github.com/flyhigher139/awesome-collection) – A list of awesome repos.
-* [Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) – Lists for hackers, pentesters and security researchers.
-* [curated-lists](https://github.com/learn-anything/curated-lists)
-* [getAwesomeness](https://github.com/panzhangwang/getAwesomeness) – Explorer designed for curated awesome list hosted on Github
-  - https://getawesomeness.herokuapp.com/
-* [list-of-lists](https://github.com/cyrusstoller/list-of-lists) – A meta list of lists of useful open source projects and developer tools.
-* [ListOfGithubLists](https://github.com/asciimoo/ListOfGithubLists) – List of github lists
-* [must-watch-list](https://github.com/adrianmoisey/must-watch-list) – List of must-watch lists.
-* [this one](https://github.com/jnv/lists)
-* [wiki](https://github.com/huguangju/wiki) _In Chinese_ – A curated list of awesome lists.
-
-
-### Lists of lists of lists
-
-* [awesome-awesome-awesome](https://github.com/geekan/awesome-awesome-awesome) by @geekan – An awesome-awesome list.
-* [awesome-awesome-awesome](https://github.com/t3chnoboy/awesome-awesome-awesome) by @t3chnoboy – A a curated list of curated lists of awesome lists.
-* [awesomecubed](https://github.com/hunterboerner/awesomecubed) – A curated list of awesome awesomeness awesomenesses.
-* [lologl](https://github.com/yaph/lologl) – List of Lists of Github Lists.
-* [meta-awesome](https://github.com/PatrickMcDonald/meta-awesome)
-* [the one above](#lists-of-lists)
-
-
-#### Lists of lists of lists of lists
-
-* [awesome-awesome-awesome-awesome](https://github.com/sindresorhus/awesome-awesome-awesome-awesome)
-* [the one above](#lists-of-lists-of-lists)
-
-
-##### Lists of lists of lists of lists of lists
-
-* [awesome-power-of-5](https://github.com/therebelbeta/awesome-power-of-5)
-* [the one above](#lists-of-lists-of-lists-of-lists)
-
-
-###### Lists of lists of lists of lists of lists of lists
-
-* [awesome-awesome-awesome-awesome-awesome-awesome](https://github.com/enedil/awesome-awesome-awesome-awesome-awesome-awesome)
-* [the one above](#lists-of-lists-of-lists-of-lists-of-lists)
-
-
-###### Lists of lists of lists of lists of lists of lists of lists
-
-* [awesome-awesome-awesome-awesome-awesome-awesome-awesome](https://github.com/sparanoid/awesome-awesome-awesome-awesome-awesome-awesome-awesome)
-* [the one above](#lists-of-lists-of-lists-of-lists-of-lists-of-lists)
-
-<!-- lists-end -->
-
-## License
-
-[![CC0 Public Domain](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
-
-Social preview photo by [Eli Francis](https://unsplash.com/@elifrancis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/books-clutter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
